@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.29)  17 MAR 2026 13:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.29)  17 MAR 2026 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1405,30 +1405,34 @@ Chapter 2.
 File: figures/StandardModel.jpg Graphic file (type jpg)
 <use figures/StandardModel.jpg>
 Package pdftex.def Info: figures/StandardModel.jpg  used on input line 5.
-(pdftex.def)             Requested size: 227.62206pt x 170.8103pt.
+(pdftex.def)             Requested size: 455.24411pt x 341.6436pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 14.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sin' on input line 14.
+(hyperref)                removing `math shift' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 14.
+(hyperref)                removing `\sin' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 14.
+(hyperref)                removing `superscript' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 14.
+(hyperref)                removing `\theta' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 17.
 
 ) (./sections/Cap2.tex [2
 
- <./figures/StandardModel.jpg>]
+] [3 <./figures/StandardModel.jpg>]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1450,52 +1454,67 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 4.
 
-) (./sections/Cap3.tex [3
+) (./sections/Cap3.tex [4
 
 ]
 Chapter 4.
-) (./sections/Cap4.tex [4
+) (./sections/Cap4.tex [5
 
 ]
 Chapter 5.
-) [5
+) [6
 
-] (./sections/XX_Conclusiones.tex [6]
+] (./sections/XX_Conclusiones.tex [7]
 Chapter 6.
-) [7
+) [8
 
 ]
 
 LaTeX Warning: Empty bibliography on input line 69.
 
-[8] (./TFG.aux)
+[9] (./TFG.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
-Package rerunfilecheck Info: File `TFG.out' has not changed.
-(rerunfilecheck)             Checksum: 51996F2586BFE9707386127BC90EBC06;3714.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `TFG.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `TFG.out':
+(rerunfilecheck)             Before: 51996F2586BFE9707386127BC90EBC06;3714
+(rerunfilecheck)             After:  6AB6B1341F8F3DA4DB41465274D74083;3947.
 Package logreq Info: Writing requests to 'TFG.run.xml'.
 \openout1 = `TFG.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34946 strings out of 474267
- 656123 string characters out of 5747441
+ 34940 strings out of 474267
+ 656069 string characters out of 5747441
  1934555 words of memory out of 5000000
- 56510 multiletter control sequences out of 15000+600000
- 601957 words of font info for 122 fonts, out of 8000000 for 9000
+ 56505 multiletter control sequences out of 15000+600000
+ 597320 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,6n,120p,1899b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/loc
-al/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/tex
-live/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/20
-23/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on TFG.pdf (19 pages, 624348 bytes).
+
+pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/
+texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texliv
+e/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/
+texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on TFG.pdf (20 pages, 637184 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 206 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 255 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
