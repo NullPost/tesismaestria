@@ -1,0 +1,46 @@
+\chapter{Introduction}
+
+
+
+Particle physics is dedicated to unraveling the most fundamental constituents of the universe and the forces that govern their interactions. It explores the known elementary particles, such as quarks, leptons, and bosons, which constitute matter and mediate the fundamental forces --- gravity, electromagnetism, the weak nuclear force, and the strong nuclear force. The Standard Model is the central theoretical framework in this field, describing these particles and forces. A theory that was highly successful in explaining the behavior of most known particles and forces but which initially assumed that neutrinos were massless faced challenges when experimental evidence showed that neutrinos do have mass and undergo flavor-changing oscillation. This discovery revealed the need for a modification in this model to give a complete description of the universe’s fundamental particles and forces. As a result, pursuing a more comprehensive theory capable of explaining neutrino mass and other phenomena beyond the Standard Model became a key focus in the field. Therefore, studying neutrinos and their interactions is crucial because it opens doors to exploring new theoretical models and new physics.
+
+
+Neutrinos were theoretically proposed by Pauli in 1930 to preserve the energy conservation and momentum in beta decay. They were experimentally discovered in 1956 by Cowan and Reines after many years of not having the necessary technology for their detection due to their limited interaction with matter. Since then, neutrinos have been extensively studied to gain a deeper understanding of them, their properties, the way they interact, whether they are Dirac or Majorana neutrinos, their masses, etc. Over the years, these studies have led to advancements in both theoretical and experimental domains, as the limited interaction of these particles has demanded new technologies and improvements in aspects such as detector sizes and time scales.
+
+This work focuses on Coherent Elastic Neutrino-Nucleus Scattering
+(CE$\nu$NS), a process whose cross-section is accurately defined by
+the Standard Model, so any deviation from its expected outcome could
+indicate the presence of new physics phenomena, making it a helpful
+process for exploring new physics. However, there are several challenges
+that this type of measurement faces. First, the observation itself is
+a great challenge due to the low momentum transfer, which implies low-energy nuclear recoils. Besides, in some cases, there are nuclear
+effects that need to be taken into account. In this thesis, we study
+the expectations for a combined measurement of CE$\nu$NS using two
+different detectors made from isotopes of the same element. We explore
+the advantage of using isotopes with different numbers of neutrons in this
+simultaneos detection. We will show how these experimental setups may
+help to improve the sensitivity to new physics, using as an example
+the formalism of non-standard interactions (NSI). 
+
+
+The thesis introduces, in Chapter 2, a brief introduction to the
+Standard Model and the phenomenology of neutrinos, including its
+interactions and the vacuum oscillation phenomenon. In Chapter 3, we
+focus on the CE$\nu$NS interaction, introducing its cross-section and
+the corresponding nuclear form factors that can be used. We will also
+describe the possible neutrino sources and present the computations of
+the expected number of events for the isotopes that we are interested
+in. Chapter 4, describes our proposed isotopes for being used as
+a CE$\nu$NS detector and shows the expected sensitivity to standard physics and  NSI. Finally, we give our conclusions in Chapter 5. 
+
+
+
+In Chapter 2, we provide a brief introduction to the Standard Model and the phenomenology of neutrinos. Here, we present their interactions and discuss the phenomenon of oscillations in vacuum. 
+
+Since the interaction of our interest is CE$\nu$NS, in Chapter 3, we delve deeper into it. We present its cross-section and make a comparison between various proposed nuclear form factors that can be used in the analysis.
+The next section introduces the two sources of neutrino flux used in different current CE$\nu$NS experiments: neutrinos originating from $\pi$-DAR and antineutrinos produced by reactors. We present the characteristics of each, along with their respective spectra and distributions.  The following section of this chapter focuses on calculating the number of events, which is done using both the cross-section and the previously mentioned neutrino flux. Finally, in this chapter, a brief summary is provided of the experiments currently searching for the detection of CE$\nu$NS, including the COHERENT collaboration, which has successfully detected it on two occasions. The chapter concludes with an overview of the applications of this process, as well as the measurements and constraints that have been made based on its detection. 
+
+
+Chapter 4 introduces the proposal of using detectors with isotopes to take advantage of the quadratic dependence on the number of neutrons in the CE$\nu$NS cross-section. With these detectors, the differential cross-section is obtained, and in the following section, a $\chi^2$ analysis is conducted to confirm the $N^2$ dependence as a utility of these detectors. 
+In the final section of this chapter, the existence of non-standard parameters in the context of CEvNS was explored in order to constrain certain parameters, including the weak mixing angle, considering the use of isotopic detectors. 
+

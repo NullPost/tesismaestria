@@ -1,0 +1,22 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Electroweak theory in the Standard Model of Particles}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Symmetries and fermion content}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Massive and Massless Mediators}{2}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Electroweak mixing $\sin ^2 theta_W$}{2}{subsection.2.3.1}%
+\contentsline {chapter}{\numberline {3}Radiative Corrections and Neutrino Charge Radius}{3}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{3}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Neutrino Charge Radius}{3}{section.3.2}%
+\contentsline {section}{\numberline {3.3}One-loop Corrections to the $\nu \nu \gamma $ vertex}{3}{section.3.3}%
+\contentsline {section}{\numberline {3.4}NCR as a radiative correction of Electroweak Mixing}{3}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Coherent Elastic Neutrino-Nucleus Scattering}{4}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{4}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Cross Section}{4}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Experiments}{4}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Quenching Factors}{4}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Neutrino Sources}{4}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Form Factors}{4}{section.4.6}%
+\contentsline {chapter}{\numberline {5}SBC-ININ-LAr}{5}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Results}{5}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Summary and conclusions}{7}{chapter.6}%

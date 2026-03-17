@@ -1,0 +1,60 @@
+\thispagestyle{empty} % Impide que se incluya número de página en la portada
+\begin{center}
+    
+
+
+\vspace*{-1cm}
+
+\includegraphics[width=0.23\textwidth]{figures/LogoCinvestav1Negro2.png}
+\end{center}
+\begin{center}
+\begin{large}
+Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional\\
+\end{large}
+\vspace*{2cm}
+\textbf{\Large PHYSICS DEPARTMENT}\\
+\vspace*{1.5cm}
+
+
+\textbf{\LARGE Perspectives for the coherent elastic neutrino-nucleus scattering study by isotopic detectors}
+
+\vspace*{.2in}
+
+{\large Presented by}\\
+\textbf{\Large \tfgAuthors}
+
+\vspace*{1cm}
+
+\textbf{In order to obtain the}\\
+{\large Master of Science degree\\
+speciality in Physics}
+
+\vspace*{0.2in}
+
+\textbf{Under the supervision of}\\
+{\large PhD Omar Gustavo Miranda Romagnoli}\\
+
+\vspace*{0.2in}
+
+
+
+
+\vspace*{.5in}
+\textbf{\large Mexico City, September \hspace{0.1cm} of \tfgYear}
+
+\end{center}
+
+% Dedicatoria
+\ifdefined\tfgDedication
+    \newpage
+    \thispagestyle{empty}
+    
+    \vspace*{\fill}
+    \begin{center}
+    \textit{\tfgDedication}
+    \end{center}
+    \vspace*{\fill}
+\fi
+
+\clearpage\setcounter{page}{1} % Comienza a incluir números de página a partir de aquí
+\pagenumbering{roman} % En números romanos
