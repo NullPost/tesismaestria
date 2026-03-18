@@ -16,5 +16,86 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}\enddatalist
+\datalist[entry]{none/global//global/global}
+  \entry{pauli1930neutrino}{unpublished}{}
+    \name{author}{1}{}{%
+      {{hash=PW}{%
+         family={Pauli},
+         familyi={P\bibinitperiod},
+         given={Wolfgang},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PW1}
+    \strng{fullhash}{PW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Open letter to the Gauverein meeting in Tübingen. Reproduced
+  in L. M. Brown, ``The idea of the neutrino,'' \textit{Physics Today},
+  vol.~31, no.~9, pp.~23--28, 1978. Also in R. Kronig and V. F. Weisskopf
+  (eds.), \textit{Collected Scientific Papers by Wolfgang Pauli}, vol.~2,
+  Interscience, New York, 1964.}
+    \field{title}{Letter to the Physical Institute of the Federal Institute of
+  Technology, Zürich}
+    \verb{url}
+    \verb http://www.math.utah.edu/~beebe/talks/2015/qtm/pdf/pauli-1930-ltc.pdf
+    \endverb
+    \field{year}{1930}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{doi:10.1126/science.124.3212.103}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CCL}{%
+         family={Cowan},
+         familyi={C\bibinitperiod},
+         given={C.\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=RF}{%
+         family={Reines},
+         familyi={R\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HFB}{%
+         family={Harrison},
+         familyi={H\bibinitperiod},
+         given={F.\bibnamedelima B.},
+         giveni={F\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=KHW}{%
+         family={Kruse},
+         familyi={K\bibinitperiod},
+         given={H.\bibnamedelima W.},
+         giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=MAD}{%
+         family={McGuire},
+         familyi={M\bibinitperiod},
+         given={A.\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CCL+1}
+    \strng{fullhash}{CCLRFHFBKHWMAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1126/science.124.3212.103
+    \endverb
+    \verb{eprint}
+    \verb https://www.science.org/doi/pdf/10.1126/science.124.3212.103
+    \endverb
+    \field{number}{3212}
+    \field{pages}{103\bibrangedash 104}
+    \field{title}{Detection of the Free Neutrino: a Confirmation}
+    \verb{url}
+    \verb https://www.science.org/doi/abs/10.1126/science.124.3212.103
+    \endverb
+    \field{volume}{124}
+    \field{journaltitle}{Science}
+    \field{year}{1956}
+  \endentry
+\enddatalist
 \endinput
