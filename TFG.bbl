@@ -97,5 +97,175 @@
     \field{journaltitle}{Science}
     \field{year}{1956}
   \endentry
+
+  \entry{Danby1962}{article}{}
+    \name{author}{7}{}{%
+      {{hash=DG}{%
+         family={Danby},
+         familyi={D\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GJM}{%
+         family={Gaillard},
+         familyi={G\bibinitperiod},
+         given={J.-M.},
+         giveni={J\bibinithyphendelim M\bibinitperiod},
+      }}%
+      {{hash=GK}{%
+         family={Goulianos},
+         familyi={G\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LLM}{%
+         family={Lederman},
+         familyi={L\bibinitperiod},
+         given={L.\bibnamedelima M.},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Mistry},
+         familyi={M\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schwartz},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Steinberger},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DG+1}
+    \strng{fullhash}{DGGJMGKLLMMNSMSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.9.36
+    \endverb
+    \field{number}{1}
+    \field{pages}{36\bibrangedash 44}
+    \field{title}{Observation of High-Energy Neutrino Reactions and the
+  Existence of Two Kinds of Neutrinos}
+    \field{volume}{9}
+    \field{journaltitle}{Physical Review Letters}
+    \field{year}{1962}
+  \endentry
+
+  \entry{Kodama2001}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=KK}{%
+         family={Kodama},
+         familyi={K\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KK+1}
+    \strng{fullhash}{KK+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/S0370-2693(01)00307-0
+    \endverb
+    \verb{eprint}
+    \verb hep-ex/0012035
+    \endverb
+    \field{number}{3}
+    \field{pages}{218\bibrangedash 224}
+    \field{title}{Observation of Tau Neutrino Interactions}
+    \field{volume}{504}
+    \field{journaltitle}{Physics Letters B}
+    \field{eprinttype}{arXiv}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Kodama2008}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=KK}{%
+         family={Kodama},
+         familyi={K\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KK+1}
+    \strng{fullhash}{KK+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.78.052002
+    \endverb
+    \field{pages}{052002}
+    \field{title}{Final tau-neutrino results from the {DONuT} experiment}
+    \field{volume}{78}
+    \field{journaltitle}{Physical Review D}
+    \field{year}{2008}
+  \endentry
+
+  \entry{KleinNishina1929}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KO}{%
+         family={Klein},
+         familyi={K\bibinitperiod},
+         given={Oskar},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=NY}{%
+         family={Nishina},
+         familyi={N\bibinitperiod},
+         given={Yoshio},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KONY1}
+    \strng{fullhash}{KONY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/BF01366453
+    \endverb
+    \field{pages}{853\bibrangedash 868}
+    \field{title}{Über die Streuung von Strahlung durch freie Elektronen nach
+  der neuen relativistischen Quantendynamik von Dirac}
+    \field{volume}{52}
+    \field{journaltitle}{Zeitschrift für Physik}
+    \field{year}{1929}
+  \endentry
+
+  \entry{Moller1932}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MlC}{%
+         family={M\o\bibnamedelima ller},
+         familyi={M\bibinitperiod\bibinitdelim l\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MlC1}
+    \strng{fullhash}{MlC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/andp.19324060506
+    \endverb
+    \field{pages}{531\bibrangedash 585}
+    \field{title}{Zur Theorie des Durchgangs schneller Elektronen durch
+  Materie}
+    \field{volume}{406}
+    \field{journaltitle}{Annalen der Physik}
+    \field{year}{1932}
+  \endentry
 \enddatalist
 \endinput
