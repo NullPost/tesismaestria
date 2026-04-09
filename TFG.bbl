@@ -402,5 +402,63 @@
     \field{journaltitle}{Phys. Rev.}
     \field{year}{1958}
   \endentry
+
+  \entry{Cabibbo:1963yz}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CN}{%
+         family={Cabibbo},
+         familyi={C\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CN1}
+    \strng{fullhash}{CN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.10.531
+    \endverb
+    \field{pages}{531\bibrangedash 533}
+    \field{title}{Unitary Symmetry and Leptonic Decays}
+    \field{volume}{10}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1963}
+  \endentry
+
+  \entry{Glashow:1970gm}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GSL}{%
+         family={Glashow},
+         familyi={G\bibinitperiod},
+         given={S.\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=IJ}{%
+         family={Iliopoulos},
+         familyi={I\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Maiani},
+         familyi={M\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GSLIJML1}
+    \strng{fullhash}{GSLIJML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.2.1285
+    \endverb
+    \field{pages}{1285\bibrangedash 1292}
+    \field{title}{Weak Interactions with Lepton-Hadron Symmetry}
+    \field{volume}{2}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{1970}
+  \endentry
 \enddatalist
 \endinput

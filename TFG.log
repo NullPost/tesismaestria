@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.29)  9 APR 2026 10:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.29)  9 APR 2026 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1566,12 +1566,6 @@ distance' requires LuaTeX. It will be ignored. on input line 51.
 LaTeX Warning: Reference `eq:Mprime' on page 5 undefined on input line 76.
 
 
-LaTeX Warning: Citation 'Cabibbo:1963yz' on page 5 undefined on input line 80.
-
-
-LaTeX Warning: Citation 'Glashow:1970gm' on page 5 undefined on input line 80.
-
-
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 83.
 
@@ -1663,10 +1657,10 @@ Package logreq Info: Writing requests to 'TFG.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38751 strings out of 474267
- 759818 string characters out of 5747441
+ 38761 strings out of 474267
+ 760220 string characters out of 5747441
  1948555 words of memory out of 5000000
- 60195 multiletter control sequences out of 15000+600000
+ 60203 multiletter control sequences out of 15000+600000
  613201 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,18n,120p,1899b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1683,10 +1677,10 @@ x10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/
 texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on TFG.pdf (23 pages, 701659 bytes).
+Output written on TFG.pdf (23 pages, 701902 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 302 compressed objects within 4 object streams
- 68 named destinations out of 1000 (max. 500000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 308 compressed objects within 4 object streams
+ 70 named destinations out of 1000 (max. 500000)
  215 words of extra memory for PDF output out of 10000 (max. 10000000)
 
