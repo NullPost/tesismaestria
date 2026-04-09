@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.29)  18 MAR 2026 18:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.29)  9 APR 2026 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1561,31 +1561,41 @@ stance' requires LuaTeX. It will be ignored. on input line 51.
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
 distance' requires LuaTeX. It will be ignored. on input line 51.
 
+[4]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 66.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sin' on input line 66.
+LaTeX Warning: Reference `eq:Mprime' on page 5 undefined on input line 76.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 66.
+LaTeX Warning: Citation 'Cabibbo:1963yz' on page 5 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'Glashow:1970gm' on page 5 undefined on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 66.
+(hyperref)                removing `math shift' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 66.
+(hyperref)                removing `\sin' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 66.
+(hyperref)                removing `superscript' on input line 83.
 
-) (./sections/Cap2.tex [4]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 83.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 83.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 83.
+
+) (./sections/Cap2.tex [5]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1607,21 +1617,21 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 4.
 
-) (./sections/Cap3.tex [5
+) (./sections/Cap3.tex [6
 
 ]
 Chapter 4.
-) (./sections/Cap4.tex [6
+) (./sections/Cap4.tex [7
 
 ]
 Chapter 5.
-) [7
+) [8
 
-] (./sections/XX_Conclusiones.tex [8]
+] (./sections/XX_Conclusiones.tex [9]
 Chapter 6.
-) [9
+) [10
 
-] [10]
+] [11]
 LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 69
 .
  (/usr/local/texlive/2023/texmf-dist/tex/latex/inconsolata/t1zi4.fd
@@ -1629,8 +1639,7 @@ File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 12.0pt on input line 69.
-
-[11
+[12
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] (
 ./TFG.aux)
@@ -1654,13 +1663,13 @@ Package logreq Info: Writing requests to 'TFG.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38717 strings out of 474267
- 758874 string characters out of 5747441
- 1945555 words of memory out of 5000000
- 60172 multiletter control sequences out of 15000+600000
- 612901 words of font info for 144 fonts, out of 8000000 for 9000
+ 38751 strings out of 474267
+ 759818 string characters out of 5747441
+ 1948555 words of memory out of 5000000
+ 60195 multiletter control sequences out of 15000+600000
+ 613201 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,10n,120p,1899b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,18n,120p,1899b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -1674,10 +1683,10 @@ x10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/
 texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on TFG.pdf (22 pages, 693910 bytes).
+Output written on TFG.pdf (23 pages, 701659 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 277 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
+ 68 named destinations out of 1000 (max. 500000)
  215 words of extra memory for PDF output out of 10000 (max. 10000000)
 

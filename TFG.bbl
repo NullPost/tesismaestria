@@ -267,5 +267,140 @@
     \field{journaltitle}{Annalen der Physik}
     \field{year}{1932}
   \endentry
+
+  \entry{Lee:1956qn}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LTD}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={T.\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=YCN}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={C.\bibnamedelima N.},
+         giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LTDYCN1}
+    \strng{fullhash}{LTDYCN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRev.104.254
+    \endverb
+    \field{pages}{254\bibrangedash 258}
+    \field{title}{Question of Parity Conservation in Weak Interactions}
+    \field{volume}{104}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1956}
+  \endentry
+
+  \entry{Wu:1957my}{article}{}
+    \name{author}{5}{}{%
+      {{hash=WCS}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={C.\bibnamedelima S.},
+         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Ambler},
+         familyi={A\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HRW}{%
+         family={Hayward},
+         familyi={H\bibinitperiod},
+         given={R.\bibnamedelima W.},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HDD}{%
+         family={Hoppes},
+         familyi={H\bibinitperiod},
+         given={D.\bibnamedelima D.},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=HRP}{%
+         family={Hudson},
+         familyi={H\bibinitperiod},
+         given={R.\bibnamedelima P.},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WCS+1}
+    \strng{fullhash}{WCSAEHRWHDDHRP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRev.105.1413
+    \endverb
+    \field{pages}{1413\bibrangedash 1415}
+    \field{title}{Experimental Test of Parity Conservation in Beta Decay}
+    \field{volume}{105}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1957}
+  \endentry
+
+  \entry{Sudarshan:1958vf}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SECG}{%
+         family={Sudarshan},
+         familyi={S\bibinitperiod},
+         given={E.\bibnamedelima C.\bibnamedelima G.},
+         giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  G\bibinitperiod},
+      }}%
+      {{hash=MRE}{%
+         family={Marshak},
+         familyi={M\bibinitperiod},
+         given={R.\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SECGMRE1}
+    \strng{fullhash}{SECGMRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRev.109.1860
+    \endverb
+    \field{pages}{1860\bibrangedash 1862}
+    \field{title}{Chirality Invariance and the Universal {Fermi} Interaction}
+    \field{volume}{109}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1958}
+  \endentry
+
+  \entry{Feynman:1958ty}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FRP}{%
+         family={Feynman},
+         familyi={F\bibinitperiod},
+         given={R.\bibnamedelima P.},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=GMM}{%
+         family={Gell-Mann},
+         familyi={G\bibinithyphendelim M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FRPGMM1}
+    \strng{fullhash}{FRPGMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRev.109.193
+    \endverb
+    \field{pages}{193\bibrangedash 198}
+    \field{title}{Theory of the {Fermi} Interaction}
+    \field{volume}{109}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1958}
+  \endentry
 \enddatalist
 \endinput

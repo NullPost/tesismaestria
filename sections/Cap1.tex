@@ -27,7 +27,7 @@ Developments in quantum mechanics (QM) and special relativity (SR) led up to the
     \mathcal{L}_{\text{QED}} = \underbrace{\bar{\psi}(i\gamma^\mu\partial_\mu - m)\psi}_{\text{free Dirac field}} - \underbrace{\frac{1}{4}F_{\mu\nu}F^{\mu\nu}}_{\text{free EM field}} - \underbrace{e\bar{\psi}\gamma^\mu\psi A_\mu}_{\text{interaction}}.
     \label{eq:L_QED}
 \end{equation}
-While the `free' terms in (\ref{eq:L_QED}) describe the propagation of Dirac fermions and photons in free Minkowski space, the `interaction' term describes a vertex that couples the (anti)fermion current with the electromagnetic four-potential, representing the elementary process of a(n) (anti)fermion emitting or absorbing a photon. At zeroth-order $\hbar$ perturbative terms, QED had shown predictive power for processes like Compton ($\gamma + e^- \rightarrow \gamma + e^-$) \cite{KleinNishina1929} and M\o ller ($e^- + e^- \rightarrow e^- + e^-$) \cite{Moller1932} scattering by the time Fermi E. first proposed an interaction inspired by the QED interaction term, where instead of a fermion current emits a photon, two fermion currents meet at a vertex such that a coupling constant (now called Fermi's constant $G_F$) quantified the intensity of the interaction, and thus can be estimated experimentally.
+While the `free' terms in (\ref{eq:L_QED}) describe the propagation of Dirac fermions and photons in free Minkowski space, the `interaction' term describes a vertex that couples the (anti)fermion current with the electromagnetic four-potential, representing the elementary process of a(n) (anti)fermion emitting or absorbing a photon. At zeroth-order $\hbar$ perturbative terms, QED had shown predictive power for processes like Compton ($\gamma + e^- \rightarrow \gamma + e^-$) \cite{KleinNishina1929} and M\o ller ($e^- + e^- \rightarrow e^- + e^-$) \cite{Moller1932} scattering by the time Fermi first proposed an interaction inspired by the QED interaction term, where instead of a fermion current emits a photon, two fermion currents meet at a vertex such that a coupling constant (now called Fermi's constant $G_F$) quantified the intensity of the interaction, and thus can be estimated experimentally.
 \begin{center}
 % https://feynman.srossd.com/#N4Igdg9gJgpgziAXAbVABwnAlgFyxMJZABgBoBGAXVJADcBDAGwFcYkQQBfU9TXfQinIVqdJq3ZceIDNjwEiAJlLFRDFm0QduvOQKWlFa8Zu3TZ-BSmVUa6iVoC8U3ZcHIAzCLsn2AHT9sAFsXGT55dzIAFmMNSR0wvStkYRi7GAAnHBgAD3YoCBxQiwiDD1iHM1dS61I0sTitYvD9WoBWCtNmpPcvevtTAODutyIo7wbKmACAI3oM4AC0bE4AfWAAM04AgHN6IKD6AD0AoOYl7HWtgAIAQVXT5hGa5HH+3y0AgAoAjYz6ADGwAA4qsAGKcRaBACOWWAik4nB+fjmCwuWDWwDA2z8ewOx0e6PWaE4AEpkaiocsMesAmBmDi8YcHn4zkTgDAjsAALSI0kBUnPVokFRqTLZPJaApFBIlYVtOqdfx+P6AkHgyFDWE4eGIinzKkrdbY3b7Q4nVnnPzU4lk-Vo61GqH0xlm+gstmOrDrTk8vlC5IK2yTUzTFEG9GYram-EWz02zacO4ep6cUQwKA7eBEUB-CAhRBkEA4CBIYQgAEAC3mWbLNEY9BmMEYAAUWlYQIwYBsij5GiANqE8wXyyWkMoK9WMrXEOXGFgwKYNpkgvo+5VBwlh3Xi6XEF5OwvTGhK4UFPXG822z12BksDtK72Q8qmfQhxl80gAGw0MeIADsNBVjWmjlgM7BoO+n6IAAHL+e6AZOIFINyYEfOAUEFgAnPBSCIcB06geugzhg6LqYWWRZ-vhU4zqhxHsJy3JcJQnBAA
 \begin{tikzpicture}
@@ -60,9 +60,26 @@ While the `free' terms in (\ref{eq:L_QED}) describe the propagation of Dirac fer
 \end{feynman}
 \end{tikzpicture}
 \end{center}
+Subsequent discoveries in particle physics revealed that charged-current weak interactions violate parity symmetry maximally. First theorized by Lee and Yang in 1956 \cite{Lee:1956qn} to resolve the then-known $\tau - \theta$ puzzle, and later verified experimentally by Wu et al. in 1957 \cite{Wu:1957my}, this motivated a modification of the Fermi interaction in the form of a combination of the two bilinear Lorentz-invariant structures that admit such violation \cite{Sudarshan:1958vf, Feynman:1958ty}.
 
+\begin{align}
+\text{V}&:  j_{V}^{\mu} = \bar{\psi}\gamma^\mu\psi &\xrightarrow{\mathcal{P}}& &j'_{V~\mu} &= \bar{\psi}\gamma_\mu\psi& \label{eq:V}\\
+\text{A}&:  j_{A}^{\mu} = \bar{\psi}\gamma^\mu\gamma^5\psi &\xrightarrow{\mathcal{P}}& &j'_{A~\mu} &= -\bar{\psi}\gamma_\mu\gamma^5\psi& \label{eq:A}
+\end{align}
 
+The expressions (\ref{eq:V}) and (\ref{eq:A}) show how different bilinear structures change under parity ($\mathcal{P}$) and how pure vector (axial) currents are $\mathcal{P}-even$ ($\mathcal{P}-odd$). Given a general current structure, $j^\mu = g_V j_{V}^\mu + g_A j_{A}^\mu$, observables that depend on the inner product of two such currents transform under parity as:
+\begin{align}
+    |\mathcal{M}|^2 &= (j_{1} \cdot j_{2}) = g_V^2 (j_{1~V} \cdot j_{2~V}) + g_A^2 (j_{1~A} \cdot j_{2~A}) + g_V g_A (j_{1~V} \cdot j_{2~A} + j_{1~A} \cdot j_{2~V})\label{eq:M} \\ 
+    &\xrightarrow{\mathcal{P}} \\ \nonumber
+    |\mathcal{M}'|^2 &= (j'_{1} \cdot j'_{2}) = g_V^2 (j'_{1~V} \cdot j'_{2~V}) + g_A^2 (j'_{1~A} \cdot j'_{2~A}) - g_V g_A (j'_{1~V} \cdot j'_{2~A} + j'_{1~A} \cdot j'_{2~V}).\label{eq:Mprime}
+\end{align}
+The only difference between \ref{eq:M} and \ref{eq:Mprime} lies in the sign of the interference term, such that the degree of $\mathcal{P}$-symmetry violation is given by the coefficient $\frac{g_V g_A}{g_V^2 + g_A^2}$. Normalizing this there are two options for maximally violated $\mathcal{P}$-symmetry given by $\frac{g_V}{g_A} = \pm 1$, also known as $V\pm A$ currents. Given that in the Wu experiment it was determined that (anti)neutrinos are emitted exclusively as left(right)-handed fermions the appropriate structure to use for weak interactions was determined to be $V-A$. Modifying the Fermi lagrangian density for beta decay to include this gives the following expression:
+\begin{equation}
+    \mathcal{L}_{CC}=\frac{G_{F}}{\sqrt{2}}\left[\bar{\psi}_{\nu_{e}}\gamma^{\mu}(1-\gamma^{5})\psi_{e}\right]\left[\bar{\psi}_{p}\gamma_{\mu}(1-\gamma^{5})\psi_{n}\right]+\text{h.c.} \label{eq:VALag}
+\end{equation}
+Later refinements of this theory succeeded in demonstrating the universality of the weak interaction across leptonic decays and strangeness-changing meson decays through Cabibbo mixing \cite{Cabibbo:1963yz}. This not only established that all such processes are mediated by the same underlying force, but also motivated the prediction and subsequent discovery of the charm quark \cite{Glashow:1970gm}. With these improvements on the theory thus far, the point-like structure of the interaction still led to scattering amplitudes that where proportional to center-of-mass energy $\sqrt{s}$ and to probability violation at higher energies.  In direct analogy with QED, where the point-like Coulomb interaction is resolved into the exchange of a massless photon, the Fermi vertex can be interpreted as the low-energy limit of the exchange of a charged spin-1 $W^{\pm}$, wherein a mass is considered for such a mediator in order to explain the short range of weak interactions.
 \section{Massive and Massless Mediators}
+
 \section{Electroweak mixing $\sin^2 \theta_W$}
 
 
