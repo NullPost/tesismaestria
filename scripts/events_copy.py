@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import scienceplots
 from scipy.optimize import curve_fit
 import scipy.integrate as integrate
+from scipy.optimize import brentq
 
 plt.style.use(['science'])
 
@@ -20,7 +21,9 @@ flux = 3.89E-10 # 10^12 cm^-2 s^-1 in MeV^2 / s
 
 
 def diffCrossdep(N,Z,E,T,M,sin2thetaw):
-    return ((G_f)**2/(2*np.pi))*((N-Z*(1-4*(sin2thetaw)))**2)*M*(1-(M*T)/(2*(E**2)))
+    g_vp = (1/2-2*(sin2thetaw))
+    g_vn = -1/2
+    return ((((G_f)**2) *M)/(np.pi))*((g_vn*N-g_vp*Z)**2)*(1-(M*T)/(2*(E**2)))
 
 
 # Reactor Spectra (everything seems to point to use MeV)
@@ -77,23 +80,48 @@ def SpecTot(E): # Units MeV-1
 
 # 40-Argon
 
-def fluxdep(T, sin2thetaw):        
-      return integrate.quad(lambda E: diffCrossdep(N,Z,E,T,Ar_m,sin2thetaw)*SpecTot(E), np.sqrt(Ar_m * T /2), E_max)[0]
-
 Z = 14
 N = 40 - 14
 
 E_max = 9.5 #MeV
-Tmax = (2*E_max**2)/(Ar_m-E_max) # ~5 keV
-print("Max recoil energy:", Tmax*1000, "keV")
+
+# QUENCHING FACTOR
+
+k_AR   = 0.1333*(18**(2/3))*(40**(-1/2)) #k parameter argon
+
+
+def epsilon(T): # T in keV
+    return 11.5 * Z**(-7/3) * T
+
+def g_lindhard(eps):
+    return 3 * eps**0.15 + 0.7 * eps**0.6 + eps
+
+def QF(T):
+    return (k_AR*(g_lindhard(epsilon(T))))/(1 + k_AR*(g_lindhard(epsilon(T))))
+
+# Range for root search
+ER_MIN = (1e-4) 
+ER_MAX = (6)   
+
+def ERfromEI(E_I):
+    func = lambda E_R: QF(E_R) * E_R - E_I
+    return brentq(func, ER_MIN,ER_MAX)
+
+
+def fluxdep(T, sin2thetaw):
+      E_min =  (T/2)*(1+np.sqrt(1+(2*Ar_m/T))) 
+      return integrate.quad(lambda E: diffCrossdep(N,Z,E,T,Ar_m,sin2thetaw)*SpecTot(E), E_min, E_max)[0]
+
+
 
 times = {"100 días": 8.64E6,
          "200 días": 2*(8.64E6)} # s
 
 masses = {"20 kg": 3.015E26, 
-          "100 kg": 1.5E27,
+          "100 kg": 5*3.015E26,
           "200 kg": 3.015E27} #MeV
 
+exposure = "200 días"
 
 chiSqR = {}
 minAngle = {}
@@ -103,20 +131,27 @@ lim2 = {}
 
 plot, ax = plt.subplots(1,1,figsize=(5,5))
 
+T_min = ERfromEI(0.1)/1000 # 100 eVee threshold to eVnr (in GeV) ~ 400 eVnr
+T_max = (2*E_max**2)/(Ar_m-2*E_max) # ~5 keV
 
+print("Max recoil energy:", T_max*1000, "keV")
+print("Threshold recoil energy:", T_min*1000, "keV")
+
+zoom = 0.0025
 for mass in masses:
 
-    total_targets = times["200 días"]*masses[mass]*flux
+    total_targets = times[exposure]*masses[mass]*flux
 
-    Ntheo = total_targets * integrate.quad(lambda t: fluxdep(t, weibergAngle), 30*(1/1000)*(1/1000),Tmax)[0]
+    Ntheo = total_targets * integrate.quad(lambda t: fluxdep(t, weibergAngle), T_min ,T_max)[0]
     
-    print(Ntheo)
+    print(f"##### EXPECTED NUMBER OF EVENTS for {mass}",Ntheo,"#######")
+    print("##### EVENTS PER DAY:",Ntheo/(times[exposure]/86400),"#######")
 
-    angles = np.linspace(weibergAngle-0.0005,weibergAngle+0.0005,500)
+    angles = np.linspace(weibergAngle-zoom,weibergAngle+zoom,500)
     Nexp = []
 
     for i in angles:
-        Nexp.append(total_targets*integrate.quad(lambda t: fluxdep(t, i), 30*(1/1000)*(1/1000),Tmax)[0])
+        Nexp.append(total_targets*integrate.quad(lambda t: fluxdep(t, i), T_min,T_max)[0])
     
     #print(Nexp[50])
     chiSq = []
@@ -124,7 +159,7 @@ for mass in masses:
     for i in Nexp:
         chiSq.append(((Ntheo-i)**2)/(Ntheo + (0*i)**2))
     
-    print(chiSq)
+    #print(chiSq)
     chiSqR[mass] = chiSq
 
     minAngle[mass] = angles[chiSq.index(min(chiSq))]
@@ -166,10 +201,10 @@ for key in chiSqR.keys():
         ax.plot(angles, chiSqR[key], label = key + r"; $\sin^2 \theta_W = "+f"{minAngle[key]:.5f}"+r"^{+"+f"{lim2[key] - minAngle[key]:.5f}"
                            +r"}_{"+f"-{minAngle[key] - lim1[key]:.5f}"+r"}$")
 
-plot.suptitle(r"Diferencia estadística $\chi^2$ para diferenetes angulos de mezcla electrodébil $\sin^2 \theta_W$ en CE$\nu$NS de neutrinos "+ "\n"+ r" provenientes de reactores nucleares interactuando con diferentes massas de $^{40}$Ar por 200 días")
+plot.suptitle(r"Diferencia estadística $\chi^2$ para diferenetes angulos de mezcla electrodébil $\sin^2 \theta_W$ en CE$\nu$NS de neutrinos "+ "\n"+ r" provenientes de reactores nucleares interactuando con diferentes massas de $^{40}$Ar por " f"{exposure[:3]} días")
 
 ax.legend()
-plt.savefig("/home/nullpost/Scripts/college stuf/CEvNS sequel/Figure_sin_200.png",dpi=200)
+plt.savefig(f"/home/nullpost/Scripts/college stuf/CEvNS sequel/Figure_sin_{exposure[:3]}.png",dpi=200)
 
 
 # ax1.plot(angles, chiSq)

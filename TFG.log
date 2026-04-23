@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.29)  9 APR 2026 10:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.29)  23 APR 2026 13:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1383,6 +1383,21 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'pauli1930neutrino':
 (biblatex)                - Invalid format of field 'month'.
 
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Danby1962':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Kodama2008':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Weinberg1967':
+(biblatex)                - Invalid format of field 'month'.
+
 )
 Package biblatex Info: Reference section=0 on input line 19.
 Package biblatex Info: Reference segment=0 on input line 19.
@@ -1563,9 +1578,6 @@ distance' requires LuaTeX. It will be ignored. on input line 51.
 
 [4]
 
-LaTeX Warning: Reference `eq:Mprime' on page 5 undefined on input line 76.
-
-
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 83.
 
@@ -1635,8 +1647,8 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 12.0pt on input line 69.
 [12
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] (
-./TFG.aux)
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] [
+13] (./TFG.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -1657,10 +1669,10 @@ Package logreq Info: Writing requests to 'TFG.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38761 strings out of 474267
- 760220 string characters out of 5747441
+ 38788 strings out of 474267
+ 761170 string characters out of 5747441
  1948555 words of memory out of 5000000
- 60203 multiletter control sequences out of 15000+600000
+ 60224 multiletter control sequences out of 15000+600000
  613201 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,18n,120p,1899b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1677,10 +1689,10 @@ x10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/
 texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on TFG.pdf (23 pages, 701902 bytes).
+Output written on TFG.pdf (24 pages, 705318 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 308 compressed objects within 4 object streams
- 70 named destinations out of 1000 (max. 500000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 344 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
  215 words of extra memory for PDF output out of 10000 (max. 10000000)
 
