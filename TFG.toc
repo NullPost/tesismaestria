@@ -7,7 +7,7 @@
 \contentsline {subsection}{\numberline {2.2.2}Weak Nuclear Force}{3}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Massive and Massless Mediators}{6}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Photons}{6}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}$W^{\pm }$ and $Z^{0}$}{6}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}$W^{\pm }$ and $Z$}{6}{subsection.2.3.2}%
 \contentsline {section}{\numberline {2.4}Electroweak mixing and $\sin ^2 \theta _W$}{8}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}$SU(2)_L$}{8}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}$SU(2)_L \times U(1)_Y$}{9}{subsection.2.4.2}%
