@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.29)  23 APR 2026 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.29)  10 JUN 2026 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1213,7 +1213,7 @@ Already applied: [0000/00/00] Usage of raw or classic option list on input line
 )
 \scr@dte@tocline@numberwidth=\skip106
 \scr@dte@tocline@numbox=\box125
-))
+)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
 Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
 
@@ -1289,7 +1289,7 @@ shapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.cod
-e.tex))) (./etc/style.tex
+e.tex)))) (./etc/style.tex
 \scr@dte@chapter@maxnumwidth=\skip107
 \scr@dte@part@maxnumwidth=\skip108
 )
@@ -1447,7 +1447,7 @@ mpat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on
  input line 19.
 
 (./sections/portada.tex
-<figures/LogoCinvestav1Negro2.png, id=103, 353.76164pt x 300.28185pt>
+<figures/LogoCinvestav1Negro2.png, id=119, 353.76164pt x 300.28185pt>
 File: figures/LogoCinvestav1Negro2.png Graphic file (type png)
 <use figures/LogoCinvestav1Negro2.png>
 Package pdftex.def Info: figures/LogoCinvestav1Negro2.png  used on input line 5
@@ -1518,11 +1518,11 @@ l.31     \newpage
 ] [7] (./TFG.toc
 Package tocbasic Info: Using my definition of `\numberline' on input line 2.
 Package tocbasic Info: Using my definition of `\numberline' on input line 3.
-Package tocbasic Info: Using my definition of `\numberline' on input line 10.
-Package tocbasic Info: Using my definition of `\numberline' on input line 15.
-Package tocbasic Info: Using my definition of `\numberline' on input line 22.
-Package tocbasic Info: Using my definition of `\numberline' on input line 24.
-Package tocbasic Info: Using my definition of `\numberline' on input line 25.
+Package tocbasic Info: Using my definition of `\numberline' on input line 14.
+Package tocbasic Info: Using my definition of `\numberline' on input line 19.
+Package tocbasic Info: Using my definition of `\numberline' on input line 26.
+Package tocbasic Info: Using my definition of `\numberline' on input line 28.
+Package tocbasic Info: Using my definition of `\numberline' on input line 29.
 )
 \tf@toc=\write6
 \openout6 = `TFG.toc'.
@@ -1544,7 +1544,7 @@ l.1 \chapter
 
 ]
 Chapter 2.
-<figures/StandardModel.jpg, id=186, 2007.5pt x 1506.62875pt>
+<figures/StandardModel.jpg, id=208, 2007.5pt x 1506.62875pt>
 File: figures/StandardModel.jpg Graphic file (type jpg)
 <use figures/StandardModel.jpg>
 Package pdftex.def Info: figures/StandardModel.jpg  used on input line 5.
@@ -1554,54 +1554,133 @@ Package pdftex.def Info: figures/StandardModel.jpg  used on input line 5.
 ] [3 <./figures/StandardModel.jpg>]
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 35.
+tance' requires LuaTeX. It will be ignored. on input line 39.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 35.
+stance' requires LuaTeX. It will be ignored. on input line 39.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 35.
+distance' requires LuaTeX. It will be ignored. on input line 39.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 51.
+tance' requires LuaTeX. It will be ignored. on input line 55.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 51.
+stance' requires LuaTeX. It will be ignored. on input line 55.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 51.
+distance' requires LuaTeX. It will be ignored. on input line 55.
 
-[4]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 83.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sin' on input line 83.
-
+[4] [5]
+LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 
+118.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 83.
+(hyperref)                removing `math shift' on input line 119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 83.
+(hyperref)                removing `superscript' on input line 119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 83.
+(hyperref)                removing `\pm' on input line 119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 83.
+(hyperref)                removing `math shift' on input line 119.
 
-) (./sections/Cap2.tex [5]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 119.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 119.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 119.
+
+[6]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sin' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 171.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 171.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 171.
+
+[7]
+
+LaTeX Warning: Reference `eq:SU2_L' on page 8 undefined on input line 219.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 23
+0.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 23
+0.
+
+[8]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\times' on input line 236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 236.
+
+[9] [10]) (./sections/Cap2.tex [11]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1623,21 +1702,21 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 4.
 
-) (./sections/Cap3.tex [6
+) (./sections/Cap3.tex [12
 
 ]
 Chapter 4.
-) (./sections/Cap4.tex [7
+) (./sections/Cap4.tex [13
 
 ]
 Chapter 5.
-) [8
+) [14
 
-] (./sections/XX_Conclusiones.tex [9]
+] (./sections/XX_Conclusiones.tex [15]
 Chapter 6.
-) [10
+) [16
 
-] [11]
+] [17]
 LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 69
 .
  (/usr/local/texlive/2023/texmf-dist/tex/latex/inconsolata/t1zi4.fd
@@ -1645,10 +1724,10 @@ File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 12.0pt on input line 69.
-[12
+[18
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] [
-13] (./TFG.aux)
+19] (./TFG.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -1657,8 +1736,11 @@ L3 programming layer <2023-11-09>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `TFG.out' has not changed.
-(rerunfilecheck)             Checksum: 3ED073042CA7E2250DD2730F5043B62F;4052.
+(rerunfilecheck)             Checksum: 732E763E63B8C23069C3C40A9B555940;4515.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                TFG
@@ -1669,13 +1751,13 @@ Package logreq Info: Writing requests to 'TFG.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38788 strings out of 474267
- 761170 string characters out of 5747441
- 1948555 words of memory out of 5000000
- 60224 multiletter control sequences out of 15000+600000
- 613201 words of font info for 145 fonts, out of 8000000 for 9000
+ 38913 strings out of 474267
+ 763105 string characters out of 5747441
+ 1949555 words of memory out of 5000000
+ 60286 multiletter control sequences out of 15000+600000
+ 623879 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,18n,120p,1899b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,24n,120p,1899b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -1684,15 +1766,16 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 zi4r.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cme
 x10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb
-></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/
-texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
-/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on TFG.pdf (24 pages, 705306 bytes).
+.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb
+></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/loca
+l/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texl
+ive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/202
+3/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on TFG.pdf (30 pages, 742567 bytes).
 PDF statistics:
- 395 PDF objects out of 1000 (max. 8388607)
- 344 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
- 215 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 447 compressed objects within 5 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 247 words of extra memory for PDF output out of 10000 (max. 10000000)
 

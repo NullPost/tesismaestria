@@ -5,21 +5,25 @@
 \contentsline {section}{\numberline {2.2}Symmetries and fermion content}{2}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Neutrinos}{2}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Weak Nuclear Force}{3}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Massive and Massless Mediators}{5}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Electroweak mixing $\sin ^2 \theta _W$}{5}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Radiative Corrections and Neutrino Charge Radius}{6}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{6}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Neutrino Charge Radius}{6}{section.3.2}%
-\contentsline {section}{\numberline {3.3}One-loop Corrections to the $\nu \nu \gamma $ vertex}{6}{section.3.3}%
-\contentsline {section}{\numberline {3.4}NCR as a radiative correction of Electroweak Mixing}{6}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Coherent Elastic Neutrino-Nucleus Scattering}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{7}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Cross Section}{7}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Experiments}{7}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Quenching Factors}{7}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Neutrino Sources}{7}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Form Factors}{7}{section.4.6}%
-\contentsline {chapter}{\numberline {5}SBC-ININ-LAr}{8}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Results}{8}{section.5.1}%
-\contentsline {chapter}{\numberline {6}Summary and conclusions}{10}{chapter.6}%
-\contentsline {chapter}{Bibliography}{12}{chapter*.6}%
+\contentsline {section}{\numberline {2.3}Massive and Massless Mediators}{6}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Photons}{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}$W^{\pm }$ and $Z^{0}$}{6}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Electroweak mixing and $\sin ^2 \theta _W$}{8}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}$SU(2)_L$}{8}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}$SU(2)_L \times U(1)_Y$}{9}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}Radiative Corrections and Neutrino Charge Radius}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Neutrino Charge Radius}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}One-loop Corrections to the $\nu \nu \gamma $ vertex}{12}{section.3.3}%
+\contentsline {section}{\numberline {3.4}NCR as a radiative correction of Electroweak Mixing}{12}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Coherent Elastic Neutrino-Nucleus Scattering}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Cross Section}{13}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Experiments}{13}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Quenching Factors}{13}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Neutrino Sources}{13}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Form Factors}{13}{section.4.6}%
+\contentsline {chapter}{\numberline {5}SBC-ININ-LAr}{14}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Results}{14}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Summary and conclusions}{16}{chapter.6}%
+\contentsline {chapter}{Bibliography}{18}{chapter*.7}%
