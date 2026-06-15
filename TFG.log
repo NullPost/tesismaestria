@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.29)  10 JUN 2026 15:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.29)  15 JUN 2026 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1289,7 +1289,10 @@ shapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.cod
-e.tex)))) (./etc/style.tex
+e.tex))) (/usr/local/texlive/2023/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+))
+(./etc/style.tex
 \scr@dte@chapter@maxnumwidth=\skip107
 \scr@dte@part@maxnumwidth=\skip108
 )
@@ -1299,8 +1302,7 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for T1+ppl on input line 19
 .
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/t1ppl.fd
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 ) (./TFG.aux
 
@@ -1612,19 +1614,31 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 169.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sin' on input line 169.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 169.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 169.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 169.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 169.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sin' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 170.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1634,50 +1648,35 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 170.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 171.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 171.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 171.
-
 [7]
 
-LaTeX Warning: Reference `eq:SU2_L' on page 8 undefined on input line 219.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
+9.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 23
-0.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 23
-0.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
+9.
 
 [8]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 236.
+(hyperref)                removing `math shift' on input line 235.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 236.
+(hyperref)                removing `subscript' on input line 235.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\times' on input line 236.
+(hyperref)                removing `\times' on input line 235.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 236.
+(hyperref)                removing `subscript' on input line 235.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 236.
+(hyperref)                removing `math shift' on input line 235.
 
 [9] [10]) (./sections/Cap2.tex [11]
 Chapter 3.
@@ -1738,14 +1737,8 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `TFG.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `TFG.out':
-(rerunfilecheck)             Before: 732E763E63B8C23069C3C40A9B555940;4515
-(rerunfilecheck)             After:  0FA5D0BC69C90CE0A18666996A18F876;4510.
+Package rerunfilecheck Info: File `TFG.out' has not changed.
+(rerunfilecheck)             Checksum: 0FA5D0BC69C90CE0A18666996A18F876;4510.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                TFG
@@ -1756,10 +1749,10 @@ Package logreq Info: Writing requests to 'TFG.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38913 strings out of 474267
- 763105 string characters out of 5747441
+ 38957 strings out of 474267
+ 763900 string characters out of 5747441
  1949555 words of memory out of 5000000
- 60286 multiletter control sequences out of 15000+600000
+ 60324 multiletter control sequences out of 15000+600000
  623879 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,24n,120p,1899b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1773,14 +1766,15 @@ x10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/loca
-l/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texl
-ive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/202
-3/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on TFG.pdf (30 pages, 742544 bytes).
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pf
+b></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local
+/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texliv
+e/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on TFG.pdf (30 pages, 747034 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 447 compressed objects within 5 object streams
- 120 named destinations out of 1000 (max. 500000)
+ 519 PDF objects out of 1000 (max. 8388607)
+ 457 compressed objects within 5 object streams
+ 122 named destinations out of 1000 (max. 500000)
  247 words of extra memory for PDF output out of 10000 (max. 10000000)
 

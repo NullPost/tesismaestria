@@ -161,10 +161,9 @@ where the amplitude of an interaction is now
 \end{equation}
 which upon comparison with the Fermi four-fermion amplitude 
 $i\mathcal{M}_{\text{Fermi}} = i\frac{G_F}{\sqrt{2}}\,
-j^\dagger_\mu\,\eta^{\mu\nu}\,j_\nu$ yields the tree-level matching 
-condition
+j^\dagger_\mu\,\eta^{\mu\nu}\,j_\nu$ yields
 \begin{equation}\label{eq:GF_matching}
-    \frac{G_F}{\sqrt{2}} \sim \frac{g^2}{M_W^2},
+    \frac{G_F}{\sqrt{2}} \sim \frac{g^2}{M^2},
 \end{equation}
 where its actual matching relation will be given when calculating the $SU(2)_L$ couplings with $W^{\pm}$ and charged currents.
 \section{Electroweak mixing and $\sin^2 \theta_W$}
@@ -216,7 +215,7 @@ denotes the left-handed lepton doublet. Extracting and expanding the interaction
     \begin{pmatrix}\nu_l \\ l\end{pmatrix}_L.
     \end{split}
 \end{equation}
-Identifying that the upper right and lower left entries of the matrix in (\ref{eq:SU2_L}) correspond neatly to the known charged current weak interactions makes the definition of the $W^{\pm}$ bosons such that $W^{\pm}_\mu =  \frac{1}{\sqrt{2}}(W^1_\mu \mp i W^2_\mu)$ a way to separate the interaction Lagrangian density into a charged current (CC) term and a neutral current (NC) term.
+Identifying that the upper right and lower left entries of the matrix in (\ref{eq:SU2_Lint}) correspond neatly to the known charged current weak interactions makes the definition of the $W^{\pm}$ bosons such that $W^{\pm}_\mu =  \frac{1}{\sqrt{2}}(W^1_\mu \mp i W^2_\mu)$ a way to separate the interaction Lagrangian density into a charged current (CC) term and a neutral current (NC) term.
 \begin{equation}\label{eq:L_int_expanded}
     \mathcal{L}_{\text{int}} = 
     \underbrace{-\frac{g}{2}\left[\bar{\nu}_L\gamma^\mu\nu_L 
@@ -226,13 +225,13 @@ Identifying that the upper right and lower left entries of the matrix in (\ref{e
 \end{equation}
 It is worth noting that the amplitude of a CC interaction computed from $\mathcal{L}_{CC\,\text{int}}$ in (\ref{eq:L_int_expanded}) in the limit $|q^2| \ll M_W^2$ reproduces the Fermi four-fermion amplitude, yielding the tree-level matching relation between $G_F$ and $g$.
 \begin{align}
--i\mathcal{M} &= \left[\frac{-ig}{\sqrt{2}}\bar{\nu}_L\gamma_\mu l_L\right]\frac{-i\eta^{\mu\nu}}{M_W^2 - q^2}\left[\frac{-ig}{\sqrt{2}}\bar{l}_L\gamma_\nu\nu_L\right] \\ \nonumber &= \left[\frac{-ig}{\sqrt{2}}\bar{\nu}\frac{1}{2}\gamma_\mu(1-\gamma^5)l\right]\frac{-i\eta^{\mu\nu}}{M_W^2 - q^2}\left[\frac{-ig}{\sqrt{2}}\bar{l}\gamma_\nu(1-\gamma^5)\nu\right] \\ \label{eq:SU2Lmatching} &\stackrel{\footnotesize|q^2|\ll M_W^2}{\approx} \frac{ig^2}{8M_W^2}\left[\bar{\nu}\gamma^\mu(1-\gamma^5)l\right]\left[\bar{l}\gamma^\mu(1-\gamma^5)\nu\right].
+-i\mathcal{M} &= \left[\frac{-ig}{\sqrt{2}}\bar{\nu}_L\gamma_\mu l_L\right]\frac{i\eta^{\mu\nu}}{M_W^2 - q^2}\left[\frac{-ig}{\sqrt{2}}\bar{l}_L\gamma_\nu\nu_L\right] \\ \nonumber &= \left[\frac{-ig}{\sqrt{2}}\bar{\nu}\frac{1}{2}\gamma_\mu(1-\gamma^5)l\right]\frac{i\eta^{\mu\nu}}{M_W^2 - q^2}\left[\frac{-ig}{\sqrt{2}}\bar{l}\gamma_\nu(1-\gamma^5)\nu\right] \\ \label{eq:SU2Lmatching} &\stackrel{\footnotesize|q^2|\ll M_W^2}{\approx} -\frac{ig^2}{8M_W^2}\left[\bar{\nu}\gamma^\mu(1-\gamma^5)l\right]\left[\bar{l}\gamma^\mu(1-\gamma^5)\nu\right].
 \end{align}
 Comparing (\ref{eq:SU2Lmatching}) with the amplitude given by (\ref{eq:VALag}) yields the relation
 \begin{equation}\label{eq:GF_matching}
 \frac{G_F}{\sqrt{2}} = \frac{g^2}{8M_W^2},
 \end{equation}
-which is of particular importance as it expresses the experimentally well-measured Fermi constant directly in terms of the $SU(2)_L$ gauge coupling and the $W^\pm$ mass, thereby connecting the low-energy effective theory to the underlying electroweak gauge structure and providing a precise prediction for $M_W$ once $g$ and $G_F$ are independently determined. Given this and the knowledge that weak neutral currents exist, it is tempting to identify $W^3_\mu$ as their mediator. However, this cannot be the case since this term couples exclusively to left(right)-handed (anti)fermions, while it is experimentally well established that weak neutral current interactions do not maximally violate $\mathcal{P}$-symmetry as charged current interactions do~\cite{Hasert1973a, Hasert1973b}. The $SU(2)_L$ symmetry is therefore too chiral to accommodate weak neutral currents, which while not $\mathcal{P}$-conserving, do not exhibit the maximal parity violation of the charged current sector. This incompatibility however points to the possibility of a more complete theory wherein the purely chiral $SU(2)_L$ generators are combined with a $\mathcal{P}$-conserving $U(1)_Y$ hypercharge gauge field, analogous to that of QED, to model the weak and electromagnetic interactions as a single unified force known as the Electroweak (EW) theory.
+which is of particular importance as it expresses the experimentally well-measured Fermi constant directly in terms of the $SU(2)_L$ gauge coupling and the $W^\pm$ mass, thereby connecting the low-energy effective theory to the underlying electroweak gauge structure and providing a precise prediction for $M_W$. Given this and the knowledge that weak neutral currents exist, it is tempting to identify $W^3_\mu$ as their mediator. However, this cannot be the case since this term couples exclusively to left(right)-handed (anti)fermions, while it is experimentally well established that weak neutral current interactions do not maximally violate $\mathcal{P}$-symmetry as charged current interactions do~\cite{Hasert1973a, Hasert1973b}. The $SU(2)_L$ symmetry is therefore too chiral to accommodate weak neutral currents, which while not $\mathcal{P}$-conserving, do not exhibit the maximal parity violation of the charged current sector. This incompatibility however points to the possibility of a more complete theory wherein the purely chiral $SU(2)_L$ generators are combined with a $\mathcal{P}$-conserving $U(1)_Y$ hypercharge gauge field, analogous to that of QED, to model the weak and electromagnetic interactions as a single unified force known as the Electroweak (EW) theory.
 \subsection{$SU(2)_L \times U(1)_Y$}
 To establish a theory coherent with the known properties of leptons, it is first necessary to fix the hypercharge ($Y$) assignments of the left-handed fermion doublet $L = \left(\begin{smallmatrix}\nu_l \\ l\end{smallmatrix}\right)_L$ and the right-handed lepton singlet $R = (l_R)$ by relating them to the known electric charges $Q$ and weak isospin eigenvalues $T^3$ via the Gell-Mann--Nishijima relation
 \begin{equation}\label{eq:Gell-Mann-Nishijima}
@@ -288,5 +287,27 @@ e = g\sin\theta_W = g'\cos\theta_W.
 \end{equation}
 Substituting (\ref{eq:Gell-Mann-Nishijima}) and (\ref{eq:coupling}) into the $Z_\mu$ coefficient of (\ref{eq:LNCintZA}) yields the $Z$ boson interaction term expressed solely in terms of $T^3$ and $Q$,
 \begin{equation}\label{eq:LNCintZA2}
-\mathcal{L}_{NC\,\text{int}} = -eQ\bar{\psi}\gamma^\mu\psi\, A_\mu - \frac{g}{\cos\theta_W}\left(T^3 - Q\sin^2\theta_W\right)\bar{\psi}\gamma^\mu\psi\, Z_\mu
+\mathcal{L}_{NC\,\text{int}} = -eQ\bar{\psi}\gamma^\mu\psi\, A_\mu - \frac{g}{\cos\theta_W}\left(T^3 - Q\sin^2\theta_W\right)\bar{\psi}\gamma^\mu\psi\, Z_\mu.
 \end{equation}
+It will be useful to later sections of this work to have the $Z$ boson interaction term separated into vector and axial-vector terms such that for a fermion $f$,
+\begin{equation}\label{eq:gvga}
+    \mathcal{L}_{Zf\bar{f}\text{ int}} = -\frac{g}{cos\theta}\bar{\psi}_f\gamma^\mu(g^f_{V} - g^f_{A}\gamma^5) \psi_f Z_\mu.
+\end{equation}
+The vector ($g^f_V$) and axial-vector ($g^f_A$) coupling coefficients can be calculated explicitly noting that all right-handed fermions are $SU(2)_L$ singlets and thus $T^3P_R \psi = T^3\frac{1}{2}(1+\gamma^5)\psi = T^3\psi_R = 0$. Separating the Z interaction term in (\ref{eq:LNCintZA2}),
+\begin{align}\nonumber
+    \mathcal{L}_{Zf\bar{f}\text{ int}} &= - \frac{g}{\cos\theta_W}\left(T^3_f - Q_f\sin^2\theta_W\right)\bar{\psi}_f\gamma^\mu\psi_f\, Z_\mu\\\nonumber
+    &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\frac{\gamma^\mu}{2}\left(T^3_f - Q\_fsin^2\theta_W\right)(1+1+\gamma^5-\gamma^5)\psi_f\, Z_\mu\\\nonumber
+    &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\frac{\gamma^\mu}{2}\left(\cancelto{0}{T^3_f} - Q_f\sin^2\theta_W\right)(1+\gamma^5)\psi_f\, Z_\mu\\\nonumber
+    & - \frac{g}{\cos\theta_W}\bar{\psi}_f\frac{\gamma^\mu}{2}\left(T^3_f - Q_f\sin^2\theta_W\right)(1-\gamma^5)\psi_f\, Z_\mu\\ \label{eq:gvga2}
+    &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\gamma^\mu\left(\frac{T^3_f}{2} + (Q_f\sin^2 \theta_W - \frac{T^3}{2}) \gamma^5\right)\psi_f\, Z_\mu.
+\end{align}
+Comparing (\ref{eq:gvga2}) with (\ref{eq:gvga}),
+\begin{equation}\label{eq:gvandga}
+    \begin{cases}
+    \begin{array}{c}
+    g_{V}^{f}=\frac{T_{f}^{3}}{2}-Q_{f}\sin^{2}\theta_{W}\\
+    g_{A}^{f}=\frac{T^{3}}{2}
+    \end{array}
+    \end{cases}.
+\end{equation}
+Its worth noting that the presence of the $Q_{f}\sin^{2}\theta_{W}$ term of $g^f_V$ in \ref{eq:gvandga} is what prevents the $Z$ boson interaction to be maximally $\mathcal{P}$-violating.
