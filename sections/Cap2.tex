@@ -1,6 +1,303 @@
 \chapter{Radiative Corrections and Neutrino Charge Radius}\label{cap:NCR}
+This chapter is concerned with the main theoretical focus of this work. The SM as described in Chapter \ref{cap:EWinSM}, and in specific EW theory within it, models the interactions between fermions and gauge bosons utilizing of perturbative terms in the from of higher-order loop diagrams. While tree level calculations offered good agreement with experimental data, modern precision in particle experiments have required in recent history have shown the necessity to include higher-order terms to either validate the SM or in occasions point to scenarios Beyond the SM (BSM). This chapter describes how the inclusion of 1-loop diagrams to an effective interaction reveal predictions of electromagnetic properties of the neutrino and how they modify previously established parameters in the SM.
+
 \section{Introduction}
+The electromagnetic properties of the neutrino were not only essential to its first postulation and subsequent discovery, but remain an active field of research in modern experimental particle physics. Indeed, both its neutral charge and the possibility of a non-zero magnetic dipole moment are mentioned in the original 1930 letter by Pauli that first introduced the neutrino~\cite{pauli1930neutrino}. The study of such properties was further motivated by the proposal and eventual discovery of neutrino flavor oscillations and their requisite non-zero mass splittings. This chapter describes how radiative corrections to the effective $\nu\nu\gamma$ vertex predict non-trivial electromagnetic form factors for massive\footnote{This chapter concerns primarily Dirac-type neutrinos; analogous calculations for Majorana neutrinos can be found in~\cite{PhysRevD.26.3152, PhysRevD.26.1662, RevModPhys.87.531}} neutrinos within the SM, the focus of this work being the neutrino charge radius (NCR).
+
+\section{Electromagnetic Form Factors}
+\subsection{Massive Neutrinos}
+
+\begin{figure}\label{fig:vertices}
+\centering 
+\subfigure[]{\label{subfig:a}\resizebox{0.3\textwidth}{!}{\begin{tikzpicture}
+\begin{feynman}
+\vertex (0) at (0, 4){\(\mathfrak{f}(p_i)\)};
+\vertex (1) at (2, 2);
+\vertex (2) at (4, 4){\(\mathfrak{f}(p_f)\)};
+\vertex (3) at (2, 0){\(\gamma(q)\)};
+\diagram*{
+	(0) --[fermion] (1),
+	(1) --[fermion] (2),
+	(1) --[photon] (3)
+};
+\end{feynman}
+\end{tikzpicture}}}\hfil
+\subfigure[]{\label{subfig:b}\resizebox{0.3\textwidth}{!}{\begin{tikzpicture}
+\begin{feynman}
+\vertex (0) at (0, 4){\(\nu(p_i)\)}; ;
+\node[draw, circle, minimum size=1.5em] (1) at (2, 2){\(\Lambda_\mu\)};
+\vertex (2) at (4, 4){\(\nu(p_f)\)};
+\vertex (3) at (2, 0){\(\gamma(q)\)};
+\diagram*{
+	(0) -- [fermion] (1) ,
+	(1) -- [fermion] (2) ,
+	(1) -- [photon] (3) 
+};
+\end{feynman}
+\end{tikzpicture}}}\hfil
+\subfigure[]{\label{subfig:c}\resizebox{0.3\textwidth}{!}{\begin{tikzpicture}
+\begin{feynman}
+\vertex (0) at (0, 4){\(\nu^j(p_j)\)}; ;
+\node[draw, circle, minimum size=1.5em] (1) at (2, 2){\(\Lambda_\mu^{kj}\)};
+\vertex (2) at (4, 4){\(\nu^k(p_k)\)};
+\vertex (3) at (2, 0){\(\gamma(q)\)};
+\diagram*{
+	(0) -- [fermion] (1) ,
+	(1) -- [fermion] (2) ,
+	(1) -- [photon] (3) 
+};
+\end{feynman}
+\end{tikzpicture}}}
+\caption{my caption}
+\end{figure}
+
+Following Ref.~\cite{RevModPhys.87.531}, the interaction between a fermionic field $\mathfrak{f}(x)$ and the electromagnetic field $A^\mu$ in the SM is given by the interaction Hamiltonian
+\begin{equation}\label{eq:Hem}
+	\mathcal{H}_{\text{EM}}(x) = j^{\mathfrak{f}}_{\mu}(x)A^\mu(x) = q_{\mathfrak{f}}\,\bar{\mathfrak{f}}(x)\gamma_\mu\mathfrak{f}(x)A^\mu(x),
+\end{equation}
+where $q_\mathfrak{f}$ is the electric charge of a fermion $\mathfrak{f}$. Fig. \ref{subfig:a} shows the corresponding the tree-level Feynman diagram for (\ref{eq:Hem}) where the photon $\gamma$ is the quanta of the EM field $A^\mu$. For the neutrino no such direct interaction term exists due to its neutral charge. Nevertheless, at the quantum level such interactions can arise when including higher order terms in the perturbative expansion of interaction terms in the form of loop diagrams. In the 1-photon approximation the effective interaction Hamiltonian for a massive neutrino $\nu$ is given by
+\begin{equation}\label{eq:Heffem}
+	\mathcal{H}^{(\nu)}_{\text{EM}}(x) = j^{(\nu)}_{\mu}(x)A^\mu(x) = \bar{\nu}(x)\Lambda_\mu\nu(x)A^\mu(x),
+\end{equation}
+where $j^{(\nu)}_{\mu}(x)$ is the effective neutrino current and $\Lambda_\mu$ is a $4\times4$ vertex function matrix in spinor space which can contain space-time derivatives such that $j^{(\nu)}_{\mu}(x)$ transforms as a four-vector. The corresponding effective Feynman diagram for (\ref{eq:Heffem}) is shown in Fig. \ref{subfig:b}. We will see that the neutrino electromagnetic form factors and properties such as charge and magnetic dipole will correspond to the Fig. \ref{subfig:b} interaction, but it is worth contrasting the origin of these form factors with the analogous quantities for composite particles such as the proton or the neutron, where electromagnetic form factors encode genuine information about the spatial distribution of fundamental constituents. The neutrino carries no such substructure; its form factors are instead radiative effects generated by quantum loops involving gauge bosons. They are physical and, in principle, measurable, but they constitute effective electromagnetic properties induced by the weak interaction rather than a reflection of any internal composition. In this sense the neutrino electromagnetic form factors occupy a conceptually distinct place within the Standard Model. \\
+We are intrested in the neutrino part of the Fig. \ref{subfig:b} interaction amplitude, given by the matrix element
+\begin{equation}\label{eq:matrixel}
+	\bra{\nu(p_f,h_f)}j^{(\nu)}_{\mu}(x)\ket{\nu(p_i,h_i)},
+\end{equation}
+where $p_{i(f)}$ and $h_{i(f)}$ denote the momentum and helicity of the initial (final) neutrino respectively. Setting aside the helicity dependence for now and taking into account
+\begin{equation}\label{eq:canonicalderivative}
+	\partial^\mu j^{(\nu)}_\mu = i \left[ \mathcal{P}^\mu, j^{(\nu)}_\mu\right],
+\end{equation}
+where $\mathcal{P}^\mu$ is the four-momentum operator which generates translations, the effective neutrino current can be rewritten as
+\begin{equation}\label{eq:jPnu}
+	j^{(\nu)}_\mu(x) = e^{i\mathcal{P}\cdot x}j^{(\nu)}_\mu(0)e^{-i\mathcal{P}\cdot x}.
+\end{equation}
+Since $\mathcal{P}^\mu \ket{\nu(p_{i(f)})} = p_{i(f)}^\mu \ket{\nu(p_{i(f)})}$ substituting (\ref{eq:jPnu}) into (\ref{eq:matrixel}) gives
+\begin{equation}\label{eq:matrixel2}
+	\bra{\nu(p_f)}j^{(\nu)}_{\mu}(x)\ket{\nu(p_i)} = e^{(p_f - p_i)\cdot x}\bra{\nu(p_f)}j^{(\nu)}_{\mu}(0)\ket{\nu(p_i)}.
+\end{equation}
+It is evident from (\ref{eq:matrixel2}) that the quantity encoding the neutrino--photon interaction is the matrix element $\bra{\nu(p_f)}j^{(\nu)}_{\mu}(0)\ket{\nu(p_i)}$. Since $\ket{\nu(p_i)}$ and $\bra{\nu(p_f)}$ describe incoming and outgoing free Dirac particles whose field admits the Fourier expansion
+%
+\begin{equation}
+\psi(x) = \int \frac{d^3p}{(2\pi)^3 2E}\sum_{h=\pm}
+\left[ a^{(h)}(p)\,u^{(h)}(p)\,e^{-ix\cdot p}
+   + b^{(h)\dagger}(p)\,v^{(h)}(p)\,e^{ix\cdot p}\right],
+\end{equation}
+%
+the only spinor structures that survive in (\ref{eq:matrixel2}) are those sandwiched between free-particle spinors, so that
+%
+\begin{equation}\label{eq:matrixelem}
+\bra{\nu(p_f)}j^{(\nu)}_{\mu}(0)\ket{\nu(p_i)}
+= \bar{u}(p_f)\,\Lambda_\mu(p_f,p_i)\,u(p_i).
+\end{equation}
+%
+Here $\Lambda_\mu$ is a $4\times 4$ matrix in spinor space whose free Lorentz index must transform as a contravariant four-vector. The most general such matrix constructed from $\gamma$-matrices and the available four-momenta $p_{i,f}$, or equivalently from $P_\mu = (p_f+p_i)_\mu$ and $q_\mu = (p_f - p_i)_\mu$, is~\cite{Nowakowski_2005}
+%
+\begin{equation}\label{eq:sixformfactors}
+\Lambda_\mu = \varmathbb{f}_1(q^2)\,q_\mu
+      + \varmathbb{f}_2(q^2)\,q_\mu\gamma_5
+      + \varmathbb{f}_3(q^2)\,\gamma_\mu
+      + \varmathbb{f}_4(q^2)\,\gamma_\mu\gamma_5
+      + \varmathbb{f}_5(q^2)\,\sigma_{\mu\nu}q^{\nu}
+      + \varmathbb{f}_6(q^2)\,\epsilon_{\mu\nu\rho\lambda}\,q^{\nu}\sigma^{\rho\lambda},
+\end{equation}
+where $\varmathbb{f}_{k}$ ($k=1,\cdots,6$) are six Lorentz-invariant form factors and $q$ is the four-momentum transferred to the photon. Its worth noting that $q^2$ is the only available independent Lorentz-invariant kinematic quantity since $(p_i + p_f)^2 = 4m_{\nu}^2 - q^2$ and thus the vertex function $\Lambda_\mu(q)$ can be written as only dependent on $q$. Further restrictions on $\Lambda_\mu(q)$ are seen when taking into account that $\mathcal{H}^{(\nu)}_{\text{EM}} = \mathcal{H}^{(\nu)\dagger}_{\text{EM}}$ and $A_\mu = A_\mu^\dagger$ thus
+\begin{align}
+	\bra{\nu(p_f)}j^{(\nu)}_{\mu}(0)\ket{\nu(p_i)} &= \bra{\nu(p_f)}j^{(\nu)}_{\mu}(0)\ket{\nu(p_i)}^\dagger\\
+	\implies \bar{u}(p_f)\,\Lambda_\mu(q)\,u(p_i) &= \left(\bar{u}(p_f)\,\Lambda_\mu(q)\,u(p_i)\right)^\dagger\\\label{eq:HermitianL}
+	\implies \Lambda_\mu(q) &= \gamma^0 \Lambda_\mu^\dagger(-q) \gamma^0.
+\end{align}
+Substituting (\ref{eq:HermitianL}) into (\ref{eq:sixformfactors}) constraints the form factor functions such that
+\begin{equation}\label{eq:arereal}
+	\varmathbb{f}_2,\,\varmathbb{f}_3,\,\varmathbb{f}_4~\text{are real}
+\end{equation}
+and 
+\begin{equation}\label{eq:areimag}
+	\varmathbb{f}_1,\,\varmathbb{f}_5,\,\varmathbb{f}_6~\text{are imaginary}.
+\end{equation}
+Furthermore, imposing current conservation $\partial^{\mu}j^{(\nu)}_\mu=0$ required by the EM $U(1)$ gauge invariance on $A^\mu \rightarrow A^\mu + \partial^\mu \varphi(x)$ for any $\varphi(x)$ which leaves (\ref{eq:Amunu}) invariant in combination with (\ref{eq:canonicalderivative}) leads to
+\begin{align}
+	\bra{\nu(p_f)}\left[ \mathcal{P}^\mu, j^{(\nu)}_\mu(0)\right]\ket{\nu(p_i)} &= 0\\\label{eq:equalzero}
+	\implies q^\mu \bar{u}(p_f) \Lambda_\mu (q) u(p_i) &= 0.
+\end{align}
+Utilizing on-shell conditions for the neutrino spinors $\slashed{p}_{i(f)}u(p_{i(f)}) = m\,u(p_{i(f)})$, the antisymmetry of $\sigma_{\mu\nu}$ and $\epsilon_{\mu\nu\rho\gamma}$ and the anticommutation relation of $\gamma_\mu$ with $\gamma_5$
+\vspace{-.25cm}
+\begin{align} 
+	\nonumber q^\mu \bar{u}(p_f) \Lambda_\mu (q) u(p_i)&= \bar{u}(p_f) [ \varmathbb{f}_1(q^2)\, q^\mu q_\mu
+      + \varmathbb{f}_2(q^2)\,q^\mu q_\mu\gamma_5
+      + \varmathbb{f}_3(q^2)\,\overbrace{q^\mu \gamma_\mu}^{\slashed{q} = \slashed{p}_i - \slashed{p}_f} \\ \nonumber
+      &+ \varmathbb{f}_4(q^2)\,\underbrace{q^\mu \gamma_\mu}_{\slashed{q} = \slashed{p}_i - \slashed{p}_f} \gamma_5
+      + \varmathbb{f}_5(q^2)\,\cancelto{0}{q^\mu\sigma_{\mu\nu}q^{\nu}}
+      + \varmathbb{f}_6(q^2)\,\cancelto{0}{q^\mu\epsilon_{\mu\nu\rho\lambda}q^{\nu}}\sigma^{\rho\lambda}] u(p_i)
+			\\\nonumber
+			&=\bar{u}(p_f) [ \varmathbb{f}_1(q^2)\,q^2
+      + \varmathbb{f}_2(q^2)\,q^2\gamma_5
+      \\ \nonumber
+      &+ \varmathbb{f}_3(q^2)\,(\slashed{p}_i - \slashed{p}_f)
+			+ \varmathbb{f}_4(q^2)\,(\slashed{p}_i - \slashed{p}_f)\gamma_5] u(p_i)
+			\\\nonumber
+			\\\nonumber
+			&=\bar{u}(p_f) [ \varmathbb{f}_1(q^2)\,q^2
+      + \varmathbb{f}_2(q^2)\,q^2\gamma_5
+      \\ \nonumber
+      &+ \varmathbb{f}_3(q^2)\,\cancelto{0}{(m - m)}
+			+ \varmathbb{f}_4(q^2)\,(m + m)\gamma_5] u(p_i)
+			\\\nonumber
+			\\\label{eq:operators}
+			&=\bar{u}(p_f) [ \varmathbb{f}_1(q^2)\,q^2
+							+ \varmathbb{f}_2(q^2)\,q^2\gamma_5
+							+ 2m\,\varmathbb{f}_4(q^2)\gamma_5] u(p_i).
+\end{align}
+Substituting (\ref{eq:operators}) into (\ref{eq:equalzero})
+\begin{equation}
+	\implies  \varmathbb{f}_1(q^2)\,q^2 + \varmathbb{f}_2(q^2)\,q^2\gamma_5 + 2m\,\varmathbb{f}_4(q^2)\gamma_5 = 0.
+\end{equation}
+Taking into account that $\mathbb{I}$ and $\gamma_5$ are linearly independent leaves $\varmathbb{f}_1(q^2) = 0$ and $\varmathbb{f}_4(q^2) = -\frac{q^2}{2m} \varmathbb{f}_2(q^2)$. Substituting back into (\ref{eq:sixformfactors}) leaves
+\begin{equation}\label{eq:EMformfactors}
+	\Lambda_\mu(q) = \varmathbb{f}_Q(q^2)\gamma_\mu -\varmathbb{f}_{M}(q^2)i\sigma_{\mu\nu}q^\nu + \varmathbb{f}_E(q^2)\sigma_{\mu\nu}q^\nu\gamma_5 + \varmathbb{f}_A(q^2)(q^2\gamma_\mu-q_\mu\slashed{q})\gamma_5,
+\end{equation}
+where $\varmathbb{f}_Q = \varmathbb{f}_3$, $\varmathbb{f}_M = i\varmathbb{f}_5$, $\varmathbb{f}_E = -2i\varmathbb{f}_6$ and $\varmathbb{f}_A=-\varmathbb{f}_2/2m$ are the real charge, dipole magnetic and electric, and anapole neutrino form factors. For the coupling with the real photon at $q^2=0$
+\begin{equation}
+	\varmathbb{f}_Q(0) = \varmathbb{q},~~~~~~~~~~\varmathbb{f}_M(0) = \mu,~~~~~~~~~~\varmathbb{f}_E(0) = \epsilon,~~~~~~~~~~\varmathbb{f}_A(0) = \varmathbb{a},
+\end{equation}
+where $\varmathbb{q}$ is the electric charge, $\mu$ the magnetic dipole, $\epsilon$ the electric dipole and $\varmathbb{a}$ the anapole moment of the neutrino. 
+
+\subsection{Massive Neutrino Mixing}
+It is worth noting that we have only considered the effective interaction of a single mass eigenstate neutrino with the photon, whereas a full treatment of the known mass mixing among neutrinos requires promoting the aforementioned vertex function and form factors into $N\times N$ matrices, where $\{\ket{\nu_k}\}$, $k=1,2,\cdots,N$, describe $N$ neutrino mass eigenstates of definite mass satisfying $(i\slashed{\partial}-m_k)\nu_k=0$. A generalized version of (\ref{eq:Heffem}), described by the effective Feynman diagram in Fig.~\ref{subfig:c}, is given by
+\begin{equation}\label{eq:Heffemkj}
+\mathcal{H}^{(\nu)}_{\text{EM}}(x) = j^{(\nu)}_{\mu}(x)A^\mu(x) = \sum_{k,j=1}^{N}\overline{\nu_k}(x)\Lambda^{kj}_\mu\nu_j(x)A^\mu(x),
+\end{equation}
+where, for an initial state $\ket{\nu_i(p_i)}$ and a final state $\ket{\nu_f(p_f)}$ describing free mass-eigenstate neutrinos, the generalized form of the matrix element in (\ref{eq:matrixelem}) reads
+\begin{equation}\label{eq:matrixelemfi}
+\bra{\nu_f(p_f)}j^{(\nu)}_{\mu}(0)\ket{\nu_i(p_i)} = \overline{\nu_f}(p_f)\,\Lambda^{fi}_\mu(p_f,p_i)\,\nu_i(p_i).
+\end{equation}
+As was the case for $\Lambda_\mu(p_f,p_i)$, the matrix $\Lambda^{fi}_\mu(p_f,p_i)$ depends only on $q$ for the same underlying reason, and in its most general form is a linear combination of the same covariant elements, namely
+\begin{equation}\label{eq:sixformfactorsfi}
+\begin{split}
+\Lambda^{fi}_\mu &= \varmathbb{f}^{fi}_1(q^2)\,q_\mu
++ \varmathbb{f}^{fi}_2(q^2)\,q_\mu\gamma_5
++ \varmathbb{f}^{fi}_3(q^2)\,\gamma_\mu\\
+&+ \varmathbb{f}^{fi}_4(q^2)\,\gamma_\mu\gamma_5
++ \varmathbb{f}^{fi}_5(q^2)\,\sigma_{\mu\nu}q^{\nu}
++ \varmathbb{f}^{fi}_6(q^2)\,\epsilon_{\mu\nu\rho\lambda}\,q^{\nu}\sigma^{\rho\lambda},
+\end{split}
+\end{equation}
+with conditions (\ref{eq:arereal}) and (\ref{eq:areimag}) holding for the corresponding $\varmathbb{f}^{fi}_m$, $m=1,\cdots,6$. Imposing current conservation, the on-shell conditions for the neutrino spinors $\overline{\nu_f}\slashed{q}\nu_i = \overline{\nu_f}(m_f-m_i)\nu_i$ and the algebraic properties of the covariant forms appearing in (\ref{eq:sixformfactorsfi}) yields the constraints
+\begin{numcases}{\left.\right.}
+\varmathbb{f}^{fi}_1(q^2) + (m_f-m_i)\varmathbb{f}^{fi}_3(q^2) = 0, & \label{eq:m-m}
+\\
+\varmathbb{f}^{fi}_2(q^2) + (m_f+m_i)\varmathbb{f}^{fi}_4(q^2) = 0. & \label{eq:m+m}
+\end{numcases}
+so that the vertex function (\ref{eq:EMformfactors}) is correspondingly promoted to
+\begin{equation}\label{eq:EMformfactorsmatrix}
+\Lambda^{fi}_\mu(q) = (\gamma_\mu - q_\mu\slashed{q}/q^2)(\varmathbb{f}^{fi}_Q(q^2) + \varmathbb{f}^{fi}_A(q^2)q^2\gamma_5) - i\sigma_{\mu\nu}q^{\nu}(\varmathbb{f}^{fi}_M(q^2)+i\varmathbb{f}^{fi}_E(q^2)\gamma_5),
+\end{equation}
+where $\varmathbb{f}^{fi}_Q = \varmathbb{f}^{fi}_3$, $\varmathbb{f}^{fi}_M = i\varmathbb{f}^{fi}_5$, $\varmathbb{f}^{fi}_E = -2i\varmathbb{f}^{fi}_6$, and $\varmathbb{f}^{fi}_A = -\varmathbb{f}^{fi}_2/(m_f+m_i)$, subject to the Hermiticity condition
+\begin{equation}
+\varmathbb{f}^{fi}_{\Omega} = (\varmathbb{f}^{if}_{\Omega})^* \qquad (\Omega = Q,\,E,\,M,\,A).
+\end{equation}
+
+Coupling with the real photon at $q^2 = 0$
+
+\begin{equation}
+	\varmathbb{f}^{fi}_Q(0) = \varmathbb{q}^{fi},~~~~~~~~~~\varmathbb{f}^{fi}_M(0) = \mu^{fi},~~~~~~~~~~\varmathbb{f}^{fi}_E(0) = \epsilon^{fi},~~~~~~~~~~\varmathbb{f}^{fi}_A(0) = \varmathbb{a}^{fi},
+\end{equation}
+
+where $\varmathbb{q}^{fi}$ is the electric charge, $\mu^{fi}$ the magnetic dipole, $\epsilon^{fi}$ the electric dipole and $\varmathbb{a}^{fi}$ the anapole transition moment of an initial $\ket{\nu_i}$ and final $\ket{\nu_f}$ neutrino mass eigenstate. 
+
+It is worth noting that the diagonal entries $f=i$ of $\varmathbb{f}^{fi}_\Omega$ and $\Lambda^{fi}_\mu(q)$ reduce to their single mass-eigenstate counterparts found previously, whereas the off-diagonal entries $f\neq i$ describe transition electromagnetic properties between distinct mass eigenstates, a feature entirely absent in the single-flavor treatment and one of the principal new phenomena introduced by neutrino mixing.
+
+\subsection{Flavor Base}
+It is important to recognize, however, that the mass eigenstates $\ket{\nu_i}$ are not the states that are produced or detected in weak interaction processes; rather, it is the flavor eigenstates $\ket{\nu_\alpha}$, $\alpha = e,\mu,\tau$, that couple directly to the charged leptons through the $W^\pm$ boson, the two bases being related by the leptonic mixing matrix $U$ through $\ket{\nu_\alpha} = \sum_i U^*_{\alpha i}\ket{\nu_i}$, better known as the PMNS matrix \cite{10.1143/PTP.28.870, JWFValle_2006}. Consequently, the electromagnetic vertex function in the flavor basis, $\widetilde\Lambda^{\alpha\beta}_\mu$, is obtained from $\Lambda^{ij}_\mu$ by the corresponding unitary rotation
+\begin{equation}\label{eq:flavorrotation}
+\widetilde\Lambda^{\alpha\beta}_\mu(q) = \sum_{i,j=1}^{3} U_{\alpha i}\,\Lambda^{ij}_\mu(q)\,U^*_{\beta j},
+\end{equation}
+with the inverse relation $\Lambda^{ij}_\mu = \sum_{\alpha,\beta} U^*_{\alpha i}\,\widetilde\Lambda^{\alpha\beta}_\mu\,U_{\beta j}$ following immediately from the unitarity of $U$. While the algebraic structure of (\ref{eq:EMformfactorsmatrix}) is preserved under this rotation and thus the EM form factors can be definned in the flavor basis such that
+\begin{equation}\label{eq:flavorrotation}
+\widetilde f^{\alpha\beta}_\Omega(q^2) = \sum_{i,j=1}^{3} U_{\alpha i}\,\varmathbb{f}^{ij}_\Omega(q^2)\,U^*_{\beta j},
+\end{equation}
+the flavor basis offers no particular simplification on its own; rather, its utility becomes apparent once the calculation of the SM electroweak loop diagrams generating $\Lambda_\mu$ is undertaken, since it is precisely in this basis that the relevant interaction vertices are diagonal.
+
+\subsection{Weyl Neutrinos}
+A further simplification arises upon considering the strictly massless limit\footnote{We will show in later sections that this is consistent with the SM and a good approximation at the energy thresholds considered in this work.}, in which the neutrino mass eigenstates reduce to two-component Weyl fermions and helicity coincides exactly with chirality. In this limit, the physical neutrino exists only as the left-handed projection $\nu_{\alpha,\beta(i,j)L}$, while the corresponding antineutrino is purely right-handed, and no Lorentz transformation can connect the two. Since the bilinears $\sigma_{\mu\nu}q^\nu$ and $\sigma_{\mu\nu}q^\nu\gamma_5$ appearing in (\ref{eq:EMformfactorsmatrix}) are odd under chirality and therefore connect left- to right-handed spinors, their matrix elements between same-chirality Weyl states vanish identically, namely $\overline{\nu_{\alpha(i)L}}\,\sigma_{\mu\nu}q^\nu\,\nu_{\beta(j)L} = \overline{\nu_{\alpha(i)L}}\,\sigma_{\mu\nu}q^\nu\gamma_5\,\nu_{\beta(j)L} = 0$, so that $\widetilde f^{\alpha\beta}_M$ ($\varmathbb{f}^{ij}_M$) and $\widetilde f^{\alpha\beta}_E$ ($\varmathbb{f}^{ij}_E$) are forced to vanish in the massless limit. The vertex function correspondingly collapses to
+\begin{equation}\label{eq:Lambdamassless}
+\widetilde\Lambda^{\alpha\beta}_\mu(q)\Big|_{m_\nu = 0} = (\gamma_\mu - q_\mu\slashed{q}/q^2)\left(\widetilde f^{\alpha\beta}_Q(q^2) - \widetilde f^{\alpha\beta}_A(q^2)q^2\gamma_5\right),
+\end{equation}
+leaving the charge and anapole form factors as the only surviving electromagnetic structures available to a Weyl neutrino, consistent with the well-known statement that the magnetic and electric dipole moments of a Dirac neutrino are proportional to its mass and hence vanish identically in this limit. Moreover, since the one-loop SM diagrams contributing to the vertex function in the massless limit involve only same-flavor charged lepton propagators running in the loop, the vertex function is diagonal in the flavor basis: $\widetilde\Lambda^{\alpha\beta}_\mu = 0$ and $\widetilde{f}^{\alpha\beta}_{Q,A} = 0$ for $\alpha \neq \beta$ and each of the diagonal entries correspond to electromagnetic properties specific to each neutrino flavor.
 \section{Neutrino Charge Radius}
-\section{One-loop Corrections to the $\nu \nu \gamma$ vertex}
-\section{NCR as a radiative correction of Electroweak Mixing}
+Even if the neutrino is of neutral net charge, its charge form factor $f_Q({q^2})$ can still hold information as to its interaction with other charged particles. In the "Briet frame", defined by the time coordinate of four-momentum transfer such that $q_0 = 0$, $f_Q({q^2})$ only depends on $|\vec{q}| = \sqrt{-q^2}$ and can be interpreted as the Fourier transform of a spherically symmetric charge distribution $\rho(r)$ where $r=|\vec{r}|$.
+\begin{equation}
+	f_Q(q^2) = \int \rho(r) e^{-i\vec{q} \cdot \vec{r}} d^3 \vec{r} = \int \rho(r) \frac{\sin(|\vec{q}|r)}{|\vec{q}|r}d^3 \vec{r}.
+\end{equation}
+Deriving with respect to $q^2 = -|\vec{q}|^2$,
+\begin{equation}
+\dfrac{d f_Q}{dq^2}	= \int \rho(r) \dfrac{\sin(|\vec{q}|r) - |\vec{q}|\cos(|\vec{q}|r)}{2q^3r} d^3\vec{r},
+\end{equation}
+and thus taking
+\begin{equation}
+	\lim_{q^2 \rightarrow 0} \dfrac{d f_Q}{dq^2} = \int \rho(r) \frac{r^2}{6} d^3\vec{r} = \frac{\langle r^2 \rangle}{6}.
+\end{equation}
+Therefore, the average of the squared radius of the neutrino charge distribution is given by
+\begin{equation}\label{eq:NRCfinal}
+	\langle r^2 \rangle = 6 \left. \dfrac{d f_Q}{dq^2} \right|_{q^2 = 0}.
+\end{equation}
+Expanding $f_Q(q^2)$ around $q^2 = 0$ in a Taylor series yields
+\begin{align}\nonumber
+	\left. f_Q(q^2) \right|_{q \approx 0} &\approx \cancelto{0}{f_Q(0)} + \left. \dfrac{d f_Q}{dq^2} \right|_{q^2 = 0}q^2\\ \label{eq:approx}
+										 &\approx \frac{\langle r^2 \rangle}{6}q^2,
+\end{align}
+and substituting (\ref{eq:approx}) into a matrix element of a conserved current with a vertex function of the from in (\ref{eq:Lambdamassless}) at the same limit gives
+\begin{align}\nonumber
+	\overline{\nu_L}(p_f)\Lambda^{\text{SM}}_\mu(q)\nu_L(p_i)\Big|_{q^2\approx0} & = \overline{\nu_L}(p_f)(\gamma_\mu - \cancelto{0}{q_\mu \slashed{q}/q^2})(f_Q(q^2) + f_A(q^2)q^2\gamma_5)\nu_L(p_i),\\ \label{eq:approxformfac}
+												 & \approx \overline{\nu_L}(p_f)(\gamma_\mu)(\frac{\langle r^2 \rangle}{6} - \varmathbb{a})q^2\nu_L(p_i),
+\end{align}
+utilizing $\gamma_5 \nu_L = - \nu_L$, $\overline{\nu_L}(p_f)\slashed{q}\nu_L(p_i)=0$, and $f_A(0) = \varmathbb{a}$. Because of the from of $\Lambda^{\text{SM}}_\mu$ implied in (\ref{eq:approxformfac}) it's actually a matter of convention between authors what gets defined as the NCR since defining the total neutrino from factor $F_\nu(q^2)$ such that
+\begin{equation}
+	\Lambda^{\text{SM}}_\mu(q) = \gamma_\mu F_{\nu}(q^2),
+\end{equation}
+where $F_{\nu}(q^2) = f_{Q}(q^2) + q^2f_A(q^2)$ acts as such that a SM $\nu\nu\gamma$ effective coupling cannot distinguish between an anapole and a charge from factor contribution at the $q\to0$ limit and thus $F_{\nu}(q^2)\Big|_{q^2\to 0}=f_{Q}(q^2)\Big|_{q^2\to 0}~~\implies~~\varmathbb{a} = -\langle r^2 \rangle /6$ for ultra-relativistic left-hand neutrinos. This results in a redefining of an average square charge radius not in terms of $f_Q$, but rather $F_{\nu}$ as a whole which we will denote $\langle r^2 \rangle^\text{SM}$
+\begin{equation}\label{eq:factoroftwo}
+	\Lambda^{\text{SM}}_\mu(q) = \gamma_\mu F_{\nu}(q^2) \simeq \gamma_\mu\,q^2\frac{\langle r^2 \rangle^\text{SM}}{6} \simeq \gamma_\mu\,q^2\frac{\langle r^2 \rangle}{3}.
+\end{equation}
+Different authors report either $\langle r^2 \rangle$ or $\langle r^2 \rangle^\text{SM}$ and thus the literature contains differences of factors of 2 for the NCR as seen from (\ref{eq:factoroftwo}). The usual convention for contemporary neutrino phenomenology, and the one that will be used in this work, is to define 
+\begin{equation}\label{eq:trueNCR}
+	\langle r^2 \rangle^\text{SM} = +6\frac{dF_\nu(q^2)}{dq^2}\Big|_{q=0},
+\end{equation}
+and report $\langle r^2 \rangle^\text{SM}$ as the NCR. 
+\section{Corrections to the $\nu \nu \gamma$ vertex}
+The SM prediction for $\langle r^2 \rangle_{\alpha\alpha} = \langle r^2_{\nu_\alpha} \rangle$ as defined by
+\begin{equation} 
+	\langle r^2 _{\nu_\alpha}\rangle = +6\frac{d\widetilde f^{\alpha\alpha}}{dq^2}\Big|_{q^2=0}
+\end{equation} 
+arises at one loop from radiative corrections to the $\nu\nu\gamma$ vertex. Within the pinch technique (PT) framework of~\cite{Bernabeu_2000}, one constructs a gauge-invariant, process-independent effective vertex $\hat{\Gamma}^\mu_{\gamma\nu\bar{\nu}}$ by systematically extracting all longitudinal momenta from the conventional vertex, box, and self-energy diagrams and reassigning the resulting propagator-like pieces via the elementary Ward identities of the theory. The diagrams that contribute to $\hat{\Gamma}^\mu_{\gamma\nu\bar{\nu}}$ after this rearrangement are those in which a virtual $W$ boson carries the photon coupling while the associated charged lepton $\ell_\alpha$ runs in the loop; the remaining diagrams either cancel in the PT procedure or are absorbed into the effective self-energies $\hat{\Pi}^{\mu\nu}_{gZ}$ and $\hat{\Pi}^{\mu\nu}_{ZZ}$, which are instead interpreted as process-independent corrections to the effective weak mixing angle~\cite{Bernabeu_2000}. Crucially, the $W$ vertex is diagonal in flavor, it couples $\nu_\alpha$ exclusively to $\ell_\alpha$, so the loop integral depends only on $m_{\ell_\alpha}$ and $M_W$, and the resulting charge form factor $\widetilde{f}^\alpha_Q(q^2)$ is diagonal in the flavor basis. The Dirac form factor extracted from $\hat{\Gamma}^\mu_{\gamma\nu\bar{\nu}}$ then yields, in the limit $q^2\to 0$\footnote{utilizing the definition in (\ref{eq:trueNCR})}~\cite{Bernabeu_2000},
+
+\begin{equation}
+\langle r^2_{\nu_\alpha} \rangle = \frac{\langle r^2_{\nu_\alpha} \rangle^\text{SM}}{2}
+= -\frac{G_F}{4\sqrt{2}\,\pi^2}
+\left[3 - 2\ln\frac{m_{\ell_\alpha}^2}{M_W^2}\right].
+\label{eq:NCR_SM}
+\end{equation}
+
+\noindent which is finite, gauge-independent, and depends only on the flavor index $\alpha$ through the charged lepton mass $m_{\alpha}$. 
+
+Numerically, the values of NCR prediction for each known neutrino flavour in the SM are\begin{align}
+	\langle r^2_{\nu_e} \rangle^\text{SM} &= -0.83 \times 10^{-32}\,\text{cm}^2,\\
+	\langle r^2_{\nu_\mu} \rangle ^\text{SM}&= -0.48 \times 10^{-32}\,\text{cm}^2,\\
+	\langle r^2_{\nu_\tau} \rangle^\text{SM} &= -0.30 \times 10^{-32}\,\text{cm}^2.
+\end{align}
+
+\section{NCR as a radiative correction of Electroweak Mixing}\label{sec:NCRassin}
+The expression (\ref{eq:factoroftwo}) can be shown to be a correction that adds coherently to the tree-level weak neutral current amplitude, since both couple left-handed neutrinos to the same conserved vector current of the target. The tree-level weak neutral current vertex involves the product $G_F g_V$, where $g_V$ is the vector coupling of the target fermion to the $Z$, and the propagator structure of the weak amplitude at low energies effectively replaces $q^2/M_Z^2 \to 0$ at leading order. The electromagnetic amplitude, by contrast, carries an explicit factor of $q^2$ from $f_Q(q^2)$ which cancels the photon propagator $1/q^2$, leaving a finite, $q^2$-independent residue at leading order. The interference of this residue with the weak amplitude then shifts the effective vector coupling as
+%
+\begin{equation}\label{eq:gVshift}
+g_V \to g_V + \frac{2\sqrt{2}\pi\alpha}{3G_F}\langle r^2\rangle,
+\end{equation}
+%
+where $\alpha$ is the fine-structure constant~\cite{Cadeddu_2018,Vogel_Engel_1989}. Since $g_V^p = T^p_f - 2Q^p\sin^2\theta_W= \frac{1}{2} - 2\sin^2\theta_W$ for the proton, this shift can equivalently be absorbed into a renormalization of the weak mixing angle,
+%
+\begin{equation}\label{eq:sin2shift}
+\sin^2\theta_W \to \sin^2\theta_W\left(1 + \frac{1}{3}M_W^2\langle r^2\rangle\right),
+\end{equation}
+%
+which is the form most commonly quoted in the literature~\cite{Cadeddu_2018,Vogel_Engel_1989,Barranco_2008}. The two shifts (\ref{eq:gVshift}) and (\ref{eq:sin2shift}) are equivalent at leading order in $\alpha$ and their derivation makes transparent why the NCR promotes $\sin^2\theta_W$ into a running coupling: the charge form factor $f_Q(q^2)$ carries the full $q^2$ dependence of the electromagnetic loop, and once this is included in the effective amplitude the vector coupling acquires a momentum-transfer dependence that is absent at tree level. In this sense the measurement of the NCR via CE$\nu$NS is precisely a measurement of the running of the weak mixing angle from the $Z$ pole down to the momentum transfers accessible at reactor and spallation neutron source experiments, wherein the SM prediction (\ref{eq:NCRSMpred}) fixes the expected magnitude and sign of the effect.
 

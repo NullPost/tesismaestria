@@ -1915,5 +1915,2120 @@
     \field{month}{02}
     \field{year}{1959}
   \endentry
+
+  \entry{PhysRevD.26.3152}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NJF}{%
+         family={Nieves},
+         familyi={N\bibinitperiod},
+         given={Jos\'e\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{NJF1}
+    \strng{fullhash}{NJF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.26.3152
+    \endverb
+    \field{issue}{11}
+    \field{pages}{3152\bibrangedash 3158}
+    \field{title}{Electromagnetic properties of Majorana neutrinos}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevD.26.3152
+    \endverb
+    \field{volume}{26}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{1982}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{PhysRevD.26.1662}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KB}{%
+         family={Kayser},
+         familyi={K\bibinitperiod},
+         given={Boris},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{KB1}
+    \strng{fullhash}{KB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.26.1662
+    \endverb
+    \field{issue}{7}
+    \field{pages}{1662\bibrangedash 1670}
+    \field{title}{Majorana neutrinos and their electromagnetic properties}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevD.26.1662
+    \endverb
+    \field{volume}{26}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{1982}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{RevModPhys.87.531}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GC}{%
+         family={Giunti},
+         familyi={G\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Studenikin},
+         familyi={S\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{GCSA1}
+    \strng{fullhash}{GCSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/RevModPhys.87.531
+    \endverb
+    \field{issue}{2}
+    \field{pages}{531\bibrangedash 591}
+    \field{title}{Neutrino electromagnetic interactions: A window to new
+  physics}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/RevModPhys.87.531
+    \endverb
+    \field{volume}{87}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Nowakowski_2005}{article}{}
+    \name{author}{3}{}{%
+      {{hash=NM}{%
+         family={Nowakowski},
+         familyi={N\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=PEA}{%
+         family={Paschos},
+         familyi={P\bibinitperiod},
+         given={E\bibnamedelima A},
+         giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RJM}{%
+         family={Rodríguez},
+         familyi={R\bibinitperiod},
+         given={J\bibnamedelima M},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{NMPEARJM1}
+    \strng{fullhash}{NMPEARJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/0143-0807/26/4/001
+    \endverb
+    \field{issn}{1361-6404}
+    \field{number}{4}
+    \field{pages}{545\bibrangedash 560}
+    \field{title}{All electromagnetic form factors}
+    \verb{url}
+    \verb http://dx.doi.org/10.1088/0143-0807/26/4/001
+    \endverb
+    \field{volume}{26}
+    \field{journaltitle}{European Journal of Physics}
+    \field{year}{2005}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{10.1143/PTP.28.870}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MZ}{%
+         family={Maki},
+         familyi={M\bibinitperiod},
+         given={Ziro},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Nakagawa},
+         familyi={N\bibinitperiod},
+         given={Masami},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sakata},
+         familyi={S\bibinitperiod},
+         given={Shoichi},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MZNMSS1}
+    \strng{fullhash}{MZNMSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A particle mixture theory of neutrino is proposed assuming the existence of
+  two kinds of neutrinos. Based on the neutrino-mixture theory, a possible
+  unified model of elementary particles is constructed by generalizing the
+  Sakata-Nagoya model. Our scheme gives a natural explanation of smallness of
+  leptonic decay rate of hyperons as well as the subtle difference of Gν's
+  between µ-e and β-decay.Starting with this scheme, the possibility of Ke3
+  mode with ΔS/ΔQ = −1 is also examined, and some bearings on the dynamical
+  role of the B-matter, a fundamental constituent of baryons in the Nagoya
+  model, are clarified.%
+    }
+    \verb{doi}
+    \verb 10.1143/PTP.28.870
+    \endverb
+    \verb{eprint}
+    \verb https://academic.oup.com/ptp/article-pdf/28/5/870/5258750/28-5-870.pd
+    \verb f
+    \endverb
+    \field{issn}{0033-068X}
+    \field{number}{5}
+    \field{pages}{870\bibrangedash 880}
+    \field{title}{Remarks on the Unified Model of Elementary Particles}
+    \verb{url}
+    \verb https://doi.org/10.1143/PTP.28.870
+    \endverb
+    \field{volume}{28}
+    \field{journaltitle}{Progress of Theoretical Physics}
+    \field{month}{11}
+    \field{year}{1962}
+  \endentry
+
+  \entry{JWFValle_2006}{article}{}
+    \name{author}{1}{}{%
+      {{hash=VJWF}{%
+         family={Valle},
+         familyi={V\bibinitperiod},
+         given={J\bibnamedelima W\bibnamedelima F},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VJWF1}
+    \strng{fullhash}{VJWF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Seesaw-type and low-scale models of neutrino masses are reviewed, along
+  with the corresponding structure of the lepton mixing matrix. The status of
+  neutrino oscillation parameters as of June 2006 is given, including recent
+  fluxes, as well as latest SNO, K2K and MINOS results. Some prospects for the
+  next generation of experiments are given. This writeup updates the material
+  presented in my lectures at the Corfu Summer Institute on Elementary Particle
+  Physics in September 2005.%
+    }
+    \verb{doi}
+    \verb 10.1088/1742-6596/53/1/031
+    \endverb
+    \field{number}{1}
+    \field{pages}{473}
+    \field{title}{Neutrino physics overview}
+    \verb{url}
+    \verb https://doi.org/10.1088/1742-6596/53/1/031
+    \endverb
+    \field{volume}{53}
+    \field{journaltitle}{Journal of Physics: Conference Series}
+    \field{year}{2006}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Bernabeu_2000}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BJ}{%
+         family={Bernab\'eu},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CRLG}{%
+         family={Cabral-Rosetti},
+         familyi={C\bibinithyphendelim R\bibinitperiod},
+         given={L.\bibnamedelima G.},
+         giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Papavassiliou},
+         familyi={P\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vidal},
+         familyi={V\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJCRLGPJVJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.62.113012
+    \endverb
+    \field{issue}{11}
+    \field{pages}{113012}
+    \field{title}{Charge radius of the neutrino}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevD.62.113012
+    \endverb
+    \field{volume}{62}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{2000}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Cadeddu_2018}{article}{}
+    \name{author}{6}{}{%
+      {{hash=CM}{%
+         family={Cadeddu},
+         familyi={C\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Giunti},
+         familyi={G\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KKA}{%
+         family={Kouzakov},
+         familyi={K\bibinitperiod},
+         given={K.\bibnamedelima A.},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LYF}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Y.\bibnamedelima F.},
+         giveni={Y\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=SAI}{%
+         family={Studenikin},
+         familyi={S\bibinitperiod},
+         given={A.\bibnamedelima I.},
+         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=ZYY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Y.\bibnamedelima Y.},
+         giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society (APS)}%
+    }
+    \strng{namehash}{CM+1}
+    \strng{fullhash}{CMGCKKALYFSAIZYY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/physrevd.98.113010
+    \endverb
+    \field{issn}{2470-0029}
+    \field{number}{11}
+    \field{title}{Neutrino charge radii from COHERENT elastic neutrino-nucleus
+  scattering}
+    \verb{url}
+    \verb http://dx.doi.org/10.1103/PhysRevD.98.113010
+    \endverb
+    \field{volume}{98}
+    \field{journaltitle}{Physical Review D}
+    \field{month}{12}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Vogel_Engel_1989}{article}{}
+    \name{author}{2}{}{%
+      {{hash=VP}{%
+         family={Vogel},
+         familyi={V\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Engel},
+         familyi={E\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VPEJ1}
+    \strng{fullhash}{VPEJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.39.3378
+    \endverb
+    \field{number}{11}
+    \field{pages}{3378\bibrangedash 3383}
+    \field{title}{Neutrino electromagnetic form factors}
+    \field{volume}{39}
+    \field{journaltitle}{Physical Review D}
+    \field{year}{1989}
+  \endentry
+
+  \entry{Barranco_2008}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BJ}{%
+         family={Barranco},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MOG}{%
+         family={Miranda},
+         familyi={M\bibinitperiod},
+         given={O.\bibnamedelima G.},
+         giveni={O\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=RTI}{%
+         family={Rashba},
+         familyi={R\bibinitperiod},
+         given={T.\bibnamedelima I.},
+         giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJMOGRTI1}
+    \strng{fullhash}{BJMOGRTI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physletb.2008.03.022
+    \endverb
+    \verb{eprint}
+    \verb hep-ph/0609098
+    \endverb
+    \field{number}{4}
+    \field{pages}{431\bibrangedash 435}
+    \field{title}{Probing new physics with coherent neutrino scattering off
+  nuclei}
+    \field{volume}{662}
+    \field{journaltitle}{Physics Letters B}
+    \field{eprinttype}{arXiv}
+    \field{year}{2008}
+  \endentry
+
+  \entry{PhysRevD.9.1389}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FDZ}{%
+         family={Freedman},
+         familyi={F\bibinitperiod},
+         given={Daniel\bibnamedelima Z.},
+         giveni={D\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{FDZ1}
+    \strng{fullhash}{FDZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.9.1389
+    \endverb
+    \field{issue}{5}
+    \field{pages}{1389\bibrangedash 1392}
+    \field{title}{Coherent effects of a weak neutral current}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevD.9.1389
+    \endverb
+    \field{volume}{9}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{1974}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{doi:10.1126/science.aao0990}{article}{}
+    \name{author}{82}{}{%
+      {{hash=AD}{%
+         family={Akimov},
+         familyi={A\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AJB}{%
+         family={Albert},
+         familyi={A\bibinitperiod},
+         given={J.\bibnamedelima B.},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={An},
+         familyi={A\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Awe},
+         familyi={A\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BPS}{%
+         family={Barbeau},
+         familyi={B\bibinitperiod},
+         given={P.\bibnamedelima S.},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Becker},
+         familyi={B\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BV}{%
+         family={Belov},
+         familyi={B\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bolozdynya},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CPB}{%
+         family={Cabrera-Palmer},
+         familyi={C\bibinithyphendelim P\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Cervantes},
+         familyi={C\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CJI}{%
+         family={Collar},
+         familyi={C\bibinitperiod},
+         given={J.\bibnamedelima I.},
+         giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=CRJ}{%
+         family={Cooper},
+         familyi={C\bibinitperiod},
+         given={R.\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CRL}{%
+         family={Cooper},
+         familyi={C\bibinitperiod},
+         given={R.\bibnamedelima L.},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Cuesta},
+         familyi={C\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DDJ}{%
+         family={Dean},
+         familyi={D\bibinitperiod},
+         given={D.\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DJA}{%
+         family={Detwiler},
+         familyi={D\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=EA}{%
+         family={Eberhardt},
+         familyi={E\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EY}{%
+         family={Efremenko},
+         familyi={E\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ESR}{%
+         family={Elliott},
+         familyi={E\bibinitperiod},
+         given={S.\bibnamedelima R.},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=EEM}{%
+         family={Erkela},
+         familyi={E\bibinitperiod},
+         given={E.\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=FL}{%
+         family={Fabris},
+         familyi={F\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Febbraro},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FNE}{%
+         family={Fields},
+         familyi={F\bibinitperiod},
+         given={N.\bibnamedelima E.},
+         giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=FW}{%
+         family={Fox},
+         familyi={F\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=FZ}{%
+         family={Fu},
+         familyi={F\bibinitperiod},
+         given={Z.},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=GUA}{%
+         family={Galindo-Uribarri},
+         familyi={G\bibinithyphendelim U\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GMP}{%
+         family={Green},
+         familyi={G\bibinitperiod},
+         given={M.\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hai},
+         familyi={H\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HMR}{%
+         family={Heath},
+         familyi={H\bibinitperiod},
+         given={M.\bibnamedelima R.},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hedges},
+         familyi={H\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hornback},
+         familyi={H\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HTW}{%
+         family={Hossbach},
+         familyi={H\bibinitperiod},
+         given={T.\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=IEB}{%
+         family={Iverson},
+         familyi={I\bibinitperiod},
+         given={E.\bibnamedelima B.},
+         giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=KLJ}{%
+         family={Kaufman},
+         familyi={K\bibinitperiod},
+         given={L.\bibnamedelima J.},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Ki},
+         familyi={K\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KSR}{%
+         family={Klein},
+         familyi={K\bibinitperiod},
+         given={S.\bibnamedelima R.},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Khromov},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Konovalov},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kremer},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kumpan},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Leadbetter},
+         familyi={L\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Mann},
+         familyi={M\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MDM}{%
+         family={Markoff},
+         familyi={M\bibinitperiod},
+         given={D.\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Moreno},
+         familyi={M\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MPE}{%
+         family={Mueller},
+         familyi={M\bibinitperiod},
+         given={P.\bibnamedelima E.},
+         giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Newby},
+         familyi={N\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OJL}{%
+         family={Orrell},
+         familyi={O\bibinitperiod},
+         given={J.\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=OCT}{%
+         family={Overman},
+         familyi={O\bibinitperiod},
+         given={C.\bibnamedelima T.},
+         giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=PDS}{%
+         family={Parno},
+         familyi={P\bibinitperiod},
+         given={D.\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Penttila},
+         familyi={P\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Perumpilly},
+         familyi={P\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RH}{%
+         family={Ray},
+         familyi={R\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Raybern},
+         familyi={R\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Reyna},
+         familyi={R\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RGC}{%
+         family={Rich},
+         familyi={R\bibinitperiod},
+         given={G.\bibnamedelima C.},
+         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Rimal},
+         familyi={R\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Rudik},
+         familyi={R\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Scholberg},
+         familyi={S\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SBJ}{%
+         family={Scholz},
+         familyi={S\bibinitperiod},
+         given={B.\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Sinev},
+         familyi={S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SWM}{%
+         family={Snow},
+         familyi={S\bibinitperiod},
+         given={W.\bibnamedelima M.},
+         giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Sosnovtsev},
+         familyi={S\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Shakirov},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Suchyta},
+         familyi={S\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Suh},
+         familyi={S\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=TR}{%
+         family={Tayloe},
+         familyi={T\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TRT}{%
+         family={Thornton},
+         familyi={T\bibinitperiod},
+         given={R.\bibnamedelima T.},
+         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=TI}{%
+         family={Tolstukhin},
+         familyi={T\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vanderwerp},
+         familyi={V\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VRL}{%
+         family={Varner},
+         familyi={V\bibinitperiod},
+         given={R.\bibnamedelima L.},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=VCJ}{%
+         family={Virtue},
+         familyi={V\bibinitperiod},
+         given={C.\bibnamedelima J.},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WZ}{%
+         family={Wan},
+         familyi={W\bibinitperiod},
+         given={Z.},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yoo},
+         familyi={Y\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=YCH}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={C.-H.},
+         giveni={C\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zawada},
+         familyi={Z\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zettlemoyer},
+         familyi={Z\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZAM}{%
+         family={Zderic},
+         familyi={Z\bibinitperiod},
+         given={A.\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={COHERENT},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AD+1}
+  \strng{fullhash}{ADAJBAPACBPSBBBVBABACPBCMCJICRJCRLCCDDJDJAEAEYESREEMFLFMFNEFWFZGUAGMPHMHMRHSHDHTWIEBKLJKSKSRKAKAKMKALCLLLWMKMDMMKMHMPENJOJLOCTPDSPSPGRHRJRDRGCRDRDSKSBJSGSWMSVSASSSBTRTRTTIVJVRLVCJWZYJYCHZAZJZAMCC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A 14.6-kilogram sodium-doped CsI scintillator is used to detect a neutrino
+  scattering process with a 6.7σ confidence level. Detecting
+  neutrinos—elementary particles that barely interact with other
+  matter—usually requires detectors of enormous size. A particular
+  interaction of neutrinos with atomic nuclei, called the coherent elastic
+  neutrino-nucleus scattering (CE$\nu$NS), is predicted to occur with
+  relatively high probability, and it could be used to drastically reduce the
+  size of neutrino detectors. However, observing this interaction requires a
+  source of low-energy neutrinos and detectors that contain nuclei of optimal
+  mass. Akimov et al. observed CE$\nu$NS with a 6.7σ confidence by using a
+  comparatively tiny, 14.6-kg sodium-doped CsI scintillator exposed to
+  neutrinos from a spallation neutron facility (see the Perspective by Link).
+  The discovery places tighter bounds on exotic, beyond-the-standard-model
+  interactions involving neutrinos. Science, this issue p. 1123; see also p.
+  1098 The coherent elastic scattering of neutrinos off nuclei has eluded
+  detection for four decades, even though its predicted cross section is by far
+  the largest of all low-energy neutrino couplings. This mode of interaction
+  offers new opportunities to study neutrino properties and leads to a
+  miniaturization of detector size, with potential technological applications.
+  We observed this process at a 6.7σ confidence level, using a low-background,
+  14.6-kilogram CsI[Na] scintillator exposed to the neutrino emissions from the
+  Spallation Neutron Source at Oak Ridge National Laboratory. Characteristic
+  signatures in energy and time, predicted by the standard model for this
+  process, were observed in high signal-to-background conditions. Improved
+  constraints on nonstandard neutrino interactions with quarks are derived from
+  this initial data set.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.aao0990
+    \endverb
+    \verb{eprint}
+    \verb https://www.science.org/doi/pdf/10.1126/science.aao0990
+    \endverb
+    \field{number}{6356}
+    \field{pages}{1123\bibrangedash 1126}
+    \field{title}{Observation of coherent elastic neutrino-nucleus scattering}
+    \verb{url}
+    \verb https://www.science.org/doi/abs/10.1126/science.aao0990
+    \endverb
+    \field{volume}{357}
+    \field{journaltitle}{Science}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Scholberg_2020}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SK}{%
+         family={Scholberg},
+         familyi={S\bibinitperiod},
+         given={Kate},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{SK1}
+    \strng{fullhash}{SK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Coherent elastic neutrino-nucleus scattering (CEvNS), the gentlest kind of
+  interaction of a neutrino with an entire nucleus, was first predicted in
+  1974, but not observed until 2017 by the COHERENT collaboration. COHERENT and
+  many other experiments are pursuing further measurements of this low momentum
+  transfer process. We review the physics motivations for these measurements
+  and prospects and status of current and future CEvNS experiments.%
+    }
+    \verb{doi}
+    \verb 10.1088/1742-6596/1468/1/012126
+    \endverb
+    \field{number}{1}
+    \field{pages}{012126}
+    \field{title}{Coherent Elastic Neutrino-Nucleus Scattering}
+    \verb{url}
+    \verb https://dx.doi.org/10.1088/1742-6596/1468/1/012126
+    \endverb
+    \field{volume}{1468}
+    \field{journaltitle}{Journal of Physics: Conference Series}
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Papoulias2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PDK}{%
+         family={Papoulias},
+         familyi={P\bibinitperiod},
+         given={D.\bibnamedelima K.},
+         giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=KTS}{%
+         family={Kosmas},
+         familyi={K\bibinitperiod},
+         given={T.\bibnamedelima S.},
+         giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Hindawi Limited}%
+    }
+    \strng{namehash}{PDKKTS1}
+    \strng{fullhash}{PDKKTS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1155/2015/763648
+    \endverb
+    \field{issn}{1687-7365}
+    \field{pages}{1–17}
+    \field{title}{Standard and Nonstandard Neutrino-Nucleus Reactions Cross
+  Sections and Event Rates to Neutrino Detection Experiments}
+    \verb{url}
+    \verb http://dx.doi.org/10.1155/2015/763648
+    \endverb
+    \field{volume}{2015}
+    \field{journaltitle}{Advances in High Energy Physics}
+    \field{year}{2015}
+  \endentry
+
+  \entry{RevModPhys.93.025010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TE}{%
+         family={Tiesinga},
+         familyi={T\bibinitperiod},
+         given={Eite},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MPJ}{%
+         family={Mohr},
+         familyi={M\bibinitperiod},
+         given={Peter\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=NDB}{%
+         family={Newell},
+         familyi={N\bibinitperiod},
+         given={David\bibnamedelima B.},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=TBN}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={Barry\bibnamedelima N.},
+         giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{TE+1}
+    \strng{fullhash}{TEMPJNDBTBN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/RevModPhys.93.025010
+    \endverb
+    \field{issue}{2}
+    \field{pages}{025010}
+    \field{title}{CODATA recommended values of the fundamental physical
+  constants: 2018}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/RevModPhys.93.025010
+    \endverb
+    \field{volume}{93}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Aliani_2004}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AP}{%
+         family={Aliani},
+         familyi={A\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AV}{%
+         family={Antonelli},
+         familyi={A\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Picariello},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TLE}{%
+         family={Torrente-Lujan},
+         familyi={T\bibinithyphendelim L\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society ({APS})}%
+    }
+    \strng{namehash}{AP+1}
+    \strng{fullhash}{APAVPMTLE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/physrevd.69.013005
+    \endverb
+    \field{number}{1}
+    \field{title}{Neutrino mass parameters from Kamland, {SNO}, and other solar
+  evidence}
+    \verb{url}
+    \verb https://doi.org/10.1103%2Fphysrevd.69.013005
+    \endverb
+    \field{volume}{69}
+    \field{journaltitle}{Physical Review D}
+    \field{year}{2004}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{dayabaycollaboration2007precision}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CDB}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={Daya\bibnamedelima Bay},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CDB1}
+    \strng{fullhash}{CDB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb hep-ex/0701029
+    \endverb
+    \field{title}{A Precision Measurement of the Neutrino Mixing Angle
+  $\theta_{13}$ using Reactor Antineutrinos at Daya Bay}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Flores_2021}{article}{}
+    \name{author}{34}{}{%
+      {{hash=FLJ}{%
+         family={Flores},
+         familyi={F\bibinitperiod},
+         given={L.\bibnamedelima J.},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Peinado},
+         familyi={P\bibinitperiod},
+         given={Eduardo},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=APE}{%
+         family={Alfonso-Pita},
+         familyi={A\bibinithyphendelim P\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AK}{%
+         family={Allen},
+         familyi={A\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Baker},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Behnke},
+         familyi={B\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bressler},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Clark},
+         familyi={C\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Coppejans},
+         familyi={C\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Cripe},
+         familyi={C\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Crisler},
+         familyi={C\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DCE}{%
+         family={Dahl},
+         familyi={D\bibinitperiod},
+         given={C.\bibnamedelima E.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=dSCA}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={St.\bibnamedelima Croix},
+         familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={Durnford},
+         familyi={D\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Giampa},
+         familyi={G\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HO}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Hatch},
+         familyi={H\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HHH}{%
+         family={Hawley-Herrera},
+         familyi={H\bibinithyphendelim H\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=JCM}{%
+         family={Jackson},
+         familyi={J\bibinitperiod},
+         given={C.\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Ko},
+         familyi={K\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KCB}{%
+         family={Krauss},
+         familyi={K\bibinitperiod},
+         given={C.\bibnamedelima B.},
+         giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Lamb},
+         familyi={L\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Laurin},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LI}{%
+         family={Levine},
+         familyi={L\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=LWH}{%
+         family={Lippincott},
+         familyi={L\bibinitperiod},
+         given={W.\bibnamedelima H.},
+         giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=NR}{%
+         family={Neilson},
+         familyi={N\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pal},
+         familyi={P\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PMC}{%
+         family={Piro},
+         familyi={P\bibinitperiod},
+         given={M.-C.},
+         giveni={M\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=SZ}{%
+         family={Sheng},
+         familyi={S\bibinitperiod},
+         given={Z.},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=VJE}{%
+         family={Vázquez-Jáuregui},
+         familyi={V\bibinithyphendelim J\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=WTJ}{%
+         family={Whitis},
+         familyi={W\bibinitperiod},
+         given={T.\bibnamedelima J.},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Windle},
+         familyi={W\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZR}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZRAa}{%
+         family={Zuñiga-Reyes},
+         familyi={Z\bibinithyphendelim R\bibinitperiod},
+         given={A.\bibnamedelima and},
+         giveni={A\bibinitperiod\bibinitdelim a\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society (APS)}%
+    }
+    \strng{namehash}{FLJ+1}
+  \strng{fullhash}{FLJPEAPEAKBMBEBMCKCRCCCMDCESCAdDDGPHOHPHHHJCMKYKCBLNLMLILWHNRPSPMCSZVJEWTJWSZRZRAa1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/physrevd.103.l091301
+    \endverb
+    \field{issn}{2470-0029}
+    \field{number}{9}
+    \field{title}{Physics reach of a low threshold scintillating argon bubble
+  chamber in coherent elastic neutrino-nucleus scattering reactor experiments}
+    \verb{url}
+    \verb http://dx.doi.org/10.1103/PhysRevD.103.L091301
+    \endverb
+    \field{volume}{103}
+    \field{journaltitle}{Physical Review D}
+    \field{month}{05}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Alfonso_Pita_2022}{article}{}
+    \name{author}{4}{}{%
+      {{hash=APE}{%
+         family={Alfonso-Pita},
+         familyi={A\bibinithyphendelim P\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FLJ}{%
+         family={Flores},
+         familyi={F\bibinitperiod},
+         given={L.\bibnamedelima J.},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Peinado},
+         familyi={P\bibinitperiod},
+         given={Eduardo},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VJE}{%
+         family={Vázquez-Jáuregui},
+         familyi={V\bibinithyphendelim J\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society (APS)}%
+    }
+    \strng{namehash}{APE+1}
+    \strng{fullhash}{APEFLJPEVJE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/physrevd.105.113005
+    \endverb
+    \field{issn}{2470-0029}
+    \field{number}{11}
+    \field{title}{New physics searches in a low threshold scintillating argon
+  bubble chamber measuring coherent elastic neutrino-nucleus scattering in
+  reactors}
+    \verb{url}
+    \verb http://dx.doi.org/10.1103/PhysRevD.105.113005
+    \endverb
+    \field{volume}{105}
+    \field{journaltitle}{Physical Review D}
+    \field{year}{2022}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{VONFEILITZSCH1982162}{article}{}
+    \name{author}{3}{}{%
+      {{hash=vF}{%
+         family={{von Feilitzsch}},
+         familyi={v\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hahn},
+         familyi={H\bibinitperiod},
+         given={A.A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Schreckenbach},
+         familyi={S\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{vFHASK1}
+    \strng{fullhash}{vFHASK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0370-2693(82)90622-0
+    \endverb
+    \field{issn}{0370-2693}
+    \field{number}{1}
+    \field{pages}{162\bibrangedash 166}
+    \field{title}{Experimental beta-spectra from 239Pu and 235U thermal neutron
+  fission products and their correlated antineutrino spectra}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0370269382906220
+    \endverb
+    \field{volume}{118}
+    \field{journaltitle}{Physics Letters B}
+    \field{year}{1982}
+  \endentry
+
+  \entry{SCHRECKENBACH1985325}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SK}{%
+         family={Schreckenbach},
+         familyi={S\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Colvin},
+         familyi={C\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GW}{%
+         family={Gelletly},
+         familyi={G\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=VF}{%
+         family={{Von Feilitzsch}},
+         familyi={V\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SK+1}
+    \strng{fullhash}{SKCGGWVF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0370-2693(85)91337-1
+    \endverb
+    \field{issn}{0370-2693}
+    \field{number}{4}
+    \field{pages}{325\bibrangedash 330}
+    \field{title}{Determination of the antineutrino spectrum from 235U thermal
+  neutron fission products up to 9.5 MeV}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0370269385913371
+    \endverb
+    \field{volume}{160}
+    \field{journaltitle}{Physics Letters B}
+    \field{year}{1985}
+  \endentry
+
+  \entry{PhysRevD.70.053011}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HP}{%
+         family={Huber},
+         familyi={H\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Schwetz},
+         familyi={S\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{HPST1}
+    \strng{fullhash}{HPST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.70.053011
+    \endverb
+    \field{issue}{5}
+    \field{pages}{053011}
+    \field{title}{Precision spectroscopy with reactor antineutrinos}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevD.70.053011
+    \endverb
+    \field{volume}{70}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{2004}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{PhysRevC.83.054615}{article}{}
+    \name{author}{12}{}{%
+      {{hash=MTA}{%
+         family={Mueller},
+         familyi={M\bibinitperiod},
+         given={Th.\bibnamedelima A.},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lhuillier},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Fallot},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Letourneau},
+         familyi={L\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Cormon},
+         familyi={C\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Fechner},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Giot},
+         familyi={G\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Lasserre},
+         familyi={L\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Martino},
+         familyi={M\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mention},
+         familyi={M\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Porta},
+         familyi={P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=YF}{%
+         family={Yermia},
+         familyi={Y\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{MTA+1}
+    \strng{fullhash}{MTALDFMLACSFMGLLTMJMGPAYF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevC.83.054615
+    \endverb
+    \field{issue}{5}
+    \field{pages}{054615}
+    \field{title}{Improved predictions of reactor antineutrino spectra}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevC.83.054615
+    \endverb
+    \field{volume}{83}
+    \field{journaltitle}{Phys. Rev. C}
+    \field{year}{2011}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Kopeikin2004}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KVI}{%
+         family={Kopeikin},
+         familyi={K\bibinitperiod},
+         given={V.\bibnamedelima I.},
+         giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=MLA}{%
+         family={Mikaelyan},
+         familyi={M\bibinitperiod},
+         given={L.\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SVV}{%
+         family={Sinev},
+         familyi={S\bibinitperiod},
+         given={V.\bibnamedelima V.},
+         giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KVIMLASVV1}
+    \strng{fullhash}{KVIMLASVV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Deeper insight into the features of a reactor as a source of antineutrinos
+  is required for making further advances in studying the fundamental
+  properties of the neutrino. The relationship between the thermal power of a
+  reactor and the rate of the chain fission reaction in its core is analyzed.%
+    }
+    \verb{doi}
+    \verb 10.1134/1.1811196
+    \endverb
+    \field{issn}{1562-692X}
+    \field{number}{10}
+    \field{pages}{1892\bibrangedash 1899}
+    \field{title}{Reactor as a source of antineutrinos: Thermal fission energy}
+    \verb{url}
+    \verb https://doi.org/10.1134/1.1811196
+    \endverb
+    \field{volume}{67}
+    \field{journaltitle}{Physics of Atomic Nuclei}
+    \field{year}{2004}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Wong_2007}{article}{}
+    \name{author}{31}{}{%
+      {{hash=WHT}{%
+         family={Wong},
+         familyi={W\bibinitperiod},
+         given={H.\bibnamedelima T.},
+         giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=LHB}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={H.\bibnamedelima B.},
+         giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=LST}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={S.\bibnamedelima T.},
+         giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=LFS}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={F.\bibnamedelima S.},
+         giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=WSC}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={S.\bibnamedelima C.},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CCY}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={C.\bibnamedelima Y.},
+         giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=CHM}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={H.\bibnamedelima M.},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CCP}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={C.\bibnamedelima P.},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CMH}{%
+         family={Chou},
+         familyi={C\bibinitperiod},
+         given={M.\bibnamedelima H.},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Deniz},
+         familyi={D\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FJM}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HCH}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={C.\bibnamedelima H.},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=HHX}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={H.\bibnamedelima X.},
+         giveni={H\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=JGC}{%
+         family={Jon},
+         familyi={J\bibinitperiod},
+         given={G.\bibnamedelima C.},
+         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=KWS}{%
+         family={Kuo},
+         familyi={K\bibinitperiod},
+         given={W.\bibnamedelima S.},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=LWP}{%
+         family={Lai},
+         familyi={L\bibinitperiod},
+         given={W.\bibnamedelima P.},
+         giveni={W\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=LSC}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={S.\bibnamedelima C.},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LHY}{%
+         family={Liao},
+         familyi={L\bibinitperiod},
+         given={H.\bibnamedelima Y.},
+         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=LFK}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={F.\bibnamedelima K.},
+         giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=LSK}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={S.\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=LJQ}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={J.\bibnamedelima Q.},
+         giveni={J\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+      {{hash=SHY}{%
+         family={Sheng},
+         familyi={S\bibinitperiod},
+         given={H.\bibnamedelima Y.},
+         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=SRF}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={R.\bibnamedelima F.},
+         giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=TWS}{%
+         family={Tong},
+         familyi={T\bibinitperiod},
+         given={W.\bibnamedelima S.},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=XB}{%
+         family={Xin},
+         familyi={X\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=YTR}{%
+         family={Yeh},
+         familyi={Y\bibinitperiod},
+         given={T.\bibnamedelima R.},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=YQ}{%
+         family={Yue},
+         familyi={Y\bibinitperiod},
+         given={Q.},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=ZZY}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Z.\bibnamedelima Y.},
+         giveni={Z\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=ZBA}{%
+         family={Zhuang},
+         familyi={Z\bibinitperiod},
+         given={B.\bibnamedelima A.},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{WHT+1}
+  \strng{fullhash}{WHTLHBLSTLFSSVWSCCCYCHMCCPCMHDMFJMHCHHHXJGCKWSLWPLSCLJLHYLFKLSKLJQSHYSRFTWSXBYTRYQZZYZBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.75.012001
+    \endverb
+    \field{issue}{1}
+    \field{pages}{012001}
+    \field{title}{Search of neutrino magnetic moments with a high-purity
+  germanium detector at the Kuo-Sheng nuclear power station}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevD.75.012001
+    \endverb
+    \field{volume}{75}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{2007}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{PhysRevLett.120.072501}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CM}{%
+         family={Cadeddu},
+         familyi={C\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Giunti},
+         familyi={G\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LYF}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Y.\bibnamedelima F.},
+         giveni={Y\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=ZYY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Y.\bibnamedelima Y.},
+         giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{CM+1}
+    \strng{fullhash}{CMGCLYFZYY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.120.072501
+    \endverb
+    \field{issue}{7}
+    \field{pages}{072501}
+    \field{title}{Average CsI Neutron Density Distribution from COHERENT Data}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.120.072501
+    \endverb
+    \field{volume}{120}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{PhysRev.104.1466}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HRH}{%
+         family={Helm},
+         familyi={H\bibinitperiod},
+         given={Richard\bibnamedelima H.},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{HRH1}
+    \strng{fullhash}{HRH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRev.104.1466
+    \endverb
+    \field{issue}{5}
+    \field{pages}{1466\bibrangedash 1475}
+    \field{title}{Inelastic and Elastic Scattering of 187-Mev Electrons from
+  Selected Even-Even Nuclei}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.104.1466
+    \endverb
+    \field{volume}{104}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1956}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{FRICKE1995177}{article}{}
+    \name{author}{7}{}{%
+      {{hash=FG}{%
+         family={Fricke},
+         familyi={F\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Bernhardt},
+         familyi={B\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Heilig},
+         familyi={H\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Schaller},
+         familyi={S\bibinitperiod},
+         given={L.A.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Schellenberg},
+         familyi={S\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Shera},
+         familyi={S\bibinitperiod},
+         given={E.B.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Dejager},
+         familyi={D\bibinitperiod},
+         given={C.W.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FG+1}
+    \strng{fullhash}{FGBCHKSLSLSEDC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Tables summarize experimental results from muonic atom transition
+  energies, nuclear charge parameters from elastic electron scattering, and K
+  x-ray isotope shifts in so far as they provide information on nuclear
+  ground-state charge radii. Numerous experimental results for optical isotope
+  shifts have been published elsewhere; for eight elements the relevant
+  information is condensed ("projected") here to one optical line per element.
+  A model-independent analysis which combines data from all three experimental
+  methods is applied to these elements and is presented as an illustration of
+  the improved accuracy for the rms radii and Barrett radii which result from
+  this analysis.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1006/adnd.1995.1007
+    \endverb
+    \field{issn}{0092-640X}
+    \field{number}{2}
+    \field{pages}{177\bibrangedash 285}
+    \field{title}{Nuclear Ground State Charge Radii from Electromagnetic
+  Interactions}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0092640X85710078
+    \endverb
+    \field{volume}{60}
+    \field{journaltitle}{Atomic Data and Nuclear Data Tables}
+    \field{year}{1995}
+  \endentry
 \enddatalist
 \endinput

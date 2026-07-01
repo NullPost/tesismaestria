@@ -1,4 +1,5 @@
-\chapter{Electroweak theory in the Standard Model of particles}\label{cap:introduccion}
+\chapter{Electroweak theory in the Standard Model of particles}\label{cap:EWinSM}
+This chapter serves as a description of the foundation for the theoretical framework of this work. Modern particle physics is based on the mathematical modeling of particles as excitations of quantum fields and how these fields interact with each other. This chapter begins with a brief history of the neutrino followed by its importance as the catalyst for the proposal and eventual discovery of a fundamental nuclear force, followed by its unification with a previously well understood force to introduce the main theory by which further advancements in neutrino property studies can be made. 
 \section{Introduction}
 \begin{figure}
     \centering
@@ -296,18 +297,25 @@ It will be useful to later sections of this work to have the $Z$ boson interacti
 The vector ($g^f_V$) and axial-vector ($g^f_A$) coupling coefficients can be calculated explicitly noting that all right-handed fermions are $SU(2)_L$ singlets and thus $T^3P_R \psi = T^3\frac{1}{2}(1+\gamma^5)\psi = T^3\psi_R = 0$. Separating the Z interaction term in (\ref{eq:LNCintZA2}),
 \begin{align}\nonumber
     \mathcal{L}_{Zf\bar{f}\text{ int}} &= - \frac{g}{\cos\theta_W}\left(T^3_f - Q_f\sin^2\theta_W\right)\bar{\psi}_f\gamma^\mu\psi_f\, Z_\mu\\\nonumber
-    &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\frac{\gamma^\mu}{2}\left(T^3_f - Q\_fsin^2\theta_W\right)(1+1+\gamma^5-\gamma^5)\psi_f\, Z_\mu\\\nonumber
+    &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\frac{\gamma^\mu}{2}\left(T^3_f - Q_f\sin^2\theta_W\right)(1+1+\gamma^5-\gamma^5)\psi_f\, Z_\mu\\\nonumber
     &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\frac{\gamma^\mu}{2}\left(\cancelto{0}{T^3_f} - Q_f\sin^2\theta_W\right)(1+\gamma^5)\psi_f\, Z_\mu\\\nonumber
     & - \frac{g}{\cos\theta_W}\bar{\psi}_f\frac{\gamma^\mu}{2}\left(T^3_f - Q_f\sin^2\theta_W\right)(1-\gamma^5)\psi_f\, Z_\mu\\ \label{eq:gvga2}
-    &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\gamma^\mu\left(\frac{T^3_f}{2} + (Q_f\sin^2 \theta_W - \frac{T^3}{2}) \gamma^5\right)\psi_f\, Z_\mu.
+    &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\gamma^\mu\left((\frac{T^3_f}{2} - Q_f\sin^2 \theta_W) - \frac{T^3}{2} \gamma^5\right)\psi_f\, Z_\mu.
 \end{align}
 Comparing (\ref{eq:gvga2}) with (\ref{eq:gvga}),
-\begin{equation}\label{eq:gvandga}
-    \begin{cases}
-    \begin{array}{c}
-    g_{V}^{f}=\frac{T_{f}^{3}}{2}-Q_{f}\sin^{2}\theta_{W}\\
-    g_{A}^{f}=\frac{T^{3}}{2}
-    \end{array}
-    \end{cases}.
-\end{equation}
-Its worth noting that the presence of the $Q_{f}\sin^{2}\theta_{W}$ term of $g^f_V$ in \ref{eq:gvandga} is what prevents the $Z$ boson interaction to be maximally $\mathcal{P}$-violating.
+% \begin{equation}\label{eq:gvandga}
+%     \begin{cases}
+%     \begin{split}
+%     g_{V}^{f}&=\frac{T_{f}^{3}}{2}-Q_{f}\sin^{2}\theta_{W},\\
+%     g_{A}^{f}&=\frac{T_{f}^{3}}{2}.
+%     \end{split}
+%     \end{cases}
+% \end{equation}
+
+\begin{numcases}{\left.\right.}
+g_{V}^{f} =\frac{T_{f}^{3}}{2}-Q_{f}\sin^{2}\theta_{W}, & \label{eq:gv}
+\\
+g_{A}^{f} =\frac{T_{f}^{3}}{2}. & \label{eq:ga}
+\end{numcases}
+
+It is worth noting that the presence of the $Q_f\sin^2\theta_W$ term in  $g^f_V$ (\ref{eq:gvandga}) is precisely what prevents the $Z$ boson  interaction from being maximally $\mathcal{P}$-violating. The couplings  $g^f_V$ and $g^f_A$ constitute the tree-level SM predictions for the vector  and axial-vector couplings of neutral current weak interactions, whose values  are fixed entirely by $T^3$, $Q$, and $\sin^2\theta_W$ for each fermion.  However, current experimental precision in measuring observables of such  interactions, most notably in neutrino experiments, has not only  confirmed these tree-level predictions but also demands that higher-order  perturbative corrections in the form of loop diagrams be taken into account.  These radiative corrections introduce a dependence on the momentum transfer  $Q^2$, effectively promoting $\sin^2\theta_W$ to a running coupling constant as will be discussed in Section \ref{sec:NCRassin} whose value differs measurably between the $Z$ pole and the low-energy regime  probed by reactor neutrino experiments, and acquire physical meaning when  interpreted as corrections to the $ff\gamma$ vertex function. The following  chapter focuses on how, despite carrying no electric charge, the neutrino  nonetheless possesses measurable electromagnetic properties predicted by the  SM through precisely these radiative corrections.
