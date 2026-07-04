@@ -290,7 +290,7 @@ Numerically, the values of NCR prediction for each known neutrino flavour in the
 With a SM prediction for the effective $\nu\nu\gamma$ vertex now in hand, it is possible to include its contribution in the calculation of a neutral current interaction amplitude between a SM left-handed neutrino and a generic fermion $\mathfrak{f}$ of non-zero electric charge, in the limit $q^2 \ll M_Z^2$. Utilizing the vertices in (\ref{eq:QEDintver}), (\ref{eq:gvga}), where for a left-handed neutrino $g^\nu_V = g^\nu_A = 1/2$, and (\ref{eq:factoroftwo}), now written with the explicit dependence on the electromagnetic coupling constant $e$ that was omitted in Sec.~\ref{sec:EMFF}, as well as the propagators (\ref{eq:photonprop}) with $\xi = 1$ and (\ref{eq:lowlimitprocaprop}),
 
 \begin{align}
--i\left[\begin{tikzpicture}[baseline=(3).base]
+\left.\begin{tikzpicture}[baseline=(3).base]
 \begin{feynman}
     \vertex (1) at (0, 0){$\mathfrak{f}$};
 	\vertex (2) at (0, 2){$\nu$};
@@ -304,8 +304,8 @@ With a SM prediction for the effective $\nu\nu\gamma$ vertex now in hand, it is 
         (3) --[fermion] (5)
     };
 \end{feynman}
-\end{tikzpicture}\right]
-&\simeq-i\left[
+\end{tikzpicture}\right.
+&\simeq\left.
 \begin{tikzpicture}[baseline=(7).base]
 \begin{feynman}
     \vertex (1) at (0, 0){$\mathfrak{f}$};
@@ -323,7 +323,7 @@ With a SM prediction for the effective $\nu\nu\gamma$ vertex now in hand, it is 
         (3) --[fermion] (6)
     };
 \end{feynman}
-\end{tikzpicture}\right]_{q^2 \ll M_Z^2} + 
+\end{tikzpicture}\right|_{q^2 \ll M_Z^2} + 
 -i\left[
 \begin{tikzpicture}[baseline=(7).base]
 \begin{feynman}

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.11.29)  3 JUL 2026 22:55
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.11.29)  3 JUL 2026 23:07
  restricted system commands enabled.
 **TFG.tex
 (./TFG.tex
@@ -2212,25 +2212,25 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ) [30
 
 ] [31]
-<figures/Figure_sin_100_NO_QF.png, id=773, 355.92975pt x 316.90395pt>
+<figures/Figure_sin_100_NO_QF.png, id=772, 355.92975pt x 316.90395pt>
 File: figures/Figure_sin_100_NO_QF.png Graphic file (type png)
 <use figures/Figure_sin_100_NO_QF.png>
 Package luatex.def Info: figures/Figure_sin_100_NO_QF.png  used on input line 8
 7.
 (luatex.def)             Requested size: 218.51521pt x 194.55869pt.
-<figures/Figure_sin_200_NO_QF.png, id=774, 355.92975pt x 316.90395pt>
+<figures/Figure_sin_200_NO_QF.png, id=773, 355.92975pt x 316.90395pt>
 File: figures/Figure_sin_200_NO_QF.png Graphic file (type png)
 <use figures/Figure_sin_200_NO_QF.png>
 Package luatex.def Info: figures/Figure_sin_200_NO_QF.png  used on input line 9
 0.
 (luatex.def)             Requested size: 218.51521pt x 194.55869pt.
-<figures/Figure_phi_100_NO_QF.png, id=775, 355.92975pt x 316.90395pt>
+<figures/Figure_phi_100_NO_QF.png, id=774, 355.92975pt x 316.90395pt>
 File: figures/Figure_phi_100_NO_QF.png Graphic file (type png)
 <use figures/Figure_phi_100_NO_QF.png>
 Package luatex.def Info: figures/Figure_phi_100_NO_QF.png  used on input line 1
 24.
 (luatex.def)             Requested size: 218.51521pt x 194.55869pt.
-<figures/Figure_phi_200_NO_QF.png, id=776, 355.92975pt x 316.90395pt>
+<figures/Figure_phi_200_NO_QF.png, id=775, 355.92975pt x 316.90395pt>
 File: figures/Figure_phi_200_NO_QF.png Graphic file (type png)
 <use figures/Figure_phi_200_NO_QF.png>
 Package luatex.def Info: figures/Figure_phi_200_NO_QF.png  used on input line 1
@@ -2238,24 +2238,24 @@ Package luatex.def Info: figures/Figure_phi_200_NO_QF.png  used on input line 1
 (luatex.def)             Requested size: 218.51521pt x 194.55869pt.
 
 [32<./figures/Figure_sin_100_NO_QF.png><./figures/Figure_sin_200_NO_QF.png>]
-<figures/Figure_sin_100.png, id=788, 355.92975pt x 316.90395pt>
+<figures/Figure_sin_100.png, id=787, 355.92975pt x 316.90395pt>
 File: figures/Figure_sin_100.png Graphic file (type png)
 <use figures/Figure_sin_100.png>
 Package luatex.def Info: figures/Figure_sin_100.png  used on input line 161.
 (luatex.def)             Requested size: 218.51521pt x 194.55869pt.
-<figures/Figure_sin_200.png, id=789, 355.92975pt x 316.90395pt>
+<figures/Figure_sin_200.png, id=788, 355.92975pt x 316.90395pt>
 File: figures/Figure_sin_200.png Graphic file (type png)
 <use figures/Figure_sin_200.png>
 Package luatex.def Info: figures/Figure_sin_200.png  used on input line 164.
 (luatex.def)             Requested size: 218.51521pt x 194.55869pt.
 
 [33<./figures/Figure_phi_100_NO_QF.png><./figures/Figure_phi_200_NO_QF.png>]
-<figures/Figure_phi_100.png, id=800, 355.92975pt x 316.90395pt>
+<figures/Figure_phi_100.png, id=799, 355.92975pt x 316.90395pt>
 File: figures/Figure_phi_100.png Graphic file (type png)
 <use figures/Figure_phi_100.png>
 Package luatex.def Info: figures/Figure_phi_100.png  used on input line 216.
 (luatex.def)             Requested size: 218.51521pt x 194.55869pt.
-<figures/Figure_phi_200.png, id=801, 355.92975pt x 316.90395pt>
+<figures/Figure_phi_200.png, id=800, 355.92975pt x 316.90395pt>
 File: figures/Figure_phi_200.png Graphic file (type png)
 <use figures/Figure_phi_200.png>
 Package luatex.def Info: figures/Figure_phi_200.png  used on input line 219.
@@ -2301,19 +2301,17 @@ Package logreq Info: Writing requests to 'TFG.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44556 strings out of 476598
+ 44555 strings out of 476598
  125009,1977958 words of node,token memory allocated
- 2481 words of node memory still in use:
-   22 hlist, 2 vlist, 2 rule, 2 math, 17 glue, 7 kern, 7 glyph, 469 attribute, 8
-2 glue_spec, 236 attribute_list, 2 write, 16 pdf_action, 6 pdf_colorstack, 2 pdf
+ 2505 words of node memory still in use:
+   22 hlist, 2 vlist, 2 rule, 2 math, 17 glue, 7 kern, 7 glyph, 477 attribute, 8
+2 glue_spec, 240 attribute_list, 2 write, 16 pdf_action, 6 pdf_colorstack, 2 pdf
 _setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 1:14,2:5663,3:1586,4:292,5:708,6:142,7:9069,8:101,9:1970,10:19,1
+   avail lists: 1:14,2:5651,3:1586,4:292,5:708,6:142,7:9069,8:101,9:1896,10:19,1
 1:781
  64494 multiletter control sequences out of 65536+600000
  511 fonts using 34041423 bytes
  104i,26n,100p,1898b,2061s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'equation.4.4.7'
 
 warning  (pdf backend): unreferenced destination with name 'Hfootnote.4'
 
@@ -2337,10 +2335,10 @@ x/txexs.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.
 pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on TFG.pdf (55 pages, 2060908 bytes).
+Output written on TFG.pdf (55 pages, 2060731 bytes).
 
-PDF statistics: 1019 PDF objects out of 1200 (max. 8388607)
- 912 compressed objects within 10 object streams
- 288 named destinations out of 1000 (max. 131072)
+PDF statistics: 1018 PDF objects out of 1200 (max. 8388607)
+ 911 compressed objects within 10 object streams
+ 287 named destinations out of 1000 (max. 131072)
  325 words of extra memory for PDF output out of 10000 (max. 100000000)
 
