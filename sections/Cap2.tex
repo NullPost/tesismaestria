@@ -4,7 +4,7 @@ This chapter is concerned with the main theoretical focus of this work. The SM a
 \section{Introduction}
 The electromagnetic properties of the neutrino were not only essential to its first postulation and subsequent discovery, but remain an active field of research in modern experimental particle physics. Indeed, both its neutral charge and the possibility of a non-zero magnetic dipole moment are mentioned in the original 1930 letter by Pauli that first introduced the neutrino~\cite{pauli1930neutrino}. The study of such properties was further motivated by the proposal and eventual discovery of neutrino flavor oscillations and their requisite non-zero mass splittings. This chapter describes how radiative corrections to the effective $\nu\nu\gamma$ vertex predict non-trivial electromagnetic form factors for massive\footnote{This chapter concerns primarily Dirac-type neutrinos; analogous calculations for Majorana neutrinos can be found in~\cite{PhysRevD.26.3152, PhysRevD.26.1662, RevModPhys.87.531}} neutrinos within the SM, the focus of this work being the neutrino charge radius (NCR).
 
-\section{Electromagnetic Form Factors}
+\section{Electromagnetic Form Factors}\label{sec:EMFF}
 \subsection{Massive Neutrinos}
 
 \begin{figure}\label{fig:vertices}
@@ -287,17 +287,89 @@ Numerically, the values of NCR prediction for each known neutrino flavour in the
 \end{align}
 
 \section{NCR as a radiative correction of Electroweak Mixing}\label{sec:NCRassin}
-The expression (\ref{eq:factoroftwo}) can be shown to be a correction that adds coherently to the tree-level weak neutral current amplitude, since both couple left-handed neutrinos to the same conserved vector current of the target. The tree-level weak neutral current vertex involves the product $G_F g_V$, where $g_V$ is the vector coupling of the target fermion to the $Z$, and the propagator structure of the weak amplitude at low energies effectively replaces $q^2/M_Z^2 \to 0$ at leading order. The electromagnetic amplitude, by contrast, carries an explicit factor of $q^2$ from $f_Q(q^2)$ which cancels the photon propagator $1/q^2$, leaving a finite, $q^2$-independent residue at leading order. The interference of this residue with the weak amplitude then shifts the effective vector coupling as
-%
-\begin{equation}\label{eq:gVshift}
-g_V \to g_V + \frac{2\sqrt{2}\pi\alpha}{3G_F}\langle r^2\rangle,
-\end{equation}
-%
-where $\alpha$ is the fine-structure constant~\cite{Cadeddu_2018,Vogel_Engel_1989}. Since $g_V^p = T^p_f - 2Q^p\sin^2\theta_W= \frac{1}{2} - 2\sin^2\theta_W$ for the proton, this shift can equivalently be absorbed into a renormalization of the weak mixing angle,
-%
-\begin{equation}\label{eq:sin2shift}
-\sin^2\theta_W \to \sin^2\theta_W\left(1 + \frac{1}{3}M_W^2\langle r^2\rangle\right),
-\end{equation}
-%
-which is the form most commonly quoted in the literature~\cite{Cadeddu_2018,Vogel_Engel_1989,Barranco_2008}. The two shifts (\ref{eq:gVshift}) and (\ref{eq:sin2shift}) are equivalent at leading order in $\alpha$ and their derivation makes transparent why the NCR promotes $\sin^2\theta_W$ into a running coupling: the charge form factor $f_Q(q^2)$ carries the full $q^2$ dependence of the electromagnetic loop, and once this is included in the effective amplitude the vector coupling acquires a momentum-transfer dependence that is absent at tree level. In this sense the measurement of the NCR via CE$\nu$NS is precisely a measurement of the running of the weak mixing angle from the $Z$ pole down to the momentum transfers accessible at reactor and spallation neutron source experiments, wherein the SM prediction (\ref{eq:NCRSMpred}) fixes the expected magnitude and sign of the effect.
+With a SM prediction for the effective $\nu\nu\gamma$ vertex now in hand, it is possible to include its contribution in the calculation of a neutral current interaction amplitude between a SM left-handed neutrino and a generic fermion $\mathfrak{f}$ of non-zero electric charge, in the limit $q^2 \ll M_Z^2$. Utilizing the vertices in (\ref{eq:QEDintver}), (\ref{eq:gvga}), where for a left-handed neutrino $g^\nu_V = g^\nu_A = 1/2$, and (\ref{eq:factoroftwo}), now written with the explicit dependence on the electromagnetic coupling constant $e$ that was omitted in Sec.~\ref{sec:EMFF}, as well as the propagators (\ref{eq:photonprop}) with $\xi = 1$ and (\ref{eq:lowlimitprocaprop}),
 
+\begin{align}
+-i\left[\begin{tikzpicture}[baseline=(3).base]
+\begin{feynman}
+    \vertex (1) at (0, 0){$\mathfrak{f}$};
+	\vertex (2) at (0, 2){$\nu$};
+    \node[blob] (3) at (1, 1);
+    \vertex (4) at (2, 0){$\mathfrak{f}$};
+    \vertex (5) at (2, 2){$\nu$};
+    \diagram*{
+        (1) --[fermion] (3),
+        (2) --[fermion] (3),
+        (3) --[fermion] (4),
+        (3) --[fermion] (5)
+    };
+\end{feynman}
+\end{tikzpicture}\right]
+&\simeq-i\left[
+\begin{tikzpicture}[baseline=(7).base]
+\begin{feynman}
+    \vertex (1) at (0, 0){$\mathfrak{f}$};
+	\vertex (2) at (0, 2){$\nu$};
+    \node[draw, circle] (3) at (2, 2){$e\Lambda_\mu$};
+	\vertex (4) at (2, 0);
+    \vertex (5) at (4, 0){$\mathfrak{f}$};
+    \vertex (6) at (4, 2){$\nu$};
+	\vertex (7) at (1, 1);
+    \diagram*{
+        (1) --[fermion] (4),
+        (2) --[fermion] (3),
+		(3) --[boson, edge label=$\gamma$]   (4),
+        (4) --[fermion] (5),
+        (3) --[fermion] (6)
+    };
+\end{feynman}
+\end{tikzpicture}\right]_{q^2 \ll M_Z^2} + 
+-i\left[
+\begin{tikzpicture}[baseline=(7).base]
+\begin{feynman}
+    \vertex (1) at (0, 0){$\mathfrak{f}$};
+	\vertex (2) at (0, 2){$\nu$};
+    \vertex (3) at (1, 2);
+	\vertex (4) at (1, 0);
+    \vertex (5) at (2, 0){$\mathfrak{f}$};
+    \vertex (6) at (2, 2){$\nu$};
+	\vertex (7) at (1, 1);
+    \diagram*{
+        (1) --[fermion] (4),
+        (2) --[fermion] (3),
+		(3) --[boson, edge label=$Z^0$]   (4),
+        (4) --[fermion] (5),
+        (3) --[fermion] (6)
+    };
+\end{feynman}
+\end{tikzpicture}\right]_{q^2 \ll M_Z^2}\\\nonumber
+\implies -i\mathcal{M}&\simeq\left[-ie\overline{\nu_L}\gamma_\mu\,q^2\,\frac{\langle r^2_\nu\rangle^\text{SM}}{6}\nu_L\right]\frac{-i\eta^{\mu\nu}}{q^2}\left[\overline{\mathfrak{f}}-ieQ_{\mathfrak{f}}\gamma_{\nu}\mathfrak{f}\right]\\ \label{eq:firstamplitude}&+\left[\frac{-ig}{2\cos \theta_W}\overline{\nu_L}\gamma_\mu(\frac{1}{2}-\frac{1}{2}\gamma_5)\nu_L\right]\frac{+i\eta^{\mu\nu}}{M_Z^2}\left[\frac{-ig}{2\cos \theta_W}\overline{\mathfrak{f}}\gamma_\mu(g^{\mathfrak{f}}_V-g^{\mathfrak{f}}_V\gamma_5)\mathfrak{f}\right].
+\end{align}
+
+\noindent One can observe from (\ref{eq:firstamplitude}) that the $q^2$ dependence of $\Lambda_\mu$ cancels exactly against the photon propagator, so that even in the low-energy limit the electromagnetic form factors survive. Taking into account that $\nu_L = \frac{1}{2}(1-\gamma_5)\nu_L$, together with (\ref{eq:coupling}) and (\ref{eq:MWMZrelation}), further simplifications yield
+%
+\begin{align}\nonumber
+\mathcal{M} &= \underbrace{\left[e\overline{\nu_L}\gamma_\mu\nu_L\right]}_{=\overline{\nu_L}e\gamma_\mu\frac{1}{2}(1-\gamma_5)\nu_L}\left[\overline{\mathfrak{f}}\frac{e\langle r^2_\nu\rangle^\text{SM}Q_\mathfrak{f}}{6}\gamma^\mu \mathfrak{f}\right] - \underbrace{\frac{g^2}{8\cos^2 \theta_W M_Z^2}}_{=\frac{g^2}{8M_W^2}=\frac{G_F}{\sqrt{2}}}\left[\overline{\nu_L}\gamma_\mu(1-\gamma_5)\nu_L\right]\left[\overline{\mathfrak{f}}(g^{\mathfrak{f}}_V-g^{\mathfrak{f}}_A\gamma_5)\mathfrak{f}\right],\\ \label{eq:finalshift}
+&=\frac{G_F}{\sqrt{2}}\left[\overline{\nu_L}\gamma_\mu(1-\gamma_5)\nu_L\right]\left[\overline{\mathfrak{f}}\gamma^\mu\left(\left(g^\mathfrak{f}_V - \frac{\sqrt{2}e^2Q_\mathfrak{f}\langle r^2_\nu\rangle^\text{SM}}{12\,G_F}\right) - g^{\mathfrak{f}}_A\gamma_5\right)\mathfrak{f}\right].
+\end{align}
+%
+Eq. (\ref{eq:finalshift}) demonstrates explicitly that the inclusion of the effective $\nu\nu\gamma$ vertex is equivalent to a Fermi-like neutral current interaction with a shifted vector coupling of the target fermion. Writing $e^2 = 4\pi\alpha_{\text{EM}}$, the shift takes the form
+%
+\begin{equation}\label{eq:gfVshift}
+g^\mathfrak{f}_V \rightarrow g^\mathfrak{f}_V - \frac{\sqrt{2}\,Q_{\mathfrak{f}}\pi\alpha_{\text{EM}}}{3\,G_F}\langle r^2_\nu\rangle^{\text{SM}}.
+\end{equation}
+%
+Eq. (\ref{eq:gfVshift}) can equivalently be expressed as a shift in $\sin^2\theta_W$ by making use of (\ref{eq:GF_matching}) and (\ref{eq:coupling}),
+%
+\begin{align}\nonumber
+    g^\mathfrak{f}_V &\rightarrow g^\mathfrak{f}_V - \frac{\sqrt{2}e^2 Q_\mathfrak{f} \langle r^2_\nu\rangle^\text{SM}}{12\,G_F}\\ \nonumber
+    &= T^3_{\mathfrak{f}} - 2 Q_{\mathfrak{f}}\sin^2\theta_W + \frac{1}{12}\frac{\sqrt{2}}{G_F}e^2 Q_{\mathfrak{f}}\langle r^2_\nu\rangle^\text{SM}\\ \nonumber
+    &= T^3_{\mathfrak{f}} - 2 Q_{\mathfrak{f}}\left(\sin^2\theta_W + \frac{1}{24}\frac{8M_W^2}{g^2}(g^2 \sin^2 \theta_W)\langle r^2_\nu\rangle^\text{SM}\right)\\ \nonumber
+    &= T^3_{\mathfrak{f}} - 2Q_{\mathfrak{f}}\left(\sin^2\theta_W + \frac{1}{3}M_W^2\sin^2\theta_W \langle r^2_\nu\rangle^\text{SM}\right)\\ \label{eq:sinshift1}
+    &= T^3_{\mathfrak{f}} - 2Q_{\mathfrak{f}}\sin^2\theta_W\left(1 + \frac{1}{3}M_W^2\langle r^2_\nu\rangle^\text{SM}\right)
+\end{align}
+Eq. (\ref{eq:sinshift1}) reveals that the (\ref{eq:gfVshift}) shift is equivalent to
+\begin{equation}\label{eq:sinshift2}
+    \sin^2 \theta_W \rightarrow \sin^2\theta_W\left(1 + \frac{1}{3}M_W^2\langle r^2_\nu\rangle^\text{SM}\right)
+\end{equation}
+Eq. (\ref{eq:sinshift2}) will be how the antineutrino charge radius will be incorporated to the interaction cross-section used in the following chapters of this work.

@@ -2,7 +2,14 @@
 This chapter introduces the main interaction by which the sensitivities of neutrino detectors to the SM parameters are determined, describing a neutral current interaction along with its cross section, and showing how, in conjunction with a model of the antineutrino flux from a reactor source, the expected number of events for a broadly-described experimental design can be calculated; this number will be used in later chapters to test how different values of the SM parameters influence it.
 \section{Introduction}
 \begin{wrapfigure}{r}{0.25\textwidth}
-\includegraphics[width=\linewidth]{figures/feynman.png}
+%\includegraphics[width=\linewidth]{figures/feynman.png}
+\centering
+\feynmandiagram [vertical=a to b] {
+i1 [particle=$\nu$] -- [fermion] a [red, dot]-- [fermion] i2 [particle=$\nu$],
+a -- [photon, edge label=$Z^0\,\color{red}{(\gamma)}$] b,
+f1 [particle=$^A_ZN$] -- [anti fermion] b -- [anti fermion]  f2 [particle=$^A_ZN$],
+};
+\caption{Tree-level Feynmann diagram for CE$\nu$NS interaction between a neutrino $\nu$ and a nucleus $N$ with nucleon number $A$ and proton number $Z$}
 \label{fig:Feynmann_CEvNS}
 \end{wrapfigure}
 Coherent Elastic Neutrino-Nucleus Scattering (CE$\nu$NS) is a neutral current weak interaction within the SM originally proposed in 1979 \cite{PhysRevD.9.1389} and measured successfully in 2017 \cite{doi:10.1126/science.aao0990}, wherein low-energy neutrinos [$E_{\nu} \sim \, \text{MeV}$] collide with atomic nuclei as coherent bodies rather than their constituents, imparting on them a small recoil energy. These interactions are possible with neutrino energies up to $50\,MeV$ with medium-sized nuclei, since their main condition consists of the momentum transfer, $Q$, being negligible in comparison with the nuclear radius, $R$ ($QR \ll 1$) \cite{Scholberg_2020}. The effective Feynman diagram for these interactions is shown in Fig. \ref{fig:Feynmann_CEvNS}.
@@ -12,6 +19,15 @@ The calculation of its differential cross-section in the low-energy limit consis
     \mathcal{L_{\text{eff}}} = \frac{G}{\sqrt{2}}j^{(\nu)\mu} \mathcal{J}_{\mu},
 \end{equation}
 where $j^{(\nu)\mu}$ denotes a neutral neutrino current and $\mathcal{J}_{\mu}$ a hadronic current from which the nuclear mass distribution terms originate.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{figures/CEvNScrosssection.png}
+\caption{Total cross sections from CE$\nu$NS and some known neutrino couplings. Included
+are neutrino-electron scattering, charged-current (CC) interaction with iodine, inverse beta
+decay (IBD) and neutrino-induced neutron (NIN) generation for 1$n$ and 2$n$~\cite{doi:10.1126/science.aao0990}}
+\label{fig:CEVNScross}
+\end{figure}
 \section{Cross Section}
 The low-energy differential cross-section in terms of the nuclear recoil, $E_R$, is given by \cite{Papoulias2015}:
 \begin{equation}
@@ -27,7 +43,11 @@ where $g^{p}_{V}$ and $g^{n}_{V}$ are given by (\ref{eq:gv}) in the specific cas
     g^{p}_{V}   &= T^3_{p}-2\sin^2(\theta_W)Q_{p}   =\frac{1}{2} - 2\sin^2(\theta_W),&\label{eq:gVp}\\
     g^{n}_{V}   &= T^3_{n}-2\sin^2(\theta_W)Q_{n}  =-\frac{1}{2},& \label{eq:gVn}
 \end{align}
-and $F_{n,p}(Q^2)$ are the neutron and proton nuclear form factors, dependent on the momentum transfer $q^2 = 2MT$. In Eqs. (\ref{eq:QW}), (\ref{eq:gVp}), and (\ref{eq:gVn}), $Z$ is the atomic number, $N = A-Z$ is the neutron number, and $A$ is the mass (nucleon) number of the target nucleus. It is worth noting that, given the weak mixing angle $\sin^2(\theta_W) \approx 0.22290(30) \approx \frac{1}{4}$ \cite{RevModPhys.93.025010}, $Q_{W}^{2}$ (and by extension $\frac{d\sigma}{dT}$) is mostly $\propto N^2$.
+and $F_{n,p}(Q^2)$ are the neutron and proton nuclear form factors, dependent on the momentum transfer $q^2 = 2MT$. In Eqs. (\ref{eq:QW}), (\ref{eq:gVp}), and (\ref{eq:gVn}), $Z$ is the atomic number, $N = A-Z$ is the neutron number, and $A$ is the mass (nucleon) number of the target nucleus. Fig. \ref{fig:CEVNScross} present a graph for the CE$\nu$NS cross section compared to other neutrino interactions. It is worth noting that, given the weak mixing angle $\sin^2(\theta_W) \approx 0.23156 \approx \frac{1}{4}$\cite{bodek2025precisionmeasurementselectroweakmixing}, $Q_{W}^{2}$ (and by extension $\frac{d\sigma}{dT}$) is mostly $\propto N^2$. As discussed in Chapter \ref{cap:NCR}, the inclusion of the neutrino charge radius (NCR) correction comes in the form of considering the shift in the $g^\mathfrak{f}_V$ couplings for the fermions $\mathfrak{f}=p,n$. Crucially, since $Q_n=0$, the shift is only present in the proton vector coupling. Substituting $\mathfrak{f}=p$ and $Q_p=+1$ into (\ref{eq:gfVshift}) gives:
+\begin{equation}
+    g^p_V \rightarrow g^p_V - \frac{\sqrt{2}\pi\alpha_{\text{EM}}}{3\,G_F}\langle r^2_\nu\rangle^{\text{SM}},
+\end{equation}
+which as already discussed is equivalent to $\sin^2 \theta_W \rightarrow \sin^2\theta_W\left(1 + \frac{1}{3}M_W^2\langle r^2_\nu\rangle^\text{SM}\right)$.
 \section{Neutrino Sources}
 Part of the calculation of the expected number of CE$\nu$NS events is the energy-dependent flux of incoming (anti)neutrinos. This work focuses mainly on a model for electron-antineutrinos known as the Huber-Mueller model.
 \subsection{Nuclear Reactors}
@@ -80,3 +100,46 @@ where $E_{R\text{ th}}$ a threshold nuclear recoil energy, $E_{R\text{ max}}$ a 
 \begin{equation}
     E_{\nu,\text{min}}(E_{R}) = \frac{E_{R}}{2}\left(1+\sqrt{1+\frac{2M}{E_{R}}}\right).
 \end{equation}
+While calculations derived from these definitions can already be sufficient for probing sensitivities in neutrino detection experiments, considerations pertaining to actual scintillation experiments can be accounted for in the form of a quenching factor (QF), which suppresses the actual measured amount of CE$\nu$NS events in a realistic experiment.
+
+\subsection{Quenching Factor}
+The differential cross section $\frac{d\sigma}{dE_R}$ and the event rate integral in (\ref{eq:N_events}) are both expressed in terms of the true nuclear recoil energy, $E_R$, transferred to the target nucleus. However, detectors such as scintillating LAr chambers do not measure $E_R$ directly; instead, they measure an \textit{ionization} (or scintillation) energy, $E_I$, produced by the recoiling nucleus as it deposits its energy in the medium. The two quantities are related by the quenching factor (QF), $Q(E_R)$, defined through
+\begin{equation}
+    E_I = Q(E_R) E_R.
+    \label{eq:QF_def}
+\end{equation}
+This factor is incorporated into binned analyses of event counts through the substitution~\cite{Fernandez_Moroni_2021}
+\begin{equation}
+    \int_{E_{R}(i)}^{E_{R}(i+i)}dE_R = \int_{E_{I}(i)}^{E_{I}(i+i)}\frac{1}{Q(E_I)}\left(1-\frac{E_I}{Q(E_I)}\frac{dQ(E_I)}{dE_I}\right)dE_I
+\end{equation}
+where $E_{I(R)}(i)$ and $E_{I(R)}(i+i)$ denote the limits of the $i$-th bin for events with a measured ionization electron equivalent (nuclear recoil) energy.
+
+Physically, $Q(E_R) \leq 1$ accounts for the fact that only a fraction of the recoil energy is channeled into electronic excitation (which produces the observable ionization/scintillation signal), while the remainder is lost to elastic nuclear collisions with neighboring atoms that merely displace them without producing a detectable signal. This partition between electronic and nuclear stopping was first addressed systematically by Lindhard, Scharff and Schi\o tt in their study of heavy ion ranges, where they showed that at low, non-relativistic recoil velocities, both channels are comparable in magnitude and must be treated together within a unified Thomas-Fermi-like framework \cite{Lindhard1963}.
+
+Following the Lindhard formalism, one introduces a dimensionless reduced energy, $\epsilon$, that rescales $E_R$ in terms of the target's atomic number $Z$ and mass number $A$:
+\begin{equation}
+    \epsilon = 11.5\, Z^{-7/3} E_{R}[\text{keV}_{nr}],
+\end{equation}
+in terms of which the nuclear stopping is captured by the universal function
+\begin{equation}
+    g(\epsilon) = 3\epsilon^{0.15} + 0.7\epsilon^{0.6} + \epsilon,
+\end{equation}
+and the electronic-to-nuclear stopping ratio is governed by the constant
+\begin{equation}
+    k = 0.133\, Z^{2/3} A^{-1/2},
+\end{equation}
+which is the same proportionality constant appearing in Lindhard's electronic stopping cross section, Eq.~(2.5) of \cite{Lindhard1963}, evaluated here for the case $Z_1 = Z_2 = Z$ (i.e. the recoiling nucleus and the stopping medium are of the same species). The quenching factor then follows as
+\begin{equation}
+    Q(E_R) = \frac{k g(\epsilon)}{1 + k g(\epsilon)}.
+    \label{eq:Lindhard_QF}
+\end{equation}
+For liquid argon ($Z=18$, $A \simeq 40$), this yields $k \simeq 0.174$, consistent with values quoted in dark matter direct-detection literature that adopts the same Lindhard treatment \cite{lewin1996}.
+
+The practical difficulty in incorporating (\ref{eq:Lindhard_QF}) into the event rate calculation is that $Q$ depends on $E_R$ itself, so Eq.~(\ref{eq:QF_def}) cannot be inverted analytically to obtain $E_R(E_I)$. This inversion is nevertheless essential: experimental thresholds are set in ionization energy, $E_{I,\text{th}}$, and must be translated into an equivalent recoil energy threshold, $E_{R,\text{th}}$, before the lower limit of the $E_R$ integral in (\ref{eq:N_events}) can be fixed. In practice, this is done by solving
+\begin{equation}
+    E_{I,\text{th}} - Q(E_R) E_R = 0
+    \label{eq:QF_inversion}
+\end{equation}
+numerically for $E_R$ (e.g. via a root-finding routine such as \texttt{brentq}), since $Q(E_R)E_R$ is monotonic but non-linear over the relevant recoil range. For a typical ionization threshold of $E_{I,\text{th}} \sim 100\, \text{eV}_{ee}$, this procedure yields a recoil threshold of order $E_{R,\text{th}} \sim 400\, \text{eV}_{nr}$ in LAr.
+
+It is worth emphasizing that the QF enters the calculation only through this threshold redefinition, and not as an additional multiplicative factor inside the integrand of (\ref{eq:N_events}): the cross section $\frac{d\sigma}{dE_R}$ remains a function of the true recoil energy throughout, and the only physical effect of quenching is to raise the lower bound of the $E_R$ integral from a nominal (unquenched) value to $E_{R,\text{th}}$ as obtained from (\ref{eq:QF_inversion}). This distinction matters for detectors near threshold, such as the ININ TRIGA Mark III setup considered here, since a sizable fraction of the expected CE$\nu$NS spectrum lies at low recoil energies where $Q(E_R)$ changes rapidly with $E_R$, making the numerical inversion — rather than a fixed multiplicative rescaling — the correct way to propagate the quenching relation into the expected number of events.

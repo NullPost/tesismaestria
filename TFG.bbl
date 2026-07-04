@@ -1916,6 +1916,74 @@
     \field{year}{1959}
   \endentry
 
+  \entry{Higgs1964}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HPW}{%
+         family={Higgs},
+         familyi={H\bibinitperiod},
+         given={Peter\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{HPW1}
+    \strng{fullhash}{HPW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.13.508
+    \endverb
+    \field{issue}{16}
+    \field{pages}{508\bibrangedash 509}
+    \field{title}{Broken Symmetries and the Masses of Gauge Bosons}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.13.508
+    \endverb
+    \field{volume}{13}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1964}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{EnglertBrout1964}{article}{}
+    \name{author}{2}{}{%
+      {{hash=EF}{%
+         family={Englert},
+         familyi={E\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Brout},
+         familyi={B\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{EFBR1}
+    \strng{fullhash}{EFBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.13.321
+    \endverb
+    \field{issue}{9}
+    \field{pages}{321\bibrangedash 323}
+    \field{title}{Broken Symmetry and the Mass of Gauge Vector Mesons}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.13.321
+    \endverb
+    \field{volume}{13}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1964}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{PhysRevD.26.3152}{article}{}
     \name{author}{1}{}{%
       {{hash=NJF}{%
@@ -2201,139 +2269,6 @@
     \field{journaltitle}{Phys. Rev. D}
     \field{year}{2000}
     \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{Cadeddu_2018}{article}{}
-    \name{author}{6}{}{%
-      {{hash=CM}{%
-         family={Cadeddu},
-         familyi={C\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=GC}{%
-         family={Giunti},
-         familyi={G\bibinitperiod},
-         given={C.},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=KKA}{%
-         family={Kouzakov},
-         familyi={K\bibinitperiod},
-         given={K.\bibnamedelima A.},
-         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=LYF}{%
-         family={Li},
-         familyi={L\bibinitperiod},
-         given={Y.\bibnamedelima F.},
-         giveni={Y\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=SAI}{%
-         family={Studenikin},
-         familyi={S\bibinitperiod},
-         given={A.\bibnamedelima I.},
-         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-      {{hash=ZYY}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={Y.\bibnamedelima Y.},
-         giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Physical Society (APS)}%
-    }
-    \strng{namehash}{CM+1}
-    \strng{fullhash}{CMGCKKALYFSAIZYY1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/physrevd.98.113010
-    \endverb
-    \field{issn}{2470-0029}
-    \field{number}{11}
-    \field{title}{Neutrino charge radii from COHERENT elastic neutrino-nucleus
-  scattering}
-    \verb{url}
-    \verb http://dx.doi.org/10.1103/PhysRevD.98.113010
-    \endverb
-    \field{volume}{98}
-    \field{journaltitle}{Physical Review D}
-    \field{month}{12}
-    \field{year}{2018}
-  \endentry
-
-  \entry{Vogel_Engel_1989}{article}{}
-    \name{author}{2}{}{%
-      {{hash=VP}{%
-         family={Vogel},
-         familyi={V\bibinitperiod},
-         given={P.},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=EJ}{%
-         family={Engel},
-         familyi={E\bibinitperiod},
-         given={J.},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{VPEJ1}
-    \strng{fullhash}{VPEJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevD.39.3378
-    \endverb
-    \field{number}{11}
-    \field{pages}{3378\bibrangedash 3383}
-    \field{title}{Neutrino electromagnetic form factors}
-    \field{volume}{39}
-    \field{journaltitle}{Physical Review D}
-    \field{year}{1989}
-  \endentry
-
-  \entry{Barranco_2008}{article}{}
-    \name{author}{3}{}{%
-      {{hash=BJ}{%
-         family={Barranco},
-         familyi={B\bibinitperiod},
-         given={J.},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=MOG}{%
-         family={Miranda},
-         familyi={M\bibinitperiod},
-         given={O.\bibnamedelima G.},
-         giveni={O\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=RTI}{%
-         family={Rashba},
-         familyi={R\bibinitperiod},
-         given={T.\bibnamedelima I.},
-         giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BJMOGRTI1}
-    \strng{fullhash}{BJMOGRTI1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1016/j.physletb.2008.03.022
-    \endverb
-    \verb{eprint}
-    \verb hep-ph/0609098
-    \endverb
-    \field{number}{4}
-    \field{pages}{431\bibrangedash 435}
-    \field{title}{Probing new physics with coherent neutrino scattering off
-  nuclei}
-    \field{volume}{662}
-    \field{journaltitle}{Physics Letters B}
-    \field{eprinttype}{arXiv}
-    \field{year}{2008}
   \endentry
 
   \entry{PhysRevD.9.1389}{article}{}
@@ -2987,54 +2922,42 @@
     \field{year}{2015}
   \endentry
 
-  \entry{RevModPhys.93.025010}{article}{}
-    \name{author}{4}{}{%
-      {{hash=TE}{%
-         family={Tiesinga},
-         familyi={T\bibinitperiod},
-         given={Eite},
-         giveni={E\bibinitperiod},
+  \entry{bodek2025precisionmeasurementselectroweakmixing}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=BA}{%
+         family={Bodek},
+         familyi={B\bibinitperiod},
+         given={Arie},
+         giveni={A\bibinitperiod},
       }}%
-      {{hash=MPJ}{%
-         family={Mohr},
-         familyi={M\bibinitperiod},
-         given={Peter\bibnamedelima J.},
-         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      {{hash=SHS}{%
+         family={Seo},
+         familyi={S\bibinitperiod},
+         given={Hyon-San},
+         giveni={H\bibinithyphendelim S\bibinitperiod},
       }}%
-      {{hash=NDB}{%
-         family={Newell},
-         familyi={N\bibinitperiod},
-         given={David\bibnamedelima B.},
-         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=TBN}{%
-         family={Taylor},
-         familyi={T\bibinitperiod},
-         given={Barry\bibnamedelima N.},
-         giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod},
+      {{hash=YUK}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Un-Ki},
+         giveni={U\bibinithyphendelim K\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {American Physical Society}%
-    }
-    \strng{namehash}{TE+1}
-    \strng{fullhash}{TEMPJNDBTBN1}
+    \strng{namehash}{BASHSYUK1}
+    \strng{fullhash}{BASHSYUK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/RevModPhys.93.025010
+    \verb{eprint}
+    \verb 2508.18022
     \endverb
-    \field{issue}{2}
-    \field{pages}{025010}
-    \field{title}{CODATA recommended values of the fundamental physical
-  constants: 2018}
+    \field{title}{Precision Measurements of the Electroweak Mixing Angle in the
+  Region of the Z pole}
     \verb{url}
-    \verb https://link.aps.org/doi/10.1103/RevModPhys.93.025010
+    \verb https://arxiv.org/abs/2508.18022
     \endverb
-    \field{volume}{93}
-    \field{journaltitle}{Rev. Mod. Phys.}
-    \field{year}{2021}
-    \warn{\item Invalid format of field 'month'}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2025}
   \endentry
 
   \entry{Aliani_2004}{article}{}
@@ -3873,162 +3796,151 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{PhysRevLett.120.072501}{article}{}
-    \name{author}{4}{}{%
-      {{hash=CM}{%
-         family={Cadeddu},
-         familyi={C\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=GC}{%
-         family={Giunti},
-         familyi={G\bibinitperiod},
-         given={C.},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=LYF}{%
-         family={Li},
-         familyi={L\bibinitperiod},
-         given={Y.\bibnamedelima F.},
-         giveni={Y\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=ZYY}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={Y.\bibnamedelima Y.},
-         giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Physical Society}%
-    }
-    \strng{namehash}{CM+1}
-    \strng{fullhash}{CMGCLYFZYY1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevLett.120.072501
-    \endverb
-    \field{issue}{7}
-    \field{pages}{072501}
-    \field{title}{Average CsI Neutron Density Distribution from COHERENT Data}
-    \verb{url}
-    \verb https://link.aps.org/doi/10.1103/PhysRevLett.120.072501
-    \endverb
-    \field{volume}{120}
-    \field{journaltitle}{Phys. Rev. Lett.}
-    \field{year}{2018}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{PhysRev.104.1466}{article}{}
-    \name{author}{1}{}{%
-      {{hash=HRH}{%
-         family={Helm},
-         familyi={H\bibinitperiod},
-         given={Richard\bibnamedelima H.},
-         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Physical Society}%
-    }
-    \strng{namehash}{HRH1}
-    \strng{fullhash}{HRH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRev.104.1466
-    \endverb
-    \field{issue}{5}
-    \field{pages}{1466\bibrangedash 1475}
-    \field{title}{Inelastic and Elastic Scattering of 187-Mev Electrons from
-  Selected Even-Even Nuclei}
-    \verb{url}
-    \verb https://link.aps.org/doi/10.1103/PhysRev.104.1466
-    \endverb
-    \field{volume}{104}
-    \field{journaltitle}{Phys. Rev.}
-    \field{year}{1956}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{FRICKE1995177}{article}{}
-    \name{author}{7}{}{%
-      {{hash=FG}{%
-         family={Fricke},
-         familyi={F\bibinitperiod},
-         given={G.},
+  \entry{Fernandez_Moroni_2021}{article}{}
+    \name{author}{6}{}{%
+      {{hash=FMG}{%
+         family={Fernandez-Moroni},
+         familyi={F\bibinithyphendelim M\bibinitperiod},
+         given={Guillermo},
          giveni={G\bibinitperiod},
       }}%
-      {{hash=BC}{%
-         family={Bernhardt},
-         familyi={B\bibinitperiod},
-         given={C.},
-         giveni={C\bibinitperiod},
+      {{hash=MPAN}{%
+         family={Machado},
+         familyi={M\bibinitperiod},
+         given={Pedro A.\bibnamedelima N.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  N\bibinitperiod},
       }}%
-      {{hash=HK}{%
-         family={Heilig},
-         familyi={H\bibinitperiod},
-         given={K.},
-         giveni={K\bibinitperiod},
+      {{hash=MSI}{%
+         family={Martinez-Soler},
+         familyi={M\bibinithyphendelim S\bibinitperiod},
+         given={Ivan},
+         giveni={I\bibinitperiod},
       }}%
-      {{hash=SL}{%
-         family={Schaller},
-         familyi={S\bibinitperiod},
-         given={L.A.},
-         giveni={L\bibinitperiod},
+      {{hash=PGYF}{%
+         family={Perez-Gonzalez},
+         familyi={P\bibinithyphendelim G\bibinitperiod},
+         given={Yuber\bibnamedelima F.},
+         giveni={Y\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
-      {{hash=SL}{%
-         family={Schellenberg},
-         familyi={S\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
+      {{hash=RD}{%
+         family={Rodrigues},
+         familyi={R\bibinitperiod},
+         given={Dario},
+         giveni={D\bibinitperiod},
       }}%
-      {{hash=SE}{%
-         family={Shera},
-         familyi={S\bibinitperiod},
-         given={E.B.},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=DC}{%
-         family={Dejager},
-         familyi={D\bibinitperiod},
-         given={C.W.},
-         giveni={C\bibinitperiod},
+      {{hash=RAS}{%
+         family={Rosauro-Alcaraz},
+         familyi={R\bibinithyphendelim A\bibinitperiod},
+         given={Salvador},
+         giveni={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{FG+1}
-    \strng{fullhash}{FGBCHKSLSLSEDC1}
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{FMG+1}
+    \strng{fullhash}{FMGMPANMSIPGYFRDRAS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/jhep03(2021)186
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{3}
+    \field{title}{The physics potential of a reactor neutrino experiment with
+  Skipper CCDs: measuring the weak mixing angle}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/JHEP03(2021)186
+    \endverb
+    \field{volume}{2021}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{month}{03}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Lindhard1963}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LJ}{%
+         family={Lindhard},
+         familyi={L\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=SM}{%
+         family={Scharff},
+         familyi={S\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=StHE}{%
+         family={Schi\o\bibnamedelima tt},
+         familyi={S\bibinitperiod\bibinitdelim t\bibinitperiod},
+         given={H\bibnamedelima E},
+         giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJSMStHE1}
+    \strng{fullhash}{LJSMStHE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{RANGE CONCEPTS AND HEAVY ION RANGES (NOTES ON ATOMIC
+  COLLISIONS, II)}
+    \verb{url}
+    \verb https://www.osti.gov/biblio/4153115
+    \endverb
+    \field{volume}{Vol: 33: No. 14}
+    \field{journaltitle}{Kgl. Danske Videnskab. Selskab. Mat. Fys. Medd.}
+    \field{month}{01}
+    \field{year}{1963}
+  \endentry
+
+  \entry{lewin1996}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LJ}{%
+         family={Lewin},
+         familyi={L\bibinitperiod},
+         given={J.D.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={P.F.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJSP1}
+    \strng{fullhash}{LJSP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    The Tables summarize experimental results from muonic atom transition
-  energies, nuclear charge parameters from elastic electron scattering, and K
-  x-ray isotope shifts in so far as they provide information on nuclear
-  ground-state charge radii. Numerous experimental results for optical isotope
-  shifts have been published elsewhere; for eight elements the relevant
-  information is condensed ("projected") here to one optical line per element.
-  A model-independent analysis which combines data from all three experimental
-  methods is applied to these elements and is presented as an illustration of
-  the improved accuracy for the rms radii and Barrett radii which result from
-  this analysis.%
+    We present a systematic derivation and discussion of the practical formulae
+  needed to design and interpret direct searches for nuclear recoil events
+  caused by hypothetical weakly interacting dark matter particles.
+  Modifications to the differential energy spectrum arise from the Earth's
+  motion, recoil detection efficiency, instrumental resolution and threshold,
+  multiple target elements, spin-dependent and coherent factors, and nuclear
+  form factor. We discuss the normalization and presentation of results to
+  allow comparison between different target elements and with theoretical
+  predictions. Equations relating to future directional detectors are also
+  included.%
     }
     \verb{doi}
-    \verb https://doi.org/10.1006/adnd.1995.1007
+    \verb https://doi.org/10.1016/S0927-6505(96)00047-3
     \endverb
-    \field{issn}{0092-640X}
-    \field{number}{2}
-    \field{pages}{177\bibrangedash 285}
-    \field{title}{Nuclear Ground State Charge Radii from Electromagnetic
-  Interactions}
+    \field{issn}{0927-6505}
+    \field{number}{1}
+    \field{pages}{87\bibrangedash 112}
+    \field{title}{Review of mathematics, numerical factors, and corrections for
+  dark matter experiments based on elastic nuclear recoil}
     \verb{url}
-    \verb https://www.sciencedirect.com/science/article/pii/S0092640X85710078
+    \verb https://www.sciencedirect.com/science/article/pii/S0927650596000473
     \endverb
-    \field{volume}{60}
-    \field{journaltitle}{Atomic Data and Nuclear Data Tables}
-    \field{year}{1995}
+    \field{volume}{6}
+    \field{journaltitle}{Astroparticle Physics}
+    \field{year}{1996}
   \endentry
 \enddatalist
 \endinput

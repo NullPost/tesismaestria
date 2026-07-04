@@ -1,33 +1,43 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Electroweak theory in the Standard Model of particles}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Symmetries and fermion content}{2}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Neutrinos}{2}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Weak Nuclear Force}{4}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Massive and Massless Mediators}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Photons}{6}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}$W^{\pm }$ and $Z$}{7}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Electroweak mixing and $\sin ^2 \theta _W$}{8}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}$SU(2)_L$}{8}{subsection.2.4.1}%
+\contentsline {chapter}{\numberline {2}Electroweak theory in the Standard Model of particles}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Symmetries and fermion content}{3}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Neutrinos}{3}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Weak Nuclear Force}{5}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Massive and Massless Mediators}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Photons}{7}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}$W^{\pm }$ and $Z$}{8}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Electroweak mixing and $\sin ^2 \theta _W$}{9}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}$SU(2)_L$}{9}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}$SU(2)_L \times U(1)_Y$}{10}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {3}Radiative Corrections and Neutrino Charge Radius}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Electromagnetic Form Factors}{13}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Massive Neutrinos}{13}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Massive Neutrino Mixing}{16}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Flavor Base}{17}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Weyl Neutrinos}{18}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Neutrino Charge Radius}{18}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Corrections to the $\nu \nu \gamma $ vertex}{20}{section.3.4}%
-\contentsline {section}{\numberline {3.5}NCR as a radiative correction of Electroweak Mixing}{21}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Coherent Elastic Neutrino-Nucleus Scattering}{22}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{22}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Cross Section}{22}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Neutrino Sources}{23}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Nuclear Reactors}{23}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Expected Number of Events}{25}{section.4.4}%
-\contentsline {chapter}{\numberline {5}SBC-ININ-LAr}{26}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Results}{26}{section.5.1}%
-\contentsline {chapter}{\numberline {6}Summary and conclusions}{28}{chapter.6}%
-\contentsline {chapter}{Bibliography}{30}{chapter*.12}%
+\contentsline {chapter}{\numberline {3}Radiative Corrections and Neutrino Charge Radius}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Electromagnetic Form Factors}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Massive Neutrinos}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Massive Neutrino Mixing}{17}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Flavor Base}{18}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Weyl Neutrinos}{19}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Neutrino Charge Radius}{19}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Corrections to the $\nu \nu \gamma $ vertex}{21}{section.3.4}%
+\contentsline {section}{\numberline {3.5}NCR as a radiative correction of Electroweak Mixing}{22}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Coherent Elastic Neutrino-Nucleus Scattering}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{24}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Cross Section}{24}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Neutrino Sources}{26}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Nuclear Reactors}{26}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Expected Number of Events}{28}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Quenching Factor}{28}{subsection.4.4.1}%
+\contentsline {chapter}{\numberline {5}Sensitivities for SBC-ININ-LAr Experiment}{30}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{30}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Calculation Parameters}{30}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Projected Event Rates}{31}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Results}{31}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Without QF Influence}{31}{subsection.5.4.1}%
+\contentsline {subsubsection}{Sensitivity to $\sin ^2\theta _W$}{31}{subsubsection*.14}%
+\contentsline {subsubsection}{Sensitivity to $\langle r_{\nu _e}^2\rangle $}{32}{subsubsection*.16}%
+\contentsline {subsection}{\numberline {5.4.2}With QF Influence}{33}{subsection.5.4.2}%
+\contentsline {subsubsection}{Sensitivity to $\sin ^2\theta _W$}{33}{subsubsection*.18}%
+\contentsline {subsubsection}{Sensitivity to $\langle r_{\nu _e}^2\rangle $}{34}{subsubsection*.20}%
+\contentsline {chapter}{\numberline {6}Summary and conclusions}{37}{chapter.6}%
+\contentsline {chapter}{Bibliography}{40}{chapter*.22}%

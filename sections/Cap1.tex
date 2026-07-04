@@ -2,10 +2,10 @@
 This chapter serves as a description of the foundation for the theoretical framework of this work. Modern particle physics is based on the mathematical modeling of particles as excitations of quantum fields and how these fields interact with each other. This chapter begins with a brief history of the neutrino followed by its importance as the catalyst for the proposal and eventual discovery of a fundamental nuclear force, followed by its unification with a previously well understood force to introduce the main theory by which further advancements in neutrino property studies can be made. 
 \section{Introduction}
 \begin{figure}
-    \centering
-    \includegraphics[width=0.8\linewidth]{figures/StandardModel.jpg}
-    \caption{Particles in the SM}
-    \label{fig:SM}
+  \centering
+  \includegraphics[width=0.8\linewidth]{figures/StandardModel.jpg}
+  \caption{Particles in the SM}
+  \label{fig:SM}
 \end{figure}
 The Standard Model of particles (SM) is the most currently utilized theory of interactions of subatomic particles. It describes all 
 matter particles and forces between them, excluding gravity, as interactions between 12 fermions (6 quarks and 6 leptons) with their corresponding anti-fermions, 4 spin-1 force-carrying gauge bosons and 1 scalar boson as shown in Fig. \ref{fig:SM}. Within this framework exist 3 distinct forces: strong nuclear force, mediated by the gluon ($g$) boson; electromagnetic (EM) force, mediated by the photon ($\gamma$) boson; and weak nuclear force, mediated by the $W^{\pm}$ and $Z$ bosons. 
@@ -15,74 +15,106 @@ This work pertains to the description of the properties of the only family of pa
 Neutrinos are charge-less, color-less, spin-$\frac{1}{2}$ particles with negligible masses compared to other fundamental particles first proposed in 1930 by Pauli W.~\cite{pauli1930neutrino}, and later detected by C. L. Cowan et al. in 1956~\cite{doi:10.1126/science.124.3212.103}, to solve known apparent contradictions in conserved quantities of beta decays. Beta decay was known to be as the emission of beta particles (electrons) by the nuclei of unstable atoms, wherein the difference in mass of the original and resulting nuclei of the decay should fix the energy at which the emitted particles are detected. Also of note, due to conservation of angular momentum the sum of the spin ($S_e$) of the electron, the spin of the resulting nucleus ($S_{N^{*}}$) and the angular momentum between them ($L$) should equal the original nucleus' spin ($S_{N}$). Despite this, it was know experimentally that the resulting electrons where emitted in a spectrum of energies less than expected and at $L=0$, making the sum of spins impossible to match.
 Pauli's solution to the apparent violation of the conservation of these quantities was to hypothesize the existence of a second neutral spin-$\frac{1}{2}$ with very small mass compared to the electron that allows for both the distribution of energy between both emitted particle, thus letting the electron be emitted at different energies depending on the kinematics, and the conservation of angular momentum. 
 \begin{align*}
-    N &\rightarrow N^{*} + e^{-}     ~ &\rightarrow&    &N \rightarrow& N^{*} + e^{-} + \nu \\ \hline
-    m_N &= m_{N^*} + E_{e^-}         ~ &\rightarrow&   &m_N =& m_{N^*} + E_{e^-} + E_{\nu} \\
-    S_{z~N} &= S_{z~N^*} + S_{z~e^-} ~ &\rightarrow&   &S_{z~N} =& S_{z~N^*} + S_{z~e^-} + S_{z~\nu}
+  N &\rightarrow N^{*} + e^{-}   ~ &\rightarrow&  &N \rightarrow& N^{*} + e^{-} + \nu \\ \hline
+  m_N &= m_{N^*} + E_{e^-}     ~ &\rightarrow&  &m_N =& m_{N^*} + E_{e^-} + E_{\nu} \\
+  S_{z~N} &= S_{z~N^*} + S_{z~e^-} ~ &\rightarrow&  &S_{z~N} =& S_{z~N^*} + S_{z~e^-} + S_{z~\nu}
 \end{align*}
-Later refinement of the atomic model found that nuclei where made up of positively charged elements named protons ($p$) and neutrally charged elements known as neutrons\footnote{this was the name first proposed for the particle hypothesized by Pauli, later changed} ($n$), leaving the small hypothesized particle to be named neutrino ($\nu$) later by Enrico Fermi. It is well understood now that the beta decay is a process in which a neutron within an unstable nucleus decays into a proton, an electron and a(n) (anti)neutrino.  
+Later refinement of the atomic model found that nuclei where made up of positively charged elements named protons ($p$) and neutrally charged elements known as neutrons\footnote{this was the name first proposed for the particle hypothesized by Pauli, later changed} ($n$), leaving the small hypothesized particle to be named neutrino ($\nu$) later by Enrico Fermi. It is well understood now that the beta decay is a process in which a neutron within an unstable nucleus decays into a proton, an electron and a(n) (anti)neutrino. 
 $$n \rightarrow p + e^{-} + \bar{\nu}$$
 Subsequent experiments exploiting cross symmetry of the above interaction~\cite{doi:10.1126/science.124.3212.103}, accelerator-produced pion decay~\cite{Danby1962}, and charged-current tau neutrino interactions in nuclear emulsion~\cite{Kodama2001, Kodama2008} confirmed the existence of three distinct active neutrino flavors and the conservation of lepton family number in the interactions that involved these particles. Given that neutrinos don't interact via electromagnetic or strong forces a theory of a different force that mediated these interactions was developed into what is now known as the "weak nuclear force".
 \subsection{Weak Nuclear Force}
 Developments in quantum mechanics (QM) and special relativity (SR) led up to the first theories that could describe the behavior of some subatomic particles and their interactions through excitations of quantized fields called quantum field theories (QFTs) obtained by promoting classical fields to operator-valued quantities satisfying canonical (anti)commutation relations and deriving their dynamics from a Lorentz-invariant action principle. One of the earliest and most successful QFTs was Quantum Electro Dynamics (QED), describing how spin-1/2 (anti)particles (\stackon[.1pt]{$\psi$}{\brabar}) interacted with an EM 4-potential ($A^\mu$) by minimizing the action given by the Lagrangian density: 
 \begin{equation}
-    \mathcal{L}_{\text{QED}} = \underbrace{\bar{\psi}(i\gamma^\mu\partial_\mu - m)\psi}_{\text{free Dirac field}} - \underbrace{\frac{1}{4}F_{\mu\nu}F^{\mu\nu}}_{\text{free EM field}} - \underbrace{e\bar{\psi}\gamma^\mu\psi A_\mu}_{\text{interaction}}.
-    \label{eq:L_QED}
+  \mathcal{L}_{\text{QED}} = \underbrace{\bar{\psi}(i\gamma^\mu\partial_\mu - m)\psi}_{\text{free Dirac field}} - \underbrace{\frac{1}{4}F_{\mu\nu}F^{\mu\nu}}_{\text{free EM field}} - \underbrace{e\bar{\psi}\gamma^\mu\psi A_\mu}_{\text{interaction}}.
+  \label{eq:L_QED}
 \end{equation}
 \noindent where
 \begin{equation}\label{eq:Amunu}
 F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu
 \end{equation}
-is the electromagnetic field strength tensor, $\psi$ is the charged fermion  field of mass $m$, and $D_\mu = \partial_\mu + ieA_\mu$ is the covariant  derivative encoding the minimal coupling between the fermion and the gauge field $A_\mu$. While the `free' terms in (\ref{eq:L_QED}) describe the propagation of Dirac fermions and photons in free Minkowski space, the `interaction' term describes a vertex that couples the (anti)fermion current with the electromagnetic four-potential, representing the elementary process of a(n) (anti)fermion emitting or absorbing a photon. At zeroth-order $\hbar$ perturbative terms, QED had shown predictive power for processes like Compton ($\gamma + e^- \rightarrow \gamma + e^-$)~\cite{KleinNishina1929} and M\o ller ($e^- + e^- \rightarrow e^- + e^-$)~\cite{Moller1932} scattering by the time Fermi first proposed an interaction inspired by the QED interaction term, where instead of a fermion current emits a photon, two fermion currents meet at a vertex such that a coupling constant (now called Fermi's constant $G_F$) quantified the intensity of the interaction, and thus can be estimated experimentally.
-\begin{center}
-% https://feynman.srossd.com/#N4Igdg9gJgpgziAXAbVABwnAlgFyxMJZABgBoBGAXVJADcBDAGwFcYkQQBfU9TXfQinIVqdJq3ZceIDNjwEiAJlLFRDFm0QduvOQKWlFa8Zu3TZ-BSmVUa6iVoC8U3ZcHIAzCLsn2AHT9sAFsXGT55dzIAFmMNSR0wvStkYRi7GAAnHBgAD3YoCBxQiwiDD1iHM1dS61I0sTitYvD9WoBWCtNmpPcvevtTAODutyIo7wbKmACAI3oM4AC0bE4AfWAAM04AgHN6IKD6AD0AoOYl7HWtgAIAQVXT5hGa5HH+3y0AgAoAjYz6ADGwAA4qsAGKcRaBACOWWAik4nB+fjmCwuWDWwDA2z8ewOx0e6PWaE4AEpkaiocsMesAmBmDi8YcHn4zkTgDAjsAALSI0kBUnPVokFRqTLZPJaApFBIlYVtOqdfx+P6AkHgyFDWE4eGIinzKkrdbY3b7Q4nVnnPzU4lk-Vo61GqH0xlm+gstmOrDrTk8vlC5IK2yTUzTFEG9GYram-EWz02zacO4ep6cUQwKA7eBEUB-CAhRBkEA4CBIYQgAEAC3mWbLNEY9BmMEYAAUWlYQIwYBsij5GiANqE8wXyyWkMoK9WMrXEOXGFgwKYNpkgvo+5VBwlh3Xi6XEF5OwvTGhK4UFPXG822z12BksDtK72Q8qmfQhxl80gAGw0MeIADsNBVjWmjlgM7BoO+n6IAAHL+e6AZOIFINyYEfOAUEFgAnPBSCIcB06geugzhg6LqYWWRZ-vhU4zqhxHsJy3JcJQnBAA
-\begin{tikzpicture}
+is the electromagnetic field strength tensor, $\psi$ is the charged fermion field of mass $m$, and $D_\mu = \partial_\mu + ieA_\mu$ is the covariant derivative encoding the minimal coupling between the fermion and the gauge field $A_\mu$. While the `free' terms in (\ref{eq:L_QED}) describe the propagation of Dirac fermions and photons in free Minkowski space, the `interaction' term describes a vertex that couples the (anti)fermion current with the electromagnetic four-potential, representing the elementary process of a(n) (anti)fermion emitting or absorbing a photon as ilustrated in (\ref{eq:QEDintver}) as a Feynman diagram. At zeroth-order $\hbar$ perturbative terms, QED had shown predictive power for processes like Compton ($\gamma + e^- \rightarrow \gamma + e^-$)~\cite{KleinNishina1929} and M\o ller ($e^- + e^- \rightarrow e^- + e^-$)~\cite{Moller1932} scattering by the time Fermi first proposed an interaction inspired by the QED interaction term, where instead of a fermion current emits a photon, two fermion currents meet at a vertex such that a coupling constant (now called Fermi's constant $G_F$) quantified the intensity of the interaction, and thus can be estimated experimentally. This new interaction vertex is shown in (\ref{eq:Fermieffvert}) as an effective Feynman diagram.
+\begin{align}\label{eq:QEDintver}
+\begin{tikzpicture}[baseline=(1).base]
 \begin{feynman}
-\vertex (0) at (0, 8);
-\vertex (1) at (2, 8);
-\vertex (2) at (4, 10);
-\vertex (3) at (4, 6);
-\vertex (4) at (4, 8);
-\vertex (5) at (6, 8) {\(\sim\)};
-\vertex (6) at (0, 2);
-\node[dot] (7) at (2, 2);
-\vertex (8) at (4, 4);
-\vertex (9) at (4, 2);
-\vertex (10) at (4, 0);
-\vertex (11) at (6, 2) {\(\sim\)};
-\vertex (12) at (8, 8) {\(e\bar{\psi}_{f}\gamma^\mu\psi_{f} A_\mu\)};
-\vertex (13) at (8, 2);
-\vertex (18) at (10, 2) {\(\mkern-80mu \frac{G_F}{\sqrt{2}}(\bar{\psi}_{n}\gamma^\mu\psi_{p})(\bar{\psi}_{\nu}\gamma_\mu\psi_{e^{-}})\)};
-\vertex (19) at (10, 8);
-\diagram*{
-	(0) --[fermion,edge label={\(f\)}] (1),
-	(1) --[fermion,edge label={\(f\)}] (2),
-	(1) --[photon,edge label'={\(\gamma\)}] (3),
-	(6) --[fermion,edge label={\(p\)}] (7),
-	(8) --[anti fermion,edge label={\(n\)}] (7),
-	(9) --[fermion,edge label={\(\bar{\nu}\)}] (7),
-	(10) --[anti fermion,edge label={\(e^-\)}] (7)
-};
+    \vertex (0) at (0, 8);
+    \vertex (1) at (2, 8);
+    \vertex (2) at (4, 10);
+    \vertex (3) at (4, 6);
+    \diagram*{
+        (0) --[fermion,edge label={\(f\)}] (1),
+        (1) --[fermion,edge label={\(f\)}] (2),
+        (1) --[photon,edge label'={\(\gamma\)}] (3),
+    };
 \end{feynman}
 \end{tikzpicture}
-\end{center}
+&\sim (\overline{\psi}_{f}eQ_{f}\gamma^\mu\psi_{f}) A_\mu\\\nonumber\\\label{eq:Fermieffvert}
+\begin{tikzpicture}[baseline=(7).base]
+\begin{feynman}
+    \vertex (6) at (0, 2);
+    \node[dot] (7) at (2, 2);
+    \vertex (8) at (4, 4);
+    \vertex (9) at (4, 2);
+    \vertex (10) at (4, 0);
+    \diagram*{
+        (6) --[fermion,edge label={\(p\)}] (7),
+        (8) --[anti fermion,edge label={\(n\)}] (7),
+        (9) --[fermion,edge label={\(\bar{\nu}\)}] (7),
+        (10) --[anti fermion,edge label={\(e^-\)}] (7)
+    };
+\end{feynman}
+\end{tikzpicture}
+&\sim \frac{G_F}{\sqrt{2}}(\overline{\psi}_{n}\gamma^\mu\psi_{p})(\overline{\psi}_{\nu}\gamma_\mu\psi_{e^{-}})
+\end{align}
+% \begin{center}
+% % https://feynman.srossd.com/#N4Igdg9gJgpgziAXAbVABwnAlgFyxMJZABgBoBGAXVJADcBDAGwFcYkQQBfU9TXfQinIVqdJq3ZceIDNjwEiAJlLFRDFm0QduvOQKWlFa8Zu3TZ-BSmVUa6iVoC8U3ZcHIAzCLsn2AHT9sAFsXGT55dzIAFmMNSR0wvStkYRi7GAAnHBgAD3YoCBxQiwiDD1iHM1dS61I0sTitYvD9WoBWCtNmpPcvevtTAODutyIo7wbKmACAI3oM4AC0bE4AfWAAM04AgHN6IKD6AD0AoOYl7HWtgAIAQVXT5hGa5HH+3y0AgAoAjYz6ADGwAA4qsAGKcRaBACOWWAik4nB+fjmCwuWDWwDA2z8ewOx0e6PWaE4AEpkaiocsMesAmBmDi8YcHn4zkTgDAjsAALSI0kBUnPVokFRqTLZPJaApFBIlYVtOqdfx+P6AkHgyFDWE4eGIinzKkrdbY3b7Q4nVnnPzU4lk-Vo61GqH0xlm+gstmOrDrTk8vlC5IK2yTUzTFEG9GYram-EWz02zacO4ep6cUQwKA7eBEUB-CAhRBkEA4CBIYQgAEAC3mWbLNEY9BmMEYAAUWlYQIwYBsij5GiANqE8wXyyWkMoK9WMrXEOXGFgwKYNpkgvo+5VBwlh3Xi6XEF5OwvTGhK4UFPXG822z12BksDtK72Q8qmfQhxl80gAGw0MeIADsNBVjWmjlgM7BoO+n6IAAHL+e6AZOIFINyYEfOAUEFgAnPBSCIcB06geugzhg6LqYWWRZ-vhU4zqhxHsJy3JcJQnBAA
+% \begin{tikzpicture}
+% \begin{feynman}
+% \vertex (0) at (0, 8);
+% \vertex (1) at (2, 8);
+% \vertex (2) at (4, 10);
+% \vertex (3) at (4, 6);
+% \vertex (4) at (4, 8);
+% \vertex (5) at (6, 8) {\(\sim\)};
+% \vertex (6) at (0, 2);
+% \node[dot] (7) at (2, 2);
+% \vertex (8) at (4, 4);
+% \vertex (9) at (4, 2);
+% \vertex (10) at (4, 0);
+% \vertex (11) at (6, 2) {\(\sim\)};
+% \vertex (12) at (8, 8) {\(e\bar{\psi}_{f}\gamma^\mu\psi_{f} A_\mu\)};
+% \vertex (13) at (8, 2);
+% \vertex (18) at (10, 2) {\(\mkern-80mu \frac{G_F}{\sqrt{2}}(\bar{\psi}_{n}\gamma^\mu\psi_{p})(\bar{\psi}_{\nu}\gamma_\mu\psi_{e^{-}})\)};
+% \vertex (19) at (10, 8);
+% \diagram*{
+% 	(0) --[fermion,edge label={\(f\)}] (1),
+% 	(1) --[fermion,edge label={\(f\)}] (2),
+% 	(1) --[photon,edge label'={\(\gamma\)}] (3),
+% 	(6) --[fermion,edge label={\(p\)}] (7),
+% 	(8) --[anti fermion,edge label={\(n\)}] (7),
+% 	(9) --[fermion,edge label={\(\bar{\nu}\)}] (7),
+% 	(10) --[anti fermion,edge label={\(e^-\)}] (7)
+% };
+% \end{feynman}
+% \end{tikzpicture}
+% \end{center}
 Subsequent discoveries in particle physics revealed that charged-current weak interactions violate parity symmetry maximally. First theorized by Lee and Yang in 1956~\cite{Lee:1956qn} to resolve the then-known $\tau - \theta$ puzzle, and later verified experimentally by Wu et al. in 1957~\cite{Wu:1957my}, this motivated a modification of the Fermi interaction in the form of a combination of the two bilinear Lorentz-invariant structures that admit such violation~\cite{Sudarshan:1958vf, Feynman:1958ty}.
 
 \begin{align}
-\text{V}&:  j_{V}^{\mu} = \bar{\psi}\gamma^\mu\psi &\xrightarrow{\mathcal{P}}& &j'_{V~\mu} &= \bar{\psi}\gamma_\mu\psi& \label{eq:V}\\
-\text{A}&:  j_{A}^{\mu} = \bar{\psi}\gamma^\mu\gamma^5\psi &\xrightarrow{\mathcal{P}}& &j'_{A~\mu} &= -\bar{\psi}\gamma_\mu\gamma^5\psi& \label{eq:A}
+\text{V}&: j_{V}^{\mu} = \bar{\psi}\gamma^\mu\psi &\xrightarrow{\mathcal{P}}& &j'_{V~\mu} &= \bar{\psi}\gamma_\mu\psi& \label{eq:V}\\
+\text{A}&: j_{A}^{\mu} = \bar{\psi}\gamma^\mu\gamma^5\psi &\xrightarrow{\mathcal{P}}& &j'_{A~\mu} &= -\bar{\psi}\gamma_\mu\gamma^5\psi& \label{eq:A}
 \end{align}
 
 The expressions (\ref{eq:V}) and (\ref{eq:A}) show how different bilinear structures change under parity ($\mathcal{P}$) and how pure vector (axial) currents are $\mathcal{P}-even$ ($\mathcal{P}-odd$). Given a general current structure, $j^\mu = g_V j_{V}^\mu + g_A j_{A}^\mu$, observables that depend on the inner product of two such currents transform under parity as:
 \begin{align}
-    |\mathcal{M}|^2 &= (j_{1} \cdot j_{2}) = g_V^2 (j_{1~V} \cdot j_{2~V}) + g_A^2 (j_{1~A} \cdot j_{2~A}) + g_V g_A (j_{1~V} \cdot j_{2~A} + j_{1~A} \cdot j_{2~V})\label{eq:M} \\  \nonumber
-    &\xrightarrow{\mathcal{P}} \\
-    |\mathcal{M}'|^2 &= (j'_{1} \cdot j'_{2}) = g_V^2 (j'_{1~V} \cdot j'_{2~V}) + g_A^2 (j'_{1~A} \cdot j'_{2~A}) - g_V g_A (j'_{1~V} \cdot j'_{2~A} + j'_{1~A} \cdot j'_{2~V}).\label{eq:Mprime}
+  |\mathcal{M}|^2 &= (j_{1} \cdot j_{2}) = g_V^2 (j_{1~V} \cdot j_{2~V}) + g_A^2 (j_{1~A} \cdot j_{2~A}) + g_V g_A (j_{1~V} \cdot j_{2~A} + j_{1~A} \cdot j_{2~V})\label{eq:M} \\ \nonumber
+  &\xrightarrow{\mathcal{P}} \\
+  |\mathcal{M}'|^2 &= (j'_{1} \cdot j'_{2}) = g_V^2 (j'_{1~V} \cdot j'_{2~V}) + g_A^2 (j'_{1~A} \cdot j'_{2~A}) - g_V g_A (j'_{1~V} \cdot j'_{2~A} + j'_{1~A} \cdot j'_{2~V}).\label{eq:Mprime}
 \end{align}
 The only difference between (\ref{eq:M}) and (\ref{eq:Mprime}) lies in the sign of the interference term, such that the degree of $\mathcal{P}$-symmetry violation is given by the coefficient $\frac{g_V g_A}{g_V^2 + g_A^2}$. Normalizing this there are two options for maximally violated $\mathcal{P}$-symmetry given by $\frac{g_V}{g_A} = \pm 1$, also known as $V\pm A$ currents. Given that in the Wu experiment it was determined that (anti)neutrinos are emitted exclusively as left(right)-handed fermions the appropriate structure to use for weak interactions was determined to be $V-A$. Modifying the Fermi Lagrangian density for beta decay to include this gives the following expression:
 \begin{equation}
-    \mathcal{L}_{CC}=\frac{G_{F}}{\sqrt{2}}\left[\bar{\psi}_{\nu_{e}}\gamma^{\mu}(1-\gamma^{5})\psi_{e}\right]\left[\bar{\psi}_{p}\gamma_{\mu}(1-\gamma^{5})\psi_{n}\right]+\text{h.c.} \label{eq:VALag}
+  \mathcal{L}_{CC}=\frac{G_{F}}{\sqrt{2}}\left[\bar{\psi}_{\nu_{e}}\gamma^{\mu}(1-\gamma^{5})\psi_{e}\right]\left[\bar{\psi}_{p}\gamma_{\mu}(1-\gamma^{5})\psi_{n}\right]+\text{h.c.} \label{eq:VALag}
 \end{equation}
-Later refinements of this theory succeeded in demonstrating the universality of the weak interaction across leptonic decays and strangeness-changing meson decays through Cabibbo mixing~\cite{Cabibbo:1963yz}. This not only established that all such processes are mediated by the same underlying force, but also motivated the prediction and subsequent discovery of the charm quark~\cite{Glashow:1970gm}. With these improvements on the theory thus far, the point-like structure of the interaction still led to scattering amplitudes proportional to the center-of-mass energy $\sqrt{s}$, resulting in S-matrix unitarity violation at higher energies. The natural resolution, in analogy with QED, is to conceive of Fermi's interaction as the low-energy limit of a gauge field theory, wherein the maximal parity violation of the charged currents naturally gives rise to three mediating vector bosons corresponding to the generators of an $SU(2)_L$ symmetry, which must be massive due to the short range of the weak interaction. Given this hypothesis, Glashow showed in 1961~\cite{Glashow1961} that the gauge field theory whose low-energy limit reproduces the $V-A$ structure of charged currents requires a $SU(2)_L \times U(1)_Y$ symmetry group, which not only predicted the existence of neutral weak currents, later measured in 1973 at the Gargamelle Neutrino Experiment at CERN~\cite{Hasert1973a, Hasert1973b},  but also unified the weak and electromagnetic interactions into a single electroweak theory, later completed independently by Weinberg and Salam through the incorporation of spontaneous symmetry breaking~\cite{Weinberg1967, Salam1968}.
+Later refinements of this theory succeeded in demonstrating the universality of the weak interaction across leptonic decays and strangeness-changing meson decays through Cabibbo mixing~\cite{Cabibbo:1963yz}. This not only established that all such processes are mediated by the same underlying force, but also motivated the prediction and subsequent discovery of the charm quark~\cite{Glashow:1970gm}. With these improvements on the theory thus far, the point-like structure of the interaction still led to scattering amplitudes proportional to the center-of-mass energy $\sqrt{s}$, resulting in S-matrix unitarity violation at higher energies. The natural resolution, in analogy with QED, is to conceive of Fermi's interaction as the low-energy limit of a gauge field theory, wherein the maximal parity violation of the charged currents naturally gives rise to three mediating vector bosons corresponding to the generators of an $SU(2)_L$ symmetry, which must be massive due to the short range of the weak interaction. Given this hypothesis, Glashow showed in 1961~\cite{Glashow1961} that the gauge field theory whose low-energy limit reproduces the $V-A$ structure of charged currents requires a $SU(2)_L \times U(1)_Y$ symmetry group, which not only predicted the existence of neutral weak currents, later measured in 1973 at the Gargamelle Neutrino Experiment at CERN~\cite{Hasert1973a, Hasert1973b}, but also unified the weak and electromagnetic interactions into a single electroweak theory, later completed independently by Weinberg and Salam through the incorporation of spontaneous symmetry breaking~\cite{Weinberg1967, Salam1968}.
 \section{Massive and Massless Mediators}
 \subsection{Photons}
 It is well established within QED that electromagnetic interactions between charged fermions are mediated by a bosonic gauge field. The mediating boson, the photon, is massless as required by $U(1)$ gauge invariance, a property 
@@ -97,8 +129,8 @@ that manifests physically as the infinite range of the electromagnetic interacti
 \noindent which in momentum space, with $\partial_{\mu} \rightarrow -iq_{\mu}$, 
 becomes
 \begin{equation}
-    \left(-q^2 \eta^{\mu \nu} + q^\mu q^\nu\right)\widetilde{A}_{\nu} 
-    = K^{\mu \nu}\widetilde{A}_{\nu} = 0.
+  \left(-q^2 \eta^{\mu \nu} + q^\mu q^\nu\right)\widetilde{A}_{\nu} 
+  = K^{\mu \nu}\widetilde{A}_{\nu} = 0.
 \end{equation}
 The propagator $D^{\mu \nu}$, defined by $K^{\mu \alpha}D_{\alpha \nu} = \delta^{\mu}{}_{\nu}$, cannot be obtained directly from the kinetic operator $K^{\mu\nu}$, since the latter is singular by construction: the action is invariant under $U(1)$ gauge transformations $A^\mu \rightarrow A'^\mu = A^\mu + \partial^{\mu}\lambda$, which implies that $K^{\mu\nu}$ has a zero eigenvalue along the gauge orbit. A propagator is only obtainable upon gauge fixing, which is implemented by augmenting the Lagrangian density with a gauge-fixing term,
 \begin{equation}
@@ -112,16 +144,16 @@ The propagator $D^{\mu \nu}$, defined by $K^{\mu \alpha}D_{\alpha \nu} = \delta^
 \end{equation}
 \noindent is now invertible for any $\xi \neq 0$, yielding the generalized 
 $R_\xi$ propagator
-\begin{equation}
-    D^{\mu\nu}_\gamma(q) = \frac{-i}{q^2 + i\epsilon}
-    \left[\eta^{\mu\nu} - (1-\xi)\frac{q^\mu q^\nu}{q^2}\right],
+\begin{equation}\label{eq:photonprop}
+  D^{\mu\nu}_\gamma(q) = \frac{-i}{q^2 + i\epsilon}
+  \left[\eta^{\mu\nu} - (1-\xi)\frac{q^\mu q^\nu}{q^2}\right],
 \end{equation}
 \noindent where any choice of $\xi \in \mathbb{R}\setminus\{0\}$ yields equivalent physical predictions, as gauge-dependent terms cancel in all observable quantities.
 \subsection{$W^{\pm}$ and $Z$}
 In contrast to the photon, the weak interaction's short range is a consequence of its mediators' mass and thus its dynamics are no longer governed by a Maxwell Lagrangian density, but rather one that includes a mass term that breaks the $U(1)$ found in the original, called a Proca Lagrangian, with a propagator that no longer requires gauge fixing but still is invariant under Lorentz transformations.
 \begin{equation}\label{eq:L_Proca}
-    \mathcal{L}_{\text{Proca}} = -\frac{1}{4}F_{\mu\nu}F^{\mu\nu} 
-    + \frac{1}{2}M^2 A_\mu A^\mu.
+  \mathcal{L}_{\text{Proca}} = -\frac{1}{4}F_{\mu\nu}F^{\mu\nu} 
+  + \frac{1}{2}M^2 A_\mu A^\mu.
 \end{equation}
 In calculating its propagator by solving the equations of motion and inverting the kinetic operator in momentum space one finds that:
 \begin{equation}\label{eq:EqMotionProca}
@@ -133,38 +165,38 @@ In calculating its propagator by solving the equations of motion and inverting t
 \end{equation}
 and by taking the four-divergence $\partial_\nu$ of (\ref{eq:EqMotionProca}),
 \begin{equation}
-    \begin{split}
+  \begin{split}
 \partial_\nu \partial^2 A^\nu - \partial_\nu \partial^{\nu}(\partial_\mu A^\mu) + M^2(\partial_\mu A^{\nu}) &= 0, \\
-\implies  M^2(\partial_\mu A^{\nu})  &= 0.
-    \end{split}
+\implies M^2(\partial_\mu A^{\nu}) &= 0.
+  \end{split}
 \end{equation}
 Now taking $M^2\neq 0$ the gauge given by $\partial_\mu A^\mu = 0$ is no longer a choice but rather an equation of motion that reduces the four degrees of freedom of the components of $A^\mu$ to two transverse and one longitudinal polarization modes of a massive spin-1 particle. Writing the equations of motion in momentum space with $\partial^\mu \rightarrow -iq^\mu$:
 \begin{equation}
-    (-q^2 \eta^{\mu \nu}+ q^{\nu}q_\mu + M^2)A_\mu = ( (M^2-q^2) \eta^{\mu \nu}+ q^{\nu}q_\mu )A_\mu =0.
+  (-q^2 \eta^{\mu \nu}+ q^{\nu}q_\mu + M^2)A_\mu = ( (M^2-q^2) \eta^{\mu \nu}+ q^{\nu}q_\mu )A_\mu =0.
 \end{equation}
 Inverting $K^{\mu\nu}_{\text{Proca}} = ((M^2-q^2)\eta^{\mu\nu} + q^\mu q^\nu)$ gives a unique choice for the Proca propagator $D^{\mu\nu}_{\text{Proca}}$ such that $K^{\mu\alpha}_{\text{Proca}}D_{\text{Proca}\,\alpha\nu} = \delta^{\mu}{}_{\nu}$.
 \begin{equation}\label{eq:ProcaProp}
-    D^{\mu \nu}_{\text{Proca}} = \frac{i}{q^2 - M^2 + i\epsilon}\left[ \eta^{\mu \nu} - \frac{q^\mu q^\nu}{M^2}\right].
+  D^{\mu \nu}_{\text{Proca}} = \frac{i}{q^2 - M^2 + i\epsilon}\left[ \eta^{\mu \nu} - \frac{q^\mu q^\nu}{M^2}\right].
 \end{equation}
 It is worth noting that interactions mediated by (\ref{eq:ProcaProp}) between conserved currents, for which $\partial_\mu j^\mu = 0$ implies $q_\mu\widetilde{j}^\mu = 0$, reduce to the Fermi effective form in the limit $|q^2| \ll M^2$. Expanding the denominator,
-\begin{equation}
-    \frac{1}{q^2 - M^2} = 
-    \frac{-1}{M^2}\left[\frac{1}{1 - q^2/M^2}\right]
-    \xrightarrow{|q^2|\ll M^2} 
-    \frac{-1}{M^2}\left[1 + \frac{q^2}{M^2} 
-    + \mathcal{O}\!\left(\frac{q^4}{M^4}\right)\right],
+\begin{equation}\label{eq:lowlimitprocaprop}
+  \frac{1}{q^2 - M^2} = 
+  \frac{-1}{M^2}\left[\frac{1}{1 - q^2/M^2}\right]
+  \xrightarrow{|q^2|\ll M^2} 
+  \frac{-1}{M^2}\left[1 + \frac{q^2}{M^2} 
+  + \mathcal{O}\!\left(\frac{q^4}{M^4}\right)\right],
 \end{equation}
 where the amplitude of an interaction is now
 \begin{equation}
-    i\mathcal{M} = (-ig)^2\,j^\dagger_\mu\,D^{\mu\nu}_{\text{Proca}}
-    \,j_\nu \xrightarrow{|q^2|\ll M^2} 
-    \frac{ig^2}{M^2}\,j^\dagger_\mu\,\eta^{\mu\nu}\,j_\nu,
+  i\mathcal{M} = (-ig)^2\,j^\dagger_\mu\,D^{\mu\nu}_{\text{Proca}}
+  \,j_\nu \xrightarrow{|q^2|\ll M^2} 
+  \frac{ig^2}{M^2}\,j^\dagger_\mu\,\eta^{\mu\nu}\,j_\nu,
 \end{equation}
 which upon comparison with the Fermi four-fermion amplitude 
 $i\mathcal{M}_{\text{Fermi}} = i\frac{G_F}{\sqrt{2}}\,
 j^\dagger_\mu\,\eta^{\mu\nu}\,j_\nu$ yields
 \begin{equation}\label{eq:GF_matching}
-    \frac{G_F}{\sqrt{2}} \sim \frac{g^2}{M^2},
+  \frac{G_F}{\sqrt{2}} \sim \frac{g^2}{M^2},
 \end{equation}
 where its actual matching relation will be given when calculating the $SU(2)_L$ couplings with $W^{\pm}$ and charged currents.
 \section{Electroweak mixing and $\sin^2 \theta_W$}
@@ -184,45 +216,45 @@ i & 0
 \end{equation}
 couple exclusively with left(right)-handed (anti)fermions (as is the case for charged current weak interactions) that act on doublets of the form 
 \begin{equation}
-    L = \left(\begin{array}{c}  \nu_{l}\\ l \end{array}\right)_L,
+  L = \left(\begin{array}{c} \nu_{l}\\ l \end{array}\right)_L,
 \end{equation}
 where l denotes any charged lepton and $\nu_l$ it's corresponding (anti)neutrino. A theory of fermion interactions with a local $SU(2)_L$ symmetry requires promoting the partial derivative in the Dirac Lagrangian to a covariant derivative
 \begin{equation}
-    D_{\mu} = \partial_\mu + ig\frac{\tau^a}{2}W^a_\mu 
-    = \partial_\mu + ig\left(\frac{\tau^1}{2}W^1_\mu 
-    + \frac{\tau^2}{2}W^2_\mu + \frac{\tau^3}{2}W^3_\mu\right),
+  D_{\mu} = \partial_\mu + ig\frac{\tau^a}{2}W^a_\mu 
+  = \partial_\mu + ig\left(\frac{\tau^1}{2}W^1_\mu 
+  + \frac{\tau^2}{2}W^2_\mu + \frac{\tau^3}{2}W^3_\mu\right),
 \end{equation}
 and introducing a non-abelian field strength tensor for each gauge boson 
 $W^a$, $a \in \{1,2,3\}$,
 \begin{equation}
-    W^a_{\mu\nu} = \partial_\mu W^a_\nu - \partial_\nu W^a_\mu 
-    - g\epsilon^{abc}W^b_\mu W^c_\nu,
+  W^a_{\mu\nu} = \partial_\mu W^a_\nu - \partial_\nu W^a_\mu 
+  - g\epsilon^{abc}W^b_\mu W^c_\nu,
 \end{equation}
 where the last term, absent in the abelian case of QED, encodes the self-interactions among the gauge bosons that arise from the non-abelian nature of $SU(2)_L$. The resulting Lagrangian density is
 \begin{equation}\label{eq:L_SU2}
-    \mathcal{L}_{SU(2)_L} = \bar{L}\, i\gamma^\mu D_\mu L 
-    - \frac{1}{4}W^a_{\mu\nu}W^{a\mu\nu},
+  \mathcal{L}_{SU(2)_L} = \bar{L}\, i\gamma^\mu D_\mu L 
+  - \frac{1}{4}W^a_{\mu\nu}W^{a\mu\nu},
 \end{equation}
 where $L = \left(\begin{smallmatrix}\nu_l \\ l\end{smallmatrix}\right)_L$ 
 denotes the left-handed lepton doublet. Extracting and expanding the interaction term in (\ref{eq:L_SU2}) explicitly gives,
 \begin{equation}\label{eq:SU2_Lint}
-    \begin{split}
-    \mathcal{L}_{SU(2)_L,~\text{int}} &= -\frac{g}{2}\bar{L}\gamma^\mu (\tau^1 W^1_{\mu} + \tau^2 W^2_{\mu} + \tau^3 W^3_{\mu})L\\
-    &= -\frac{g}{2}
-    \begin{pmatrix}\bar{\nu}_l & \bar{l}\end{pmatrix}_L
-    \gamma^\mu
-    \begin{pmatrix} W^3_\mu & W^1_\mu - iW^2_\mu \\ 
-    W^1_\mu + iW^2_\mu & -W^3_\mu\end{pmatrix}
-    \begin{pmatrix}\nu_l \\ l\end{pmatrix}_L.
-    \end{split}
+  \begin{split}
+  \mathcal{L}_{SU(2)_L,~\text{int}} &= -\frac{g}{2}\bar{L}\gamma^\mu (\tau^1 W^1_{\mu} + \tau^2 W^2_{\mu} + \tau^3 W^3_{\mu})L\\
+  &= -\frac{g}{2}
+  \begin{pmatrix}\bar{\nu}_l & \bar{l}\end{pmatrix}_L
+  \gamma^\mu
+  \begin{pmatrix} W^3_\mu & W^1_\mu - iW^2_\mu \\ 
+  W^1_\mu + iW^2_\mu & -W^3_\mu\end{pmatrix}
+  \begin{pmatrix}\nu_l \\ l\end{pmatrix}_L.
+  \end{split}
 \end{equation}
-Identifying that the upper right and lower left entries of the matrix in (\ref{eq:SU2_Lint}) correspond neatly to the known charged current weak interactions makes the definition of the $W^{\pm}$ bosons such that $W^{\pm}_\mu =  \frac{1}{\sqrt{2}}(W^1_\mu \mp i W^2_\mu)$ a way to separate the interaction Lagrangian density into a charged current (CC) term and a neutral current (NC) term.
+Identifying that the upper right and lower left entries of the matrix in (\ref{eq:SU2_Lint}) correspond neatly to the known charged current weak interactions makes the definition of the $W^{\pm}$ bosons such that $W^{\pm}_\mu = \frac{1}{\sqrt{2}}(W^1_\mu \mp i W^2_\mu)$ a way to separate the interaction Lagrangian density into a charged current (CC) term and a neutral current (NC) term.
 \begin{equation}\label{eq:L_int_expanded}
-    \mathcal{L}_{\text{int}} = 
-    \underbrace{-\frac{g}{2}\left[\bar{\nu}_L\gamma^\mu\nu_L 
-    - \bar{l}_L\gamma^\mu l_L\right]W^3_\mu}_{\mathcal{L}_\text{NC\,int}} 
-     \underbrace{-\frac{g}{\sqrt{2}}\left[\bar{\nu}_L\gamma^\mu l_L\, W^+_\mu 
-    + \bar{l}_L\gamma^\mu\nu_L\, W^-_\mu\right]}_{\mathcal{L}_\text{CC\,int}}.
+  \mathcal{L}_{\text{int}} = 
+  \underbrace{-\frac{g}{2}\left[\bar{\nu}_L\gamma^\mu\nu_L 
+  - \bar{l}_L\gamma^\mu l_L\right]W^3_\mu}_{\mathcal{L}_\text{NC\,int}} 
+   \underbrace{-\frac{g}{\sqrt{2}}\left[\bar{\nu}_L\gamma^\mu l_L\, W^+_\mu 
+  + \bar{l}_L\gamma^\mu\nu_L\, W^-_\mu\right]}_{\mathcal{L}_\text{CC\,int}}.
 \end{equation}
 It is worth noting that the amplitude of a CC interaction computed from $\mathcal{L}_{CC\,\text{int}}$ in (\ref{eq:L_int_expanded}) in the limit $|q^2| \ll M_W^2$ reproduces the Fermi four-fermion amplitude, yielding the tree-level matching relation between $G_F$ and $g$.
 \begin{align}
@@ -236,26 +268,26 @@ which is of particular importance as it expresses the experimentally well-measur
 \subsection{$SU(2)_L \times U(1)_Y$}
 To establish a theory coherent with the known properties of leptons, it is first necessary to fix the hypercharge ($Y$) assignments of the left-handed fermion doublet $L = \left(\begin{smallmatrix}\nu_l \\ l\end{smallmatrix}\right)_L$ and the right-handed lepton singlet $R = (l_R)$ by relating them to the known electric charges $Q$ and weak isospin eigenvalues $T^3$ via the Gell-Mann--Nishijima relation
 \begin{equation}\label{eq:Gell-Mann-Nishijima}
-    Q = T^3 + \frac{Y}{2}.
+  Q = T^3 + \frac{Y}{2}.
 \end{equation}
 Fixing these gives the values presented in Table~\ref{tb:QT3Y} for each lepton type, noting that right-handed neutrinos are absent from the spectrum due to the lack of experimental evidence for their existence, with the exception of the measured neutrino mass splittings among the three flavors, which falls outside the scope of this work.
 \begin{table}\centering
 \begin{tabular*}{0.8\linewidth}{@{\extracolsep{\fill}} cccc }
 \toprule
-Multiplet    &     $T^3$      & $Q$   & $Y$    \\ \midrule
-$\nu_{l\,L}$ &  $\frac{1}{2}$ &   0   &  -1    \\
-$l_L$        & -$\frac{1}{2}$ &  -1   &  -1    \\
-$l_R$        &      0         &  -1   &  -2    \\ \bottomrule
+Multiplet  &   $T^3$   & $Q$  & $Y$  \\ \midrule
+$\nu_{l\,L}$ & $\frac{1}{2}$ &  0  & -1  \\
+$l_L$    & -$\frac{1}{2}$ & -1  & -1  \\
+$l_R$    &   0     & -1  & -2  \\ \bottomrule
 \end{tabular*}
 \caption{Values for $Q$, $T^3$ and $Y$ for each lepton, where l denotes any of the known flavours of charged lepton}
 \label{tb:QT3Y}
 \end{table}With this, the full Lagrangian density with the necessary assigned values is:
 \begin{equation}\label{eq:L_EW}
-    \mathcal{L}_{EW} =  -i \bar{L} \gamma^{\mu} D_{\mu} L - i \bar R \gamma^{\mu} D_{\mu} R -\frac{1}{4}W^{a\,\mu\nu}W^{a}_{\mu\nu} -\frac{1}{4}B^{\mu\nu}B_{\mu\nu}
+  \mathcal{L}_{EW} = -i \bar{L} \gamma^{\mu} D_{\mu} L - i \bar R \gamma^{\mu} D_{\mu} R -\frac{1}{4}W^{a\,\mu\nu}W^{a}_{\mu\nu} -\frac{1}{4}B^{\mu\nu}B_{\mu\nu}
 \end{equation}
 Where $B^{\mu \nu}$ is defined the same way as $F^{\mu \nu}$ in (\ref{eq:Amunu}) for a massless boson field $B^\mu$. The covariant derivative is given by
 \begin{equation}
-    D_\mu = \partial_\mu + ig(\frac{\tau^1}{2}W^1_\mu + \frac{\tau^2}{2}W^2_\mu + \frac{\tau^3}{2}W^3_\mu) + ig'\frac{Y}{2}B_\mu.
+  D_\mu = \partial_\mu + ig(\frac{\tau^1}{2}W^1_\mu + \frac{\tau^2}{2}W^2_\mu + \frac{\tau^3}{2}W^3_\mu) + ig'\frac{Y}{2}B_\mu.
 \end{equation}
 Much like (\ref{eq:SU2_Lint}), the interaction terms of (\ref{eq:L_EW}) can be separated into CC and NC contributions, wherein the NC terms can be re-expressed as a linear combination of two mass eigenstates mixed through an orthogonal rotation parametrized by a single angle known as the Weinberg angle ($\theta_W$). The EW interaction terms are given by
 \begin{equation}\label{eq:EW_Lint}
@@ -266,15 +298,15 @@ Much like (\ref{eq:SU2_Lint}), the interaction terms of (\ref{eq:L_EW}) can be s
 \end{equation}
 where $\psi$ denotes fermions with hypercharge $Y$ and weak isospin $T^3$, the latter being explicitly dependent on the chirality of the field, as left-handed fermions carry $T^3 = \pm 1/2$ while right-handed fermions are $SU(2)_L$ singlets with $T^3 = 0$.
 \begin{equation}\label{eq:LNCint}
-    \begin{split}
-    \mathcal{L}_{NC\,\text{int}} &= - \frac{g}{2}\left[\bar{\nu}_L\gamma^\mu\nu_L - \bar{l}_L\gamma^\mu l_L\right]W^3_\mu - \frac{g'}{2}\bar{\psi}\gamma^\mu Y B_\mu\psi\\
-    &= - \frac{g}{2} \bar{\psi} \gamma^{\mu} (2 T^3) \psi - \frac{g'}{2}\bar{\psi}\gamma^\mu Y B_\mu\psi\\
-    &= -\bar{\psi}\gamma^\mu(gT^3W^3_{\mu} + g' \frac{Y}{2}B_\mu)\psi.
-    \end{split}
+  \begin{split}
+  \mathcal{L}_{NC\,\text{int}} &= - \frac{g}{2}\left[\bar{\nu}_L\gamma^\mu\nu_L - \bar{l}_L\gamma^\mu l_L\right]W^3_\mu - \frac{g'}{2}\bar{\psi}\gamma^\mu Y B_\mu\psi\\
+  &= - \frac{g}{2} \bar{\psi} \gamma^{\mu} (2 T^3) \psi - \frac{g'}{2}\bar{\psi}\gamma^\mu Y B_\mu\psi\\
+  &= -\bar{\psi}\gamma^\mu(gT^3W^3_{\mu} + g' \frac{Y}{2}B_\mu)\psi.
+  \end{split}
 \end{equation}
 The $W^3_\mu$ and $B_\mu$ fields correspond to the unmixed states that can be combined into the known mass eigenstates $A_\mu$ and $Z_\mu$ through the orthogonal transformation given by:
 \begin{equation}\label{eq:EW_mixing}
-\begin{pmatrix}B_\mu \\ W^3_\mu\end{pmatrix}  = \begin{pmatrix}\cos\theta_W & -\sin\theta_W \\ \sin\theta_W & \cos\theta_W\end{pmatrix}\begin{pmatrix}A_\mu \\ Z_\mu\end{pmatrix}.
+\begin{pmatrix}B_\mu \\ W^3_\mu\end{pmatrix} = \begin{pmatrix}\cos\theta_W & -\sin\theta_W \\ \sin\theta_W & \cos\theta_W\end{pmatrix}\begin{pmatrix}A_\mu \\ Z_\mu\end{pmatrix}.
 \end{equation}
 Substituting (\ref{eq:EW_mixing}) into (\ref{eq:LNCint}),
 \begin{equation}\label{eq:LNCintZA}
@@ -282,7 +314,7 @@ Substituting (\ref{eq:EW_mixing}) into (\ref{eq:LNCint}),
 \mathcal{L}_{NC\,\text{int}} &= -\left(g\sin\theta_W T^3 + g'\cos\theta_W\frac{Y}{2}\right)\bar{\psi}\gamma^\mu\psi\, A_\mu \\ &\quad - \left(g\cos\theta_W T^3 - g'\sin\theta_W\frac{Y}{2}\right)\bar{\psi}\gamma^\mu\psi\, Z_\mu.
 \end{split}
 \end{equation}
-Requiring that $A_\mu$ corresponds to the photon field that couples with fermions such that $\mathcal{L}_{\text{QED int}} = -e\bar{\psi}\gamma^\mu Q \psi$ where $Q$ follows from (\ref{eq:Gell-Mann-Nishijima})  gives the relations between the coupling constants
+Requiring that $A_\mu$ corresponds to the photon field that couples with fermions such that $\mathcal{L}_{\text{QED int}} = -e\overline{\psi}\gamma^\mu Q \psi$ where $Q$ follows from (\ref{eq:Gell-Mann-Nishijima}) gives the relations between the coupling constants
 \begin{equation}\label{eq:coupling}
 e = g\sin\theta_W = g'\cos\theta_W.
 \end{equation}
@@ -292,30 +324,54 @@ Substituting (\ref{eq:Gell-Mann-Nishijima}) and (\ref{eq:coupling}) into the $Z_
 \end{equation}
 It will be useful to later sections of this work to have the $Z$ boson interaction term separated into vector and axial-vector terms such that for a fermion $f$,
 \begin{equation}\label{eq:gvga}
-    \mathcal{L}_{Zf\bar{f}\text{ int}} = -\frac{g}{cos\theta}\bar{\psi}_f\gamma^\mu(g^f_{V} - g^f_{A}\gamma^5) \psi_f Z_\mu.
+  \mathcal{L}_{Zf\bar{f}\text{ int}} = -\frac{g}{2\cos\theta_W}\bar{\psi}_f\gamma^\mu(g^f_{V} - g^f_{A}\gamma^5) \psi_f Z_\mu.
 \end{equation}
 The vector ($g^f_V$) and axial-vector ($g^f_A$) coupling coefficients can be calculated explicitly noting that all right-handed fermions are $SU(2)_L$ singlets and thus $T^3P_R \psi = T^3\frac{1}{2}(1+\gamma^5)\psi = T^3\psi_R = 0$. Separating the Z interaction term in (\ref{eq:LNCintZA2}),
 \begin{align}\nonumber
-    \mathcal{L}_{Zf\bar{f}\text{ int}} &= - \frac{g}{\cos\theta_W}\left(T^3_f - Q_f\sin^2\theta_W\right)\bar{\psi}_f\gamma^\mu\psi_f\, Z_\mu\\\nonumber
-    &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\frac{\gamma^\mu}{2}\left(T^3_f - Q_f\sin^2\theta_W\right)(1+1+\gamma^5-\gamma^5)\psi_f\, Z_\mu\\\nonumber
-    &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\frac{\gamma^\mu}{2}\left(\cancelto{0}{T^3_f} - Q_f\sin^2\theta_W\right)(1+\gamma^5)\psi_f\, Z_\mu\\\nonumber
-    & - \frac{g}{\cos\theta_W}\bar{\psi}_f\frac{\gamma^\mu}{2}\left(T^3_f - Q_f\sin^2\theta_W\right)(1-\gamma^5)\psi_f\, Z_\mu\\ \label{eq:gvga2}
-    &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\gamma^\mu\left((\frac{T^3_f}{2} - Q_f\sin^2 \theta_W) - \frac{T^3}{2} \gamma^5\right)\psi_f\, Z_\mu.
+  \mathcal{L}_{Zf\bar{f}\text{ int}} &= - \frac{g}{\cos\theta_W}\left(T^3_f - Q_f\sin^2\theta_W\right)\bar{\psi}_f\gamma^\mu\psi_f\, Z_\mu\\\nonumber
+  &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\frac{\gamma^\mu}{2}\left(T^3_f - Q_f\sin^2\theta_W\right)(1+1+\gamma^5-\gamma^5)\psi_f\, Z_\mu\\\nonumber
+  &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\frac{\gamma^\mu}{2}\left(\cancelto{0}{T^3_f} - Q_f\sin^2\theta_W\right)(1+\gamma^5)\psi_f\, Z_\mu\\\nonumber
+  & - \frac{g}{\cos\theta_W}\bar{\psi}_f\frac{\gamma^\mu}{2}\left(T^3_f - Q_f\sin^2\theta_W\right)(1-\gamma^5)\psi_f\, Z_\mu\\ \label{eq:gvga2}
+  &= - \frac{g}{\cos\theta_W}\bar{\psi}_f\gamma^\mu\left((\frac{T^3_f}{2} - Q_f\sin^2 \theta_W) - \frac{T^3}{2} \gamma^5\right)\psi_f\, Z_\mu.
 \end{align}
 Comparing (\ref{eq:gvga2}) with (\ref{eq:gvga}),
 % \begin{equation}\label{eq:gvandga}
-%     \begin{cases}
-%     \begin{split}
-%     g_{V}^{f}&=\frac{T_{f}^{3}}{2}-Q_{f}\sin^{2}\theta_{W},\\
-%     g_{A}^{f}&=\frac{T_{f}^{3}}{2}.
-%     \end{split}
-%     \end{cases}
+%   \begin{cases}
+%   \begin{split}
+%   g_{V}^{f}&=\frac{T_{f}^{3}}{2}-Q_{f}\sin^{2}\theta_{W},\\
+%   g_{A}^{f}&=\frac{T_{f}^{3}}{2}.
+%   \end{split}
+%   \end{cases}
 % \end{equation}
 
 \begin{numcases}{\left.\right.}
-g_{V}^{f} =\frac{T_{f}^{3}}{2}-Q_{f}\sin^{2}\theta_{W}, & \label{eq:gv}
+g_{V}^{f} = {T_{f}^{3}}-2Q_{f}\sin^{2}\theta_{W}, & \label{eq:gv}
 \\
-g_{A}^{f} =\frac{T_{f}^{3}}{2}. & \label{eq:ga}
+g_{A}^{f} = T_{f}^{3}. & \label{eq:ga}
 \end{numcases}
 
-It is worth noting that the presence of the $Q_f\sin^2\theta_W$ term in  $g^f_V$ (\ref{eq:gvandga}) is precisely what prevents the $Z$ boson  interaction from being maximally $\mathcal{P}$-violating. The couplings  $g^f_V$ and $g^f_A$ constitute the tree-level SM predictions for the vector  and axial-vector couplings of neutral current weak interactions, whose values  are fixed entirely by $T^3$, $Q$, and $\sin^2\theta_W$ for each fermion.  However, current experimental precision in measuring observables of such  interactions, most notably in neutrino experiments, has not only  confirmed these tree-level predictions but also demands that higher-order  perturbative corrections in the form of loop diagrams be taken into account.  These radiative corrections introduce a dependence on the momentum transfer  $Q^2$, effectively promoting $\sin^2\theta_W$ to a running coupling constant as will be discussed in Section \ref{sec:NCRassin} whose value differs measurably between the $Z$ pole and the low-energy regime  probed by reactor neutrino experiments, and acquire physical meaning when  interpreted as corrections to the $ff\gamma$ vertex function. The following  chapter focuses on how, despite carrying no electric charge, the neutrino  nonetheless possesses measurable electromagnetic properties predicted by the  SM through precisely these radiative corrections.
+It is worth noting that the presence of the $2Q_f\sin^2\theta_W$ term in $g^f_V$ (\ref{eq:gv}) is precisely what prevents the $Z$ boson interaction from being maximally $\mathcal{P}$-violating and thus neutral particles maintain the chiral structure of CC interactions even in NC vertices. 
+
+While the $SU(2)_L \times U(1)_Y$ Lagrangian density correctly describes the interaction structure of the $W^\pm$ and $Z$ bosons with fermions, explicit mass terms for these mediators of the form $\frac{1}{2}M^2 A_\mu A^\mu$ would break the gauge symmetry of the theory, as shown in (\ref{eq:L_Proca}). The resolution, proposed independently by Higgs, Englert and Brout in 1964~\cite{Higgs1964, EnglertBrout1964, PhysRevLett.13.585}, is to introduce a complex scalar $SU(2)_L$ doublet $\phi$ with $U(1)_Y$ hypercharge $Y=1$, known as the Higgs doublet, whose potential is chosen such that it acquires a non-zero vacuum expectation value $\langle\phi\rangle = \left(\begin{smallmatrix}0 \\ v/\sqrt{2}\end{smallmatrix}\right)$. Expanding the theory around this vacuum spontaneously breaks $SU(2)_L \times U(1)_Y$ down to $U(1)_{\text{EM}}$, leaving the photon massless while generating masses for the $W^\pm$ and $Z$ bosons through the covariant kinetic term $|D_\mu\phi|^2$.
+\begin{equation}
+|D_\mu\phi|^2 \supset \frac{v^2}{8}\left[g^2(W^1_\mu)^2 + g^2(W^2_\mu)^2 + \left(gW^3_\mu - g'B_\mu\right)^2\right],
+\end{equation}
+from which the $W^\pm$ mass is immediately read off as
+\begin{equation}\label{eq:MW}
+M_W = \frac{gv}{2},
+\end{equation}
+while the neutral sector mass matrix in the $(W^3_\mu, B_\mu)$ basis,
+\begin{equation}
+\frac{v^2}{8}\begin{pmatrix}W^3_\mu & B_\mu\end{pmatrix}\begin{pmatrix}g^2 & -gg' \\ -gg' & g'^2\end{pmatrix}\begin{pmatrix}W^{3\mu} \\ B^\mu\end{pmatrix},
+\end{equation}
+has eigenvalues $\lambda_1 = g^2 + g'^2$ and $\lambda_2 = 0$, corresponding to the massive $Z$ boson and the massless photon respectively, giving
+\begin{equation}\label{eq:MZ}
+M_Z = \frac{v}{2}\sqrt{g^2 + g'^2}.
+\end{equation}
+Taking the ratio of (\ref{eq:MW}) and (\ref{eq:MZ}) and identifying $\cos\theta_W = g/\sqrt{g^2+g'^2}$ from (\ref{eq:coupling}) yields the tree-level mass relation
+\begin{equation}\label{eq:MWMZrelation}
+M_W = M_Z\cos\theta_W,
+\end{equation}
+which is one of the most precisely tested predictions of the electroweak theory, with radiative corrections to this relation providing stringent constraints on physics beyond the Standard Model.
+
+The couplings $g^f_V$ and $g^f_A$ also constitute tree-level SM predictions for the vector and axial-vector couplings of neutral current weak interactions, whose values are fixed entirely by $T^3$, $Q$, and $\sin^2\theta_W$ for each fermion. However, current experimental precision in measuring observables of such interactions, most notably in neutrino experiments, has not only confirmed these tree-level predictions but also demands that higher-order perturbative corrections in the form of loop diagrams be taken into account. These radiative corrections introduce a shift in the value of $g^f_V$ (or more precisely $\sin^2\theta_W$) as will be discussed in Section \ref{sec:NCRassin} such that the new value differs measurably between the $Z$ pole and the low-energy regime probed by reactor neutrino experiments, and acquire physical meaning when interpreted as corrections to the $ff\gamma$ vertex function. The following chapter focuses on how, despite carrying no electric charge, the neutrino nonetheless possesses measurable electromagnetic properties predicted by the SM through precisely these radiative corrections.

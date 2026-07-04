@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.11.29)  1 JUL 2026 00:23
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.11.29)  3 JUL 2026 22:55
  restricted system commands enabled.
 **TFG.tex
 (./TFG.tex
@@ -1608,6 +1608,51 @@ LaTeX Warning: Label `eq:GF_matching' multiply defined.
 
 LaTeX Warning: Label `eq:flavorrotation' multiply defined.
 
+
+LaTeX Warning: Label `fig:chi2_sin2thetaW_100d' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:chi2_sin2thetaW_100d' multiply defined.
+
+
+LaTeX Warning: Label `fig:chi2_sin2thetaW_200d' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:chi2_sin2thetaW_200d' multiply defined.
+
+
+LaTeX Warning: Label `fig:chi2_sin2thetaW_noQF' multiply defined.
+
+
+LaTeX Warning: Label `fig:chi2_sin2thetaW_100d' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:chi2_sin2thetaW_100d' multiply defined.
+
+
+LaTeX Warning: Label `fig:chi2_sin2thetaW_200d' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:chi2_sin2thetaW_200d' multiply defined.
+
+
+LaTeX Warning: Label `fig:chi2_sin2thetaW_noQF' multiply defined.
+
+
+LaTeX Warning: Label `fig:chi2_sin2thetaW_100d' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:chi2_sin2thetaW_100d' multiply defined.
+
+
+LaTeX Warning: Label `fig:chi2_sin2thetaW_200d' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:chi2_sin2thetaW_200d' multiply defined.
+
+
+LaTeX Warning: Label `fig:chi2_sin2thetaW_noQF' multiply defined.
+
 )
 \openout1 = TFG.aux
 
@@ -1752,6 +1797,16 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Higgs1964':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'EnglertBrout1964':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'PhysRevD.26.3152':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1792,11 +1847,6 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'RevModPhys.93.025010':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Aliani_2004':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1823,16 +1873,6 @@ Package biblatex Warning: BibTeX reported the following issues
 
 Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Wong_2007':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'PhysRevLett.120.072501':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'PhysRev.104.1466':
 (biblatex)                - Invalid format of field 'month'.
 
 )
@@ -1879,7 +1919,7 @@ mpat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on
  input line 21.
 
 (./sections/portada.tex
-<figures/LogoCinvestav1Negro2.png, id=135, 353.76164pt x 300.28185pt>
+<figures/LogoCinvestav1Negro2.png, id=159, 353.76164pt x 300.28185pt>
 File: figures/LogoCinvestav1Negro2.png Graphic file (type png)
 <use figures/LogoCinvestav1Negro2.png>
 Package luatex.def Info: figures/LogoCinvestav1Negro2.png  used on input line 5
@@ -1944,141 +1984,153 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 2.
 Package tocbasic Info: Using my definition of `\numberline' on input line 3.
 Package tocbasic Info: Using my definition of `\numberline' on input line 14.
 Package tocbasic Info: Using my definition of `\numberline' on input line 24.
-Package tocbasic Info: Using my definition of `\numberline' on input line 30.
-Package tocbasic Info: Using my definition of `\numberline' on input line 32.
-Package tocbasic Info: Using my definition of `\numberline' on input line 33.
+Package tocbasic Info: Using my definition of `\numberline' on input line 31.
+Package tocbasic Info: Using my definition of `\numberline' on input line 42.
+Package tocbasic Info: Using my definition of `\numberline' on input line 43.
 )
 \tf@toc=\write6
 
 \openout6 = TFG.toc
  [8
 
-] (./sections/Introduction.tex
+] [9] (./sections/Introduction.tex
 Chapter 1.
 ) (./sections/Cap1.tex
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 
-]
+] [2]
 Chapter 2.
-<figures/StandardModel.jpg, id=228, 2007.5pt x 1506.62875pt>
+<figures/StandardModel.jpg, id=268, 2007.5pt x 1506.62875pt>
 File: figures/StandardModel.jpg Graphic file (type jpg)
 <use figures/StandardModel.jpg>
 Package luatex.def Info: figures/StandardModel.jpg  used on input line 6.
 (luatex.def)             Requested size: 364.19667pt x 273.31947pt.
-[2
+[3
 
-] [3<./figures/StandardModel.jpg>] [4] [5] [6]
+] [4<./figures/StandardModel.jpg>] [5
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+] [6
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+]
 LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 
-119.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+151.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 120.
+(hyperref)                removing `math shift' on input line 152.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 120.
+(hyperref)                removing `superscript' on input line 152.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 120.
+(hyperref)                removing `\pm' on input line 152.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 120.
+(hyperref)                removing `math shift' on input line 152.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 120.
+(hyperref)                removing `math shift' on input line 152.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 120.
+(hyperref)                removing `math shift' on input line 152.
 
 [7]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 170.
+(hyperref)                removing `math shift' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sin' on input line 170.
+(hyperref)                removing `\sin' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 170.
+(hyperref)                removing `superscript' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 170.
+(hyperref)                removing `\theta' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 170.
+(hyperref)                removing `subscript' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 170.
+(hyperref)                removing `math shift' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 171.
+(hyperref)                removing `math shift' on input line 203.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 171.
+(hyperref)                removing `subscript' on input line 203.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 171.
+(hyperref)                removing `math shift' on input line 203.
 
 [8]
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 23
-0.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 26
+2.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 23
-0.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 26
+2.
 
 [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 236.
+(hyperref)                removing `math shift' on input line 268.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 236.
+(hyperref)                removing `subscript' on input line 268.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\times' on input line 236.
+(hyperref)                removing `\times' on input line 268.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 236.
+(hyperref)                removing `subscript' on input line 268.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 236.
+(hyperref)                removing `math shift' on input line 268.
 
 [10] [11]
 
-LaTeX Warning: Reference `eq:gvandga' on page 12 undefined on input line 321.
+LaTeX Warning: Citation 'PhysRevLett.13.585' on page 12 undefined on input line
+ 355.
 
-) (./sections/Cap2.tex [12]
+[12]) (./sections/Cap2.tex [13]
 Chapter 3.
-[13
+[14
 
-] [14
+] [15
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
-] [15] [16] [17] [18] [19]
+] [16] [17] [18] [19] [20]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 267.
@@ -2099,68 +2151,132 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 267.
 
-[20]
-
-LaTeX Warning: Reference `eq:NCRSMpred' on page 21 undefined on input line 302.
-
-
-) (./sections/Cap3.tex [21]
+[21] [22
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+]) (./sections/Cap3.tex [23]
 Chapter 4.
-<figures/feynman.png, id=570, 440.64626pt x 414.54875pt>
-File: figures/feynman.png Graphic file (type png)
-<use figures/feynman.png>
-Package luatex.def Info: figures/feynman.png  used on input line 5.
-(luatex.def)             Requested size: 113.81102pt x 107.06534pt.
+<figures/CEvNScrosssection.png, id=646, 806.26219pt x 633.86812pt>
+File: figures/CEvNScrosssection.png Graphic file (type png)
+<use figures/CEvNScrosssection.png>
+Package luatex.def Info: figures/CEvNScrosssection.png  used on input line 25.
+(luatex.def)             Requested size: 364.19667pt x 286.32129pt.
+[24
 
-Package caption Warning: \label without proper reference on input line 6.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:Feynmann_CEvNS' on page 22 undefined on input lin
-e 8.
-
-[22
-
-<./figures/feynman.png>]
-<figures/reactor_separate_crop.png, id=611, 390.9807pt x 242.46585pt>
+] [25<./figures/CEvNScrosssection.png>]
+<figures/reactor_separate_crop.png, id=698, 390.9807pt x 242.46585pt>
 File: figures/reactor_separate_crop.png Graphic file (type png)
 <use figures/reactor_separate_crop.png>
 Package luatex.def Info: figures/reactor_separate_crop.png  used on input line 
-61.
+81.
 (luatex.def)             Requested size: 364.19667pt x 225.86087pt.
-<figures/reactor_total_crop.png, id=612, 390.9807pt x 242.46585pt>
+<figures/reactor_total_crop.png, id=699, 390.9807pt x 242.46585pt>
 File: figures/reactor_total_crop.png Graphic file (type png)
 <use figures/reactor_total_crop.png>
-Package luatex.def Info: figures/reactor_total_crop.png  used on input line 68.
+Package luatex.def Info: figures/reactor_total_crop.png  used on input line 88.
 
 (luatex.def)             Requested size: 364.19667pt x 225.86087pt.
- [23] [24<./figures/reactor_separate_crop.png><./figures/reactor_total_crop.png>
-]) (./sections/Cap4.tex [25]
-Chapter 5.
-) [26
+ [26] [27<./figures/reactor_separate_crop.png><./figures/reactor_total_crop.png>
+] [28]
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 14
+3.
 
-] (./sections/XX_Conclusiones.tex [27]
-Chapter 6.
-) [28
-
-] [29]
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 71
-.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/inconsolata/t1zi4.fd
+(/usr/local/texlive/2023/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 71.
-[30
+(Font)              scaled to size 12.0pt on input line 143.
+)
+(./sections/Cap4.tex [29
+Missing character: There is no — (U+2014) in font pplr8t!
+Missing character: There is no — (U+2014) in font pplr8t!
+]
+Chapter 5.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 1
+0.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+) [30
+
+] [31]
+<figures/Figure_sin_100_NO_QF.png, id=773, 355.92975pt x 316.90395pt>
+File: figures/Figure_sin_100_NO_QF.png Graphic file (type png)
+<use figures/Figure_sin_100_NO_QF.png>
+Package luatex.def Info: figures/Figure_sin_100_NO_QF.png  used on input line 8
+7.
+(luatex.def)             Requested size: 218.51521pt x 194.55869pt.
+<figures/Figure_sin_200_NO_QF.png, id=774, 355.92975pt x 316.90395pt>
+File: figures/Figure_sin_200_NO_QF.png Graphic file (type png)
+<use figures/Figure_sin_200_NO_QF.png>
+Package luatex.def Info: figures/Figure_sin_200_NO_QF.png  used on input line 9
+0.
+(luatex.def)             Requested size: 218.51521pt x 194.55869pt.
+<figures/Figure_phi_100_NO_QF.png, id=775, 355.92975pt x 316.90395pt>
+File: figures/Figure_phi_100_NO_QF.png Graphic file (type png)
+<use figures/Figure_phi_100_NO_QF.png>
+Package luatex.def Info: figures/Figure_phi_100_NO_QF.png  used on input line 1
+24.
+(luatex.def)             Requested size: 218.51521pt x 194.55869pt.
+<figures/Figure_phi_200_NO_QF.png, id=776, 355.92975pt x 316.90395pt>
+File: figures/Figure_phi_200_NO_QF.png Graphic file (type png)
+<use figures/Figure_phi_200_NO_QF.png>
+Package luatex.def Info: figures/Figure_phi_200_NO_QF.png  used on input line 1
+27.
+(luatex.def)             Requested size: 218.51521pt x 194.55869pt.
+
+[32<./figures/Figure_sin_100_NO_QF.png><./figures/Figure_sin_200_NO_QF.png>]
+<figures/Figure_sin_100.png, id=788, 355.92975pt x 316.90395pt>
+File: figures/Figure_sin_100.png Graphic file (type png)
+<use figures/Figure_sin_100.png>
+Package luatex.def Info: figures/Figure_sin_100.png  used on input line 161.
+(luatex.def)             Requested size: 218.51521pt x 194.55869pt.
+<figures/Figure_sin_200.png, id=789, 355.92975pt x 316.90395pt>
+File: figures/Figure_sin_200.png Graphic file (type png)
+<use figures/Figure_sin_200.png>
+Package luatex.def Info: figures/Figure_sin_200.png  used on input line 164.
+(luatex.def)             Requested size: 218.51521pt x 194.55869pt.
+
+[33<./figures/Figure_phi_100_NO_QF.png><./figures/Figure_phi_200_NO_QF.png>]
+<figures/Figure_phi_100.png, id=800, 355.92975pt x 316.90395pt>
+File: figures/Figure_phi_100.png Graphic file (type png)
+<use figures/Figure_phi_100.png>
+Package luatex.def Info: figures/Figure_phi_100.png  used on input line 216.
+(luatex.def)             Requested size: 218.51521pt x 194.55869pt.
+<figures/Figure_phi_200.png, id=801, 355.92975pt x 316.90395pt>
+File: figures/Figure_phi_200.png Graphic file (type png)
+<use figures/Figure_phi_200.png>
+Package luatex.def Info: figures/Figure_phi_200.png  used on input line 219.
+(luatex.def)             Requested size: 218.51521pt x 194.55869pt.
+)
+[34<./figures/Figure_sin_100.png><./figures/Figure_sin_200.png>] [35<./figures/F
+igure_phi_100.png><./figures/Figure_phi_200.png>]
+(./sections/XX_Conclusiones.tex [36]
+Chapter 6.
+[37
+
+]) [38] [39] [40
 
 
 Missing character: There is no – (U+2013) in font pplr8t!
 Missing character: There is no – (U+2013) in font pplr8t!
-] [31
+] [41
 Missing character: There is no – (U+2013) in font pplr8t!
-] [32
+] [42
 Missing character: There is no – (U+2013) in font pplr8t!
-] [33] (./TFG.aux)
+] [43] (./TFG.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -2173,7 +2289,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `TFG.out' has not changed.
-(rerunfilecheck)             Checksum: 548EF146765C31EBAFB9FD04740F9481;5215.
+(rerunfilecheck)             Checksum: D9C2FB73D3542883F128908A1C6073A0;6284.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                TFG
@@ -2185,17 +2301,19 @@ Package logreq Info: Writing requests to 'TFG.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44248 strings out of 476598
- 100000,1977958 words of node,token memory allocated
- 2361 words of node memory still in use:
-   22 hlist, 2 vlist, 2 rule, 2 math, 17 glue, 7 kern, 7 glyph, 423 attribute, 8
-2 glue_spec, 213 attribute_list, 2 write, 19 pdf_action, 6 pdf_colorstack, 2 pdf
+ 44556 strings out of 476598
+ 125009,1977958 words of node,token memory allocated
+ 2481 words of node memory still in use:
+   22 hlist, 2 vlist, 2 rule, 2 math, 17 glue, 7 kern, 7 glyph, 469 attribute, 8
+2 glue_spec, 236 attribute_list, 2 write, 16 pdf_action, 6 pdf_colorstack, 2 pdf
 _setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 1:6,2:3805,3:1226,4:237,5:700,6:112,7:7852,8:101,9:1403,10:19,11
-:522
- 64272 multiletter control sequences out of 65536+600000
- 510 fonts using 33979279 bytes
+   avail lists: 1:14,2:5663,3:1586,4:292,5:708,6:142,7:9069,8:101,9:1970,10:19,1
+1:781
+ 64494 multiletter control sequences out of 65536+600000
+ 511 fonts using 34041423 bytes
  104i,26n,100p,1898b,2061s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'equation.4.4.7'
 
 warning  (pdf backend): unreferenced destination with name 'Hfootnote.4'
 
@@ -2219,10 +2337,10 @@ x/txexs.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.
 pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on TFG.pdf (44 pages, 943793 bytes).
+Output written on TFG.pdf (55 pages, 2060908 bytes).
 
-PDF statistics: 856 PDF objects out of 1000 (max. 8388607)
- 779 compressed objects within 8 object streams
- 234 named destinations out of 1000 (max. 131072)
- 272 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1019 PDF objects out of 1200 (max. 8388607)
+ 912 compressed objects within 10 object streams
+ 288 named destinations out of 1000 (max. 131072)
+ 325 words of extra memory for PDF output out of 10000 (max. 100000000)
 
