@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.11.29)  3 JUL 2026 23:07
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.11.29)  3 JUL 2026 23:08
  restricted system commands enabled.
 **TFG.tex
 (./TFG.tex
@@ -2307,7 +2307,7 @@ Here is how much of LuaTeX's memory you used:
    22 hlist, 2 vlist, 2 rule, 2 math, 17 glue, 7 kern, 7 glyph, 477 attribute, 8
 2 glue_spec, 240 attribute_list, 2 write, 16 pdf_action, 6 pdf_colorstack, 2 pdf
 _setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 1:14,2:5651,3:1586,4:292,5:708,6:142,7:9069,8:101,9:1896,10:19,1
+   avail lists: 1:14,2:5651,3:1586,4:292,5:708,6:142,7:9069,8:101,9:1874,10:19,1
 1:781
  64494 multiletter control sequences out of 65536+600000
  511 fonts using 34041423 bytes
@@ -2335,7 +2335,7 @@ x/txexs.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.
 pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on TFG.pdf (55 pages, 2060731 bytes).
+Output written on TFG.pdf (55 pages, 2060241 bytes).
 
 PDF statistics: 1018 PDF objects out of 1200 (max. 8388607)
  911 compressed objects within 10 object streams
