@@ -1,12 +1,12 @@
 \chapter{Radiative Corrections and Neutrino Charge Radius}\label{cap:NCR}
-This chapter is concerned with the main theoretical focus of this work. The SM as described in Chapter \ref{cap:EWinSM}, and in specific EW theory within it, models the interactions between fermions and gauge bosons utilizing of perturbative terms in the from of higher-order loop diagrams. While tree level calculations offered good agreement with experimental data, modern precision in particle experiments have required in recent history have shown the necessity to include higher-order terms to either validate the SM or in occasions point to scenarios Beyond the SM (BSM). This chapter describes how the inclusion of 1-loop diagrams to an effective interaction reveal predictions of electromagnetic properties of the neutrino and how they modify previously established parameters in the SM.
+This chapter is concerned with the main theoretical focus of this work. The Standard Model (SM) as described in Chapter \ref{cap:EWinSM}, and in specific Electroweak (EW) theory within it, models the interactions between fermions and gauge bosons utilizing of perturbative terms in the from of higher-order loop diagrams. While tree level calculations offered good agreement with experimental data, modern precision in particle experiments have required in recent history have shown the necessity to include higher-order terms to either validate the SM or in occasions point to scenarios Beyond the SM (BSM). This chapter describes how the inclusion of 1-loop diagrams to an effective interaction reveal predictions of electromagnetic properties of the neutrino and how they modify previously established parameters in the SM.
 
 \section{Introduction}
 The electromagnetic properties of the neutrino were not only essential to its first postulation and subsequent discovery, but remain an active field of research in modern experimental particle physics. Indeed, both its neutral charge and the possibility of a non-zero magnetic dipole moment are mentioned in the original 1930 letter by Pauli that first introduced the neutrino~\cite{pauli1930neutrino}. The study of such properties was further motivated by the proposal and eventual discovery of neutrino flavor oscillations and their requisite non-zero mass splittings. This chapter describes how radiative corrections to the effective $\nu\nu\gamma$ vertex predict non-trivial electromagnetic form factors for massive\footnote{This chapter concerns primarily Dirac-type neutrinos; analogous calculations for Majorana neutrinos can be found in~\cite{PhysRevD.26.3152, PhysRevD.26.1662, RevModPhys.87.531}} neutrinos within the SM, the focus of this work being the neutrino charge radius (NCR).
 
 \section{Electromagnetic Form Factors}\label{sec:EMFF}
-\subsection{Massive Neutrinos}
-
+This section presents the derivation of electromagnetic properties from effective neutrino--photon interactions for massive Dirac neutrinos and ultra-relativistic (practically massless) Weyl neutrinos.
+\subsection{For Massive Neutrinos}
 \begin{figure}\label{fig:vertices}
 \centering 
 \subfigure[]{\label{subfig:a}\resizebox{0.3\textwidth}{!}{\begin{tikzpicture}
@@ -48,7 +48,7 @@ The electromagnetic properties of the neutrino were not only essential to its fi
 };
 \end{feynman}
 \end{tikzpicture}}}
-\caption{my caption}
+\caption{Charged fermion-photon and effective neutrino--photon interaction vertices.}
 \end{figure}
 
 Following Ref.~\cite{RevModPhys.87.531}, the interaction between a fermionic field $\mathfrak{f}(x)$ and the electromagnetic field $A^\mu$ in the SM is given by the interaction Hamiltonian
@@ -162,7 +162,7 @@ where $\varmathbb{f}_Q = \varmathbb{f}_3$, $\varmathbb{f}_M = i\varmathbb{f}_5$,
 \end{equation}
 where $\varmathbb{q}$ is the electric charge, $\mu$ the magnetic dipole, $\epsilon$ the electric dipole and $\varmathbb{a}$ the anapole moment of the neutrino. 
 
-\subsection{Massive Neutrino Mixing}
+\subsection{For Mixed Massive Neutrinos}
 It is worth noting that we have only considered the effective interaction of a single mass eigenstate neutrino with the photon, whereas a full treatment of the known mass mixing among neutrinos requires promoting the aforementioned vertex function and form factors into $N\times N$ matrices, where $\{\ket{\nu_k}\}$, $k=1,2,\cdots,N$, describe $N$ neutrino mass eigenstates of definite mass satisfying $(i\slashed{\partial}-m_k)\nu_k=0$. A generalized version of (\ref{eq:Heffem}), described by the effective Feynman diagram in Fig.~\ref{subfig:c}, is given by
 \begin{equation}\label{eq:Heffemkj}
 \mathcal{H}^{(\nu)}_{\text{EM}}(x) = j^{(\nu)}_{\mu}(x)A^\mu(x) = \sum_{k,j=1}^{N}\overline{\nu_k}(x)\Lambda^{kj}_\mu\nu_j(x)A^\mu(x),
@@ -207,7 +207,7 @@ where $\varmathbb{q}^{fi}$ is the electric charge, $\mu^{fi}$ the magnetic dipol
 
 It is worth noting that the diagonal entries $f=i$ of $\varmathbb{f}^{fi}_\Omega$ and $\Lambda^{fi}_\mu(q)$ reduce to their single mass-eigenstate counterparts found previously, whereas the off-diagonal entries $f\neq i$ describe transition electromagnetic properties between distinct mass eigenstates, a feature entirely absent in the single-flavor treatment and one of the principal new phenomena introduced by neutrino mixing.
 
-\subsection{Flavor Base}
+\subsection{For Neutrinos in Flavor Base}
 It is important to recognize, however, that the mass eigenstates $\ket{\nu_i}$ are not the states that are produced or detected in weak interaction processes; rather, it is the flavor eigenstates $\ket{\nu_\alpha}$, $\alpha = e,\mu,\tau$, that couple directly to the charged leptons through the $W^\pm$ boson, the two bases being related by the leptonic mixing matrix $U$ through $\ket{\nu_\alpha} = \sum_i U^*_{\alpha i}\ket{\nu_i}$, better known as the PMNS matrix \cite{10.1143/PTP.28.870, JWFValle_2006}. Consequently, the electromagnetic vertex function in the flavor basis, $\widetilde\Lambda^{\alpha\beta}_\mu$, is obtained from $\Lambda^{ij}_\mu$ by the corresponding unitary rotation
 \begin{equation}\label{eq:flavorrotation}
 \widetilde\Lambda^{\alpha\beta}_\mu(q) = \sum_{i,j=1}^{3} U_{\alpha i}\,\Lambda^{ij}_\mu(q)\,U^*_{\beta j},
@@ -218,7 +218,7 @@ with the inverse relation $\Lambda^{ij}_\mu = \sum_{\alpha,\beta} U^*_{\alpha i}
 \end{equation}
 the flavor basis offers no particular simplification on its own; rather, its utility becomes apparent once the calculation of the SM electroweak loop diagrams generating $\Lambda_\mu$ is undertaken, since it is precisely in this basis that the relevant interaction vertices are diagonal.
 
-\subsection{Weyl Neutrinos}
+\subsection{For Weyl Neutrinos}
 A further simplification arises upon considering the strictly massless limit\footnote{We will show in later sections that this is consistent with the SM and a good approximation at the energy thresholds considered in this work.}, in which the neutrino mass eigenstates reduce to two-component Weyl fermions and helicity coincides exactly with chirality. In this limit, the physical neutrino exists only as the left-handed projection $\nu_{\alpha,\beta(i,j)L}$, while the corresponding antineutrino is purely right-handed, and no Lorentz transformation can connect the two. Since the bilinears $\sigma_{\mu\nu}q^\nu$ and $\sigma_{\mu\nu}q^\nu\gamma_5$ appearing in (\ref{eq:EMformfactorsmatrix}) are odd under chirality and therefore connect left- to right-handed spinors, their matrix elements between same-chirality Weyl states vanish identically, namely $\overline{\nu_{\alpha(i)L}}\,\sigma_{\mu\nu}q^\nu\,\nu_{\beta(j)L} = \overline{\nu_{\alpha(i)L}}\,\sigma_{\mu\nu}q^\nu\gamma_5\,\nu_{\beta(j)L} = 0$, so that $\widetilde f^{\alpha\beta}_M$ ($\varmathbb{f}^{ij}_M$) and $\widetilde f^{\alpha\beta}_E$ ($\varmathbb{f}^{ij}_E$) are forced to vanish in the massless limit. The vertex function correspondingly collapses to
 \begin{equation}\label{eq:Lambdamassless}
 \widetilde\Lambda^{\alpha\beta}_\mu(q)\Big|_{m_\nu = 0} = (\gamma_\mu - q_\mu\slashed{q}/q^2)\left(\widetilde f^{\alpha\beta}_Q(q^2) - \widetilde f^{\alpha\beta}_A(q^2)q^2\gamma_5\right),
@@ -264,7 +264,7 @@ Different authors report either $\langle r^2 \rangle$ or $\langle r^2 \rangle^\t
 	\langle r^2 \rangle^\text{SM} = +6\frac{dF_\nu(q^2)}{dq^2}\Big|_{q=0},
 \end{equation}
 and report $\langle r^2 \rangle^\text{SM}$ as the NCR. 
-\section{Corrections to the $\nu \nu \gamma$ vertex}
+\section{SM Corrections to the $\nu \nu \gamma$ vertex}
 The SM prediction for $\langle r^2 \rangle_{\alpha\alpha} = \langle r^2_{\nu_\alpha} \rangle$ as defined by
 \begin{equation} 
 	\langle r^2 _{\nu_\alpha}\rangle = +6\frac{d\widetilde f^{\alpha\alpha}}{dq^2}\Big|_{q^2=0}
@@ -342,7 +342,7 @@ With a SM prediction for the effective $\nu\nu\gamma$ vertex now in hand, it is 
         (3) --[fermion] (6)
     };
 \end{feynman}
-\end{tikzpicture}\right|_{q^2 \ll M_Z^2}\\\nonumber
+\end{tikzpicture}\right|_{q^2 \ll M_Z^2}\\ \nonumber \\ \nonumber
 \implies -i\mathcal{M}&\simeq\left[-ie\overline{\nu_L}\gamma_\mu\,q^2\,\frac{\langle r^2_\nu\rangle^\text{SM}}{6}\nu_L\right]\frac{-i\eta^{\mu\nu}}{q^2}\left[\overline{\mathfrak{f}}-ieQ_{\mathfrak{f}}\gamma_{\nu}\mathfrak{f}\right]\\ \label{eq:firstamplitude}&+\left[\frac{-ig}{2\cos \theta_W}\overline{\nu_L}\gamma_\mu(\frac{1}{2}-\frac{1}{2}\gamma_5)\nu_L\right]\frac{+i\eta^{\mu\nu}}{M_Z^2}\left[\frac{-ig}{2\cos \theta_W}\overline{\mathfrak{f}}\gamma_\mu(g^{\mathfrak{f}}_V-g^{\mathfrak{f}}_V\gamma_5)\mathfrak{f}\right].
 \end{align}
 
